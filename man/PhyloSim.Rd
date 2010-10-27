@@ -10,6 +10,7 @@
 \docType{class}
 \alias{PhyloSim}
 
+ \alias{phylosim}
 
  \title{The PhyloSim class}
 
@@ -30,7 +31,6 @@
 	\item Simulation with one or more separate insertion and/or deletion processes acting on the sequences, which sample the insertion/deletion length from an arbitrary discrete distribution or an \code{R} expression (so all the probability distributions implemented in \code{R} are readily available for this purpose).
 	\item Simulation of the effects of variable functional constraints over the sites by site-process-specific insertion and deletion tolerance parameters, which determine the rejection probability of a proposed insertion/deletion.
 	\item The possibility of having a different set of processes and site-process-specific parameters for every site, which allow for an arbitrary number of partitions in the simulated data.
-	\item The possibility to evolve sites by a mixture of substitution processes along a single branch.
 	\item Simulation of heterotachy and other cases of non-homogeneous evolution by allowing the user to set "node hook" functions altering the site properties at internal nodes of the phylogeny.
 	\item The possibility to export the counts of various events ("branch statistics") as phylo objects (see \code{\link{exportStatTree.PhyloSim}}).
 	}
@@ -118,6 +118,7 @@ extends \link{PSRoot}\cr
  \tab \code{detachHookFromNode} \tab  -\cr
  \tab \code{detachSeqFromNode} \tab  -\cr
  \tab \code{exportStatTree} \tab  -\cr
+ \tab \code{getAlignmentLength} \tab  -\cr
  \tab \code{getAlignment} \tab  -\cr
  \tab \code{getBranchEvents} \tab  -\cr
  \tab \code{getEdge} \tab  -\cr
@@ -199,20 +200,18 @@ as.character, attachLocally, attach, clearCache, clone, detach, equals, extend, 
 	)$alignment
 
 	# Construct a phylo object for the following
-	# simulations, scale total tree length to 2:
+	# simulations, scale total tree length to 1:
 
 	tmp<-PhyloSim(phylo=rcoal(3))
-	scaleTree(tmp,2/tmp$treeLength)
+	scaleTree(tmp,1/tmp$treeLength)
 	tmp$treeLength
 	t<-tmp$phylo
 
 	## Example 2 - An "unrolled" example:
 	## simulate sequences of binary characters.
 
-	# generate a random tree
-	t<-rcoal(3)
 	# construct root sequence object
-	s<-BinarySequence(string="00000000")
+	s<-BinarySequence(string="000000")
 	# construct a substitution process object
 	p<-BinarySubst(rate.list=list("0->1"=1,"1->0"=0.5))
 	# display a bubble plot
@@ -264,7 +263,7 @@ as.character, attachLocally, attach, clearCache, clone, detach, equals, extend, 
 	# create among-site rate variation by sampling
 	# the "rate.multiplier" site-process-specific parameter
 	# from a discrete gamma distribution (GTR+G).
-	plusGamma(s,gtr,shape=0.5)
+	plusGamma(s,gtr,shape=0.1)
 	# make the range 11:20 invariable
 	setRateMultipliers(s,gtr,0,11:20)
 	# get the rate multipliers for s and gtr
@@ -272,7 +271,7 @@ as.character, attachLocally, attach, clearCache, clone, detach, equals, extend, 
 
 	# proposing lengths in the range 1:3
 	d<-DiscreteDeletor(
-		rate=1,
+		rate=0.1,
 		name="MyDel",
 		sizes=c(1:3),
 		probs=c(3/6,2/6,1/6)
@@ -289,7 +288,7 @@ as.character, attachLocally, attach, clearCache, clone, detach, equals, extend, 
 	# construct an insertion process object
 	# proposing lengths in the range 1:3
 	i<-DiscreteInsertor(
-		rate=1,
+		rate=0.1,
 		name="MyDel",
 		sizes=c(1:2),
 		probs=c(1/2,1/2),
@@ -359,7 +358,7 @@ as.character, attachLocally, attach, clearCache, clone, detach, equals, extend, 
 	setRateMultipliers(s,wag,0.5,seq(from=13,to=30,by=3))
 	setRateMultipliers(s,lg,0.5,seq(from=13,to=30,by=3))
 	# Now every third site in the range 11:30 evolves
-	# according to a mixture of amino acid substitution models!
+	# according to a combination of amino acid substitution models!
 
 	# sample states
 	sampleStates(s)

@@ -260,6 +260,7 @@
  \alias{readTree}
  \alias{getOmegaScalingFactor}
  \alias{saveLoadReference}
+ \alias{getAlignmentLength}
 
  \title{Undocumented object (PhyloSim package)}
 
