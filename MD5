@@ -1,12 +1,12 @@
-611e65ab0f94e299f893f6c30c9f2d6a *DESCRIPTION
+d9e25bca8f4862f364eb1ff64174663e *DESCRIPTION
 7bfed29d835c7e44e0682be3de4bdf93 *NAMESPACE
 7a2ccffedc323ad9f02d0058fad013f7 *R/Alphabet.R
 13d32c17283616ebfc6ed0ae0ff30201 *R/AminoAcidMatrices.R
-a812468c29a4f0b907300a79b13e8a1b *R/AminoAcidSubst.R
+067c7f7a1d63a6edbe9903dcbc88a482 *R/AminoAcidSubst.R
 c187a9bde2ef3ab4eadc8c4a304af0fa *R/BinarySubst.R
 1727e91ff022eab9ce85e39c41f33c56 *R/BrownianInsertor.R
 333a726d0e2f4f0eacbd9066dac1a6f4 *R/CodonAlphabet.R
-0cbb1a854ff7c900a934345202b55651 *R/CodonModels.R
+a111e10ab32c1aa53a80a6e2d5298aa1 *R/CodonModels.R
 8657b4e727b44b1a6beb7c81fb687ca1 *R/ContinuousDeletor.R
 2c247b42b7024a70da622cdfdd709049 *R/ContinuousInsertor.R
 d6994f94aea6d6b6ab04641e545b1e48 *R/DiscreteDeletor.R
@@ -54,7 +54,7 @@ c9a8fcb1cff8e17dd4dbc4545c748395 *extdata/mtmam.dat
 7e69e80b65ab577e94dd58984a4e5e28 *extdata/wag.dat
 bf371449807ac728171c01ab4fbe0306 *inst/doc/Makefile
 25fc0bae94a7866811af502138d9b095 *inst/doc/PhyloSim.Rnw
-34c0ed9042dc889023aab56f2b1ce854 *inst/doc/PhyloSim.pdf
+f3d3ddfe2457a55795389dbb39cf9f89 *inst/doc/PhyloSim.pdf
 9d0a07c747a0daeaac7247cb62fe6354 *man/000==.Alphabet.Rd
 89a7c08fb68da5becf1c1679e4cb53d4 *man/000==.Process.Rd
 dbd817c2bd0dad1dd7ddab051b0e0434 *man/Alphabet.Rd
@@ -80,7 +80,7 @@ f2f50d266652d3f37d4a45c7d4926b33 *man/Event.Rd
 e81988f74943612e822268c0ae5e0c26 *man/F84.Rd
 c84cb48991616562498b4936e5cc9d87 *man/FastFieldDeletor.Rd
 ec61ce9b557b90a1dbf8a77b2a60aa91 *man/GTR.Rd
-54de5b3b58057da9e6a4addd1ba3d57b *man/GY94.Rd
+eefa5c88b57bb2e52499e94ba7c43ffd *man/GY94.Rd
 d7dbcaefee468cad8388a78f0367a05b *man/GeneralDeletor.Rd
 375c194422b63f8cf26f942f9152400f *man/GeneralInDel.Rd
 e8ce48ab25353d24b0becd8ac8e2b4d8 *man/GeneralInsertor.Rd

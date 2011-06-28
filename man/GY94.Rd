@@ -124,7 +124,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	# display a bubble plot
 	plot(p)
 	# create a codon sequence, attach process
-	s<-CodonSequence(length=10, processes=list(list(p)))
+	s<-CodonSequence(length=5, processes=list(list(p)))
 	# sample states
 	sampleStates(s)
 	# make first three positions invariable
