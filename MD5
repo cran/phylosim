@@ -1,5 +1,5 @@
-b5d64c69c6de0a9ce15bf88092fe878a *DESCRIPTION
-7bfed29d835c7e44e0682be3de4bdf93 *NAMESPACE
+378baf354e64e6b91c9ca3a1b3f8c08e *DESCRIPTION
+06ffa58d2e572f7dda8585c17a98ac63 *NAMESPACE
 7a2ccffedc323ad9f02d0058fad013f7 *R/Alphabet.R
 13d32c17283616ebfc6ed0ae0ff30201 *R/AminoAcidMatrices.R
 c8ce3754268b939a6830830547010309 *R/AminoAcidSubst.R
@@ -53,10 +53,9 @@ f6839f30ef8ef1951d6f8c31ca554aa4 *extdata/dayhoff.dat
 7a370a4e2b1589ddd216ecae1f0a4d06 *extdata/mtREV24.dat
 c9a8fcb1cff8e17dd4dbc4545c748395 *extdata/mtmam.dat
 7e69e80b65ab577e94dd58984a4e5e28 *extdata/wag.dat
-bf371449807ac728171c01ab4fbe0306 *inst/doc/Makefile
 8684a6b77561352afcf31fb104a62988 *inst/doc/PhyloSim.R
 1d3e687aec2e6c74f84ddc3dd9af7931 *inst/doc/PhyloSim.Rnw
-5a5ef8c8f7c72f9810ebb9066d54e893 *inst/doc/PhyloSim.pdf
+0bf11486e0c1b07c2b319a5454d704e5 *inst/doc/PhyloSim.pdf
 fe48cc93143e5404336df5c1595ed0a8 *man/000==.Alphabet.Rd
 ecd3ba2b555b0400c7a1c64093d763bf *man/000==.Process.Rd
 9e0cedf6404129491152c82f2a15fee5 *man/Alphabet.Rd
@@ -553,3 +552,5 @@ e7e4f71b367b18dca77576bd75dce297 *man/summary.K81.Rd
 108b004eae7821bce1f71706703d085d *man/summary.UNREST.Rd
 2f463d7375df7b1e54e097a690b79567 *man/translateCodon.CodonAlphabet.Rd
 63adea75ce25365a5a768fea029cec12 *man/virtualAssignmentForbidden.PSRoot.Rd
+bf371449807ac728171c01ab4fbe0306 *vignettes/Makefile
+1d3e687aec2e6c74f84ddc3dd9af7931 *vignettes/PhyloSim.Rnw
