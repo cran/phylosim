@@ -1,5 +1,5 @@
 Package: phylosim
-Version: 2.1.0
+Version: 2.1.1
 Date: 2011-06-28
 Title: R package for simulating biological sequence evolution
 Author: Botond Sipos <sbotond@ebi.ac.uk>, Gregory Jordan <greg@ebi.ac.uk>
@@ -12,7 +12,7 @@ Description: PhyloSim is an extensible object-oriented framework for the Monte C
 License: GPL (>= 3)
 URL: http://www.ebi.ac.uk/goldman-srv/phylosim
 LazyLoad: TRUE
-Packaged: 2014-01-07 12:39:19 UTC; sb
+Packaged: 2014-01-10 12:56:57 UTC; sb
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2014-01-07 16:11:11
+Date/Publication: 2014-01-10 14:42:31

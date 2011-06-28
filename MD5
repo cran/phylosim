@@ -1,4 +1,4 @@
-20a12a2ad70275eabb511086c25fc149 *DESCRIPTION
+fe150ed4a59758dd844e7df07e9dd36f *DESCRIPTION
 94cd7eb7e915164c24b9c52188e34638 *NAMESPACE
 7a2ccffedc323ad9f02d0058fad013f7 *R/Alphabet.R
 13d32c17283616ebfc6ed0ae0ff30201 *R/AminoAcidMatrices.R
@@ -19,15 +19,15 @@ a23736811e89e9bdda791d2d2ec6c5dc *R/GeneralInDel.R
 561590efb379d099f620ae35456d05af *R/GeneralSubstitution.R
 021242e504c156c6e77dc4e5c855dab5 *R/NucleotideModels.R
 7e97fdd11f1160a8451c0e4031fbb521 *R/PSRoot.R
-72729e1c0e70b7a818047a064402312f *R/PhyloSim.R
-cdba5874d0fcb59bd9420f1d60d92097 *R/PhyloSimSource.R
+8b05c036fd0f98060aa3ed8ed022eb2c *R/PhyloSim.R
+ceffcbe2b79c3ec8e06da6585a9a2083 *R/PhyloSimSource.R
 41fed7e08543ca1a56f2ac6b98f4e3c7 *R/PopularAlphabets.R
 6821e9a7ee91c7c07fea41310d758e69 *R/PopularSequences.R
 5b3179fa03bac87babc2922c58e0172c *R/Process.R
 34d092f1008c1bdc67fccc57dd7988c3 *R/QMatrix.R
 a7eb62562d31ceb10471d1ac1d6698f7 *R/Sequence.R
 5b0b67c8a6b3b43bb264f22def9d7632 *R/Site.R
-43387101639f231911d78436189c723a *build/vignette.rds
+45f26894cb9912cdc93418c463fc22f4 *build/vignette.rds
 1c212b12d48610e8f25225328b22e077 *data/ECMrest.RData
 cf9305380dcc1e90a09afefe19d6b86b *data/ECMunrest.RData
 634d12990e611a7b223f8c11860ecc2a *data/JTT.RData
@@ -43,7 +43,7 @@ e28a7e7af4422a28b87e8818386b5230 *data/mtArt.RData
 fe34ec5fe3089420fbc1cab2ec6bf0fb *data/mtREV24.RData
 8684a6b77561352afcf31fb104a62988 *inst/doc/PhyloSim.R
 1d3e687aec2e6c74f84ddc3dd9af7931 *inst/doc/PhyloSim.Rnw
-40aebc5e9c78a04c7b56ad9df6ecf527 *inst/doc/PhyloSim.pdf
+59f7fe5694f9a750a3ecfc6928308cf2 *inst/doc/PhyloSim.pdf
 0dba12935ac2b301d839d7063bd6c810 *inst/extdata/ECMrest.dat
 ab158a04dcf80310282b7f5c344531ee *inst/extdata/ECMunrest.dat
 c0582b4193e3d35d748d8f6d90b305cf *inst/extdata/MtZoa.dat
