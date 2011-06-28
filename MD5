@@ -1,4 +1,4 @@
-2dfc857ea51a5a60a41614b5f275c848 *DESCRIPTION
+611e65ab0f94e299f893f6c30c9f2d6a *DESCRIPTION
 7bfed29d835c7e44e0682be3de4bdf93 *NAMESPACE
 7a2ccffedc323ad9f02d0058fad013f7 *R/Alphabet.R
 13d32c17283616ebfc6ed0ae0ff30201 *R/AminoAcidMatrices.R
@@ -14,10 +14,10 @@ bb26d26ef684625cabef84122a414c67 *R/DiscreteInsertor.R
 3b8579e7b473f008236199ad3ac27b92 *R/Event.R
 9d215524e2f8e0a6e0488f6c27ff413f *R/FieldDeletor.R
 2b789b3f13bc514a7c3bdcc82a026d31 *R/GeneralInDel.R
-458633f83323118b72498496ceefb3db *R/GeneralSubstitution.R
+093dcd8dab4bab15842a36e8a6396e8f *R/GeneralSubstitution.R
 021242e504c156c6e77dc4e5c855dab5 *R/NucleotideModels.R
-2ac885a5ee45e2448b661a59d6a3afcc *R/PSRoot.R
-5234a862bcdeb7ca58b44c7a902acd09 *R/PhyloSim.R
+7e97fdd11f1160a8451c0e4031fbb521 *R/PSRoot.R
+eb23f72a743a4195a88682925c33b63f *R/PhyloSim.R
 41fed7e08543ca1a56f2ac6b98f4e3c7 *R/PopularAlphabets.R
 6821e9a7ee91c7c07fea41310d758e69 *R/PopularSequences.R
 5b3179fa03bac87babc2922c58e0172c *R/Process.R
@@ -53,8 +53,8 @@ f6839f30ef8ef1951d6f8c31ca554aa4 *extdata/dayhoff.dat
 c9a8fcb1cff8e17dd4dbc4545c748395 *extdata/mtmam.dat
 7e69e80b65ab577e94dd58984a4e5e28 *extdata/wag.dat
 bf371449807ac728171c01ab4fbe0306 *inst/doc/Makefile
-40bb8cdd9c302f4ce1511e198ada8c06 *inst/doc/PhyloSim.Rnw
-367cafdb5a8d74fd000b2a1cee4d24f9 *inst/doc/PhyloSim.pdf
+25fc0bae94a7866811af502138d9b095 *inst/doc/PhyloSim.Rnw
+34c0ed9042dc889023aab56f2b1ce854 *inst/doc/PhyloSim.pdf
 9d0a07c747a0daeaac7247cb62fe6354 *man/000==.Alphabet.Rd
 89a7c08fb68da5becf1c1679e4cb53d4 *man/000==.Process.Rd
 dbd817c2bd0dad1dd7ddab051b0e0434 *man/Alphabet.Rd
@@ -101,7 +101,7 @@ a97d2c2c0a83ea2370b9b865703c3454 *man/NucleotideSequence.Rd
 2f6f56bcc3b4e60fe321ff9de5fe5fdd *man/PSRoot.Rd
 775303377f597676095c11b6086a1f66 *man/PSRootSummary.Rd
 1870075d1c9899627031a910f8743623 *man/Perform.Event.Rd
-73bd37cc8d820c666f1a51f8fd94ee7e *man/PhyloSim.Rd
+98e2f653307cc32a087923d81d07e0e2 *man/PhyloSim.Rd
 51988f79c8f874b1dddaa6bb9bf41075 *man/Process.Rd
 81bcc9f2946d40ecb8055bb9c32de70b *man/QMatrix.Rd
 c16e10312582e0400e577a152b04cb73 *man/Scale.QMatrix.Rd
