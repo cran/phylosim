@@ -41,7 +41,6 @@ extends \link[R.oo]{Object}\cr
  	\bold{Methods:}\cr
 \tabular{rll}{
  \tab \code{checkConsistency} \tab  -\cr
- \tab \code{clone} \tab  -\cr
  \tab \code{enableVirtual} \tab  -\cr
  \tab \code{getComments} \tab  -\cr
  \tab \code{getMethodsList} \tab  -\cr
