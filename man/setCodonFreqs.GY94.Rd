@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setCodonFreqs.GY94}
 \alias{setCodonFreqs.GY94}
 \alias{GY94.setCodonFreqs}
-\alias{setCodonFreqs.GY94}
 \alias{setCodonFreqs,GY94-method}
-
 
  \title{Get codon frequencies}
 
@@ -19,7 +17,9 @@
 	Get codon frequencies.
  }
 
- \usage{\method{setCodonFreqs}{GY94}(this, value, ...)}
+ \usage{
+\method{setCodonFreqs}{GY94}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GY94 object.}
@@ -42,7 +42,7 @@
 	p$codonFreqs
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GY94}}.

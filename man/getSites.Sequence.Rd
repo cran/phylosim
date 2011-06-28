@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSites.Sequence}
 \alias{getSites.Sequence}
 \alias{Sequence.getSites}
-\alias{getSites.Sequence}
 \alias{getSites,Sequence-method}
-
 
  \title{Get the list of the Site object aggregated in a Sequence object}
 
@@ -20,7 +18,9 @@
 	Warning: there is no setSites method!
  }
 
- \usage{\method{getSites}{Sequence}(this, ...)}
+ \usage{
+\method{getSites}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -40,7 +40,7 @@
 	s$sites
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

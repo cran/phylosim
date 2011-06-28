@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getPosition.Event}
 \alias{getPosition.Event}
 \alias{Event.getPosition}
-\alias{getPosition.Event}
 \alias{getPosition,Event-method}
-
 
  \title{Get the position of the Site object associated to an Event object in the enclosing Sequence object}
 
@@ -19,7 +17,9 @@
 	Get the position of the Site object associated to an Event object in the enclosing Sequence object.
  }
 
- \usage{\method{getPosition}{Event}(this, ...)}
+ \usage{
+\method{getPosition}{Event}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -41,7 +41,7 @@
 	e$position
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

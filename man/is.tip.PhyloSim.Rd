@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{is.tip.PhyloSim}
 \alias{is.tip.PhyloSim}
 \alias{PhyloSim.is.tip}
-\alias{is.tip.PhyloSim}
 \alias{is.tip,PhyloSim-method}
-
 
  \title{Check if a node is a tip}
 
@@ -19,7 +17,9 @@
 	Check if a node is a tip.
  }
 
- \usage{\method{is.tip}{PhyloSim}(this, node=NA, ...)}
+ \usage{
+\method{is.tip}{PhyloSim}(this, node=NA, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -40,7 +40,7 @@
 	is.tip(sim,6)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

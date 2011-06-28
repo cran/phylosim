@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -30,7 +30,9 @@ public class \bold{PSRootSummary}\cr
 
  }
 
- \usage{PSRootSummary(summary=list(), ...)}
+ \usage{
+PSRootSummary(summary=list(), ...)
+}
 
  \arguments{
  	\item{summary}{A list.}
@@ -47,7 +49,7 @@ public class \bold{PSRootSummary}\cr
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRootSummary}}.

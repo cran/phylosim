@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getNtips.PhyloSim}
 \alias{getNtips.PhyloSim}
 \alias{PhyloSim.getNtips}
-\alias{getNtips.PhyloSim}
 \alias{getNtips,PhyloSim-method}
-
 
  \title{Get the number of the tips form a phylo object aggregated by a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the number of the tips form a phylo object aggregated by a PhyloSim object.
  }
 
- \usage{\method{getNtips}{PhyloSim}(this, ...)}
+ \usage{
+\method{getNtips}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object}
@@ -39,7 +39,7 @@
 	sim$ntips
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

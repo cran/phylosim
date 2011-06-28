@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{intersect.list.PSRoot}
 \alias{intersect.list.PSRoot}
 \alias{PSRoot.intersect.list}
-\alias{intersect.list.PSRoot}
 \alias{intersect.list,PSRoot-method}
-
 
  \title{Utility method returning the intersection of two lists}
 
@@ -20,7 +18,9 @@
 	Duplicated elements are not considered.
  }
 
- \usage{\method{intersect.list}{PSRoot}(this, one, two, ...)}
+ \usage{
+\method{intersect.list}{PSRoot}(this, one, two, ...)
+}
 
  \arguments{
  	\item{this}{A PSRoot object.}
@@ -41,7 +41,7 @@
 	PSRoot$intersect.list(a,b)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

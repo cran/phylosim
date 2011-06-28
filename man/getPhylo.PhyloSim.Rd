@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getPhylo.PhyloSim}
 \alias{getPhylo.PhyloSim}
 \alias{PhyloSim.getPhylo}
-\alias{getPhylo.PhyloSim}
 \alias{getPhylo,PhyloSim-method}
-
 
  \title{Get the phylo object aggregated in a PhyloSim object}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{getPhylo}{PhyloSim}(this, ...)}
+ \usage{
+\method{getPhylo}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -44,7 +44,7 @@
 	sim$tree;
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	The PhyloSim class, the \pkg{ape} package.

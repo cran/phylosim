@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{flagTotalRate.Site}
 \alias{flagTotalRate.Site}
 \alias{Site.flagTotalRate}
-\alias{flagTotalRate.Site}
 \alias{flagTotalRate,Site-method}
-
 
  \title{Flag the total event rate}
 
@@ -21,7 +19,9 @@
 	recalculation when next accessed via getTotalRate.
  }
 
- \usage{\method{flagTotalRate}{Site}(this, ...)}
+ \usage{
+\method{flagTotalRate}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -49,7 +49,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -46,7 +46,9 @@ extends \link{AminoAcidSubst}\cr
  Molecular Biology and Evolution 15:1600-1611 \url{http://bit.ly/by4NMb}
  }
 
- \usage{mtMam(equ.dist=NA, ...)}
+ \usage{
+mtMam(equ.dist=NA, ...)
+}
 
  \arguments{
  	\item{equ.dist}{Equilibrium distribution.}
@@ -102,7 +104,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
        sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	AminoAcidSubst GeneralSubstitution UNREST

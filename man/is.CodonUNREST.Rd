@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,7 +16,9 @@
 		Check whether an object inherits from CodonUNREST.
  }
 
- \usage{\method{is.CodonUNREST}{default}(this, ...)}
+ \usage{
+\method{is.CodonUNREST}{default}(this, ...)
+}
 
  \arguments{
 		\item{this}{An object.}
@@ -37,5 +39,5 @@
 	is.CodonUNREST(pp)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{hasSymbols.Alphabet}
 \alias{hasSymbols.Alphabet}
 \alias{Alphabet.hasSymbols}
-\alias{hasSymbols.Alphabet}
 \alias{hasSymbols,Alphabet-method}
-
 
  \title{Check if an Alphabet object has a given set of symbols}
 
@@ -20,7 +18,9 @@
 	Returns true if the class of the object is "AnyAlphabet".
  }
 
- \usage{\method{hasSymbols}{Alphabet}(this, sym, ...)}
+ \usage{
+\method{hasSymbols}{Alphabet}(this, sym, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -46,7 +46,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

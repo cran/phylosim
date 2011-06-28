@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getType.Alphabet}
 \alias{getType.Alphabet}
 \alias{Alphabet.getType}
-\alias{getType.Alphabet}
 \alias{getType,Alphabet-method}
-
 
  \title{Get Alphabet obejct type}
 
@@ -19,7 +17,9 @@
 	Get Alphabet obejct type.
  }
 
- \usage{\method{getType}{Alphabet}(this, ...)}
+ \usage{
+\method{getType}{Alphabet}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -39,7 +39,7 @@
 	a$type
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

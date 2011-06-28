@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{checkConsistency.PSRootSummary}
 \alias{checkConsistency.PSRootSummary}
 \alias{PSRootSummary.checkConsistency}
-\alias{checkConsistency.PSRootSummary}
 \alias{checkConsistency,PSRootSummary-method}
-
 
  \title{Check object consistency}
 
@@ -21,7 +19,9 @@
 		the method prints out a warning about that.
  }
 
- \usage{\method{checkConsistency}{PSRootSummary}(this, ...)}
+ \usage{
+\method{checkConsistency}{PSRootSummary}(this, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -34,7 +34,7 @@
 		an error otherwise.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRootSummary}}.

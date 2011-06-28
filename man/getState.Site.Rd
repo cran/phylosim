@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getState.Site}
 \alias{getState.Site}
 \alias{Site.getState}
-\alias{getState.Site}
 \alias{getState,Site-method}
-
 
  \title{Get the current state of a Site object}
 
@@ -19,7 +17,9 @@
 	Get the current state of a Site object.
  }
 
- \usage{\method{getState}{Site}(this, ...)}
+ \usage{
+\method{getState}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -41,7 +41,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

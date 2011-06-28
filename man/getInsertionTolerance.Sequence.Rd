@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getInsertionTolerance.Sequence}
 \alias{getInsertionTolerance.Sequence}
 \alias{Sequence.getInsertionTolerance}
-\alias{getInsertionTolerance.Sequence}
 \alias{getInsertionTolerance,Sequence-method}
-
 
  \title{Get the insertion tolerance site-process specific parameter for a collection of Site objects aggregated by a Sequence object}
 
@@ -21,7 +19,9 @@
 	See \code{getParameterAtSites.Sequence} for more details.
  }
 
- \usage{\method{getInsertionTolerance}{Sequence}(this, process, index, ...)}
+ \usage{
+\method{getInsertionTolerance}{Sequence}(this, process, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -35,7 +35,7 @@
  }
 
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	getParameterAtSites.Sequence

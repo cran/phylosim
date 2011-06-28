@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEventsAtSite.GeneralDeletor}
 \alias{getEventsAtSite.GeneralDeletor}
 \alias{GeneralDeletor.getEventsAtSite}
-\alias{getEventsAtSite.GeneralDeletor}
 \alias{getEventsAtSite,GeneralDeletor-method}
-
 
  \title{Title}
 
@@ -24,7 +22,9 @@
        returned if the rate is zero or NA.
  }
 
- \usage{\method{getEventsAtSite}{GeneralDeletor}(this, target.site, ...)}
+ \usage{
+\method{getEventsAtSite}{GeneralDeletor}(this, target.site, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralDeletor object.}
@@ -65,7 +65,7 @@
 	s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralDeletor}}.

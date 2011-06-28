@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{omegaVarM3.CodonSequence}
 \alias{omegaVarM3.CodonSequence}
 \alias{CodonSequence.omegaVarM3}
-\alias{omegaVarM3.CodonSequence}
 \alias{omegaVarM3,CodonSequence-method}
-
 
  \title{The M3 (discrete) model of variable omega ratios among sites}
 
@@ -40,7 +38,9 @@
  Goldman, N., Yang, Z. (1994) A codon-based model of nucleotide substitution for protein-coding DNA sequences - Mol Biol Evol 11(5):725-36 \url{http://bit.ly/aSVEoa}
  }
 
- \usage{\method{omegaVarM3}{CodonSequence}(this, process, omegas, probs, index, ...)}
+ \usage{
+\method{omegaVarM3}{CodonSequence}(this, process, omegas, probs, index, ...)
+}
 
  \arguments{
  	\item{this}{A CodonSequence object.}
@@ -70,7 +70,7 @@
 	omegaHist(s,p,breaks=50,1:20)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonSequence}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSize.Alphabet}
 \alias{getSize.Alphabet}
 \alias{Alphabet.getSize}
-\alias{getSize.Alphabet}
 \alias{getSize,Alphabet-method}
-
 
  \title{Get the number of symbols in an Alphabet object}
 
@@ -19,7 +17,9 @@
 	Get the number of symbols in an Alphabet object.
  }
 
- \usage{\method{getSize}{Alphabet}(this, ...)}
+ \usage{
+\method{getSize}{Alphabet}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -39,7 +39,7 @@
 	getSize(a)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

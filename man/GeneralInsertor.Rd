@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -65,7 +65,12 @@ extends \link{GeneralInDel}\cr
 
  }
 
- \usage{GeneralInsertor(name="Anonymous", rate=NA, propose.by=NA, accept.by=NA, template.seq=NA, insert.hook=NA, accept.win=NA, ...)}
+ \usage{
+GeneralInsertor(
+    name="Anonymous", rate=NA, propose.by=NA, 
+    accept.by=NA, template.seq=NA, insert.hook=NA, accept.win=NA, ...
+    )
+}
 
  \arguments{
  	\item{name}{The name of the object.}
@@ -116,11 +121,11 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	i<-GeneralInsertor(
 		name="GIN",
 		rate=1,
-		propose.by=function(process){4}, 			# fixed insert length
-		acceptBy=function(process,sequence,window){TRUE},	# always accept insertions
-		template.seq=NucleotideSequence(string="A"),		# a boring template sequence
-		insert.hook=function(seq){ return(seq)},		# a boring insert hook
-		accept.win=2						# 4 sites affecting acceptance
+		propose.by=function(process){4}, # fixed insert length
+		acceptBy=function(process,sequence,window){TRUE},# always accept insertions
+		template.seq=NucleotideSequence(string="A"),# a boring template sequence
+		insert.hook=function(seq){ return(seq)},# a boring insert hook
+		accept.win=2 #4 sites affecting acceptance
 	)
 	i
 	# check if object inherits from GeneralInsertor
@@ -146,10 +151,18 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	# set/get acceptWin
 	i$acceptWin<-1;
 	# set/get insert hook
-	i$insertHook<-function(seq, target.seq, event.pos, insert.pos){ attachProcess(seq, GTR() );seq} # attach a substitution process
+	i$insertHook<-function(
+                           seq,
+                           target.seq,
+                           event.pos,
+                           insert.pos
+                           ){ attachProcess(seq, GTR() );seq}
 	i$insertHook
 	# set/get template sequence
-	i$templateSeq<-NucleotideSequence(length=5, processes=list(list(JC69()))) # length: 5, states: NA
+	i$templateSeq<-NucleotideSequence(
+                                       length=5,
+                                       processes=list(list(JC69()))
+                                   ) # length: 5, states: NA
 	i$templateSeq
 	# generate an insert sequence
 	generateInsert(i)
@@ -171,7 +184,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
        s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GeneralInDel DiscreteInsertor ContinuousInsertor BrownianInsertor

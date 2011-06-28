@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{my.all.equal.PSRoot}
 \alias{my.all.equal.PSRoot}
 \alias{PSRoot.my.all.equal}
-\alias{my.all.equal.PSRoot}
 \alias{my.all.equal,PSRoot-method}
-
 
  \title{Test if two objects are nearly equal}
 
@@ -23,7 +21,9 @@
 
  }
 
- \usage{\method{my.all.equal}{PSRoot}(static, target, current, ...)}
+ \usage{
+\method{my.all.equal}{PSRoot}(static, target, current, ...)
+}
 
  \arguments{
  	\item{static}{A PSRoot object.}
@@ -41,7 +41,7 @@
 	PSRoot$my.all.equal(0.0,0.000000001)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

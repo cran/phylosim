@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setParameterAtSite.Process}
 \alias{setParameterAtSite.Process}
 \alias{Process.setParameterAtSite}
-\alias{setParameterAtSite.Process}
 \alias{setParameterAtSite,Process-method}
-
  \alias{setParameterAtSite.FastFieldDeletor}
  \title{Set the value of a site-process specific paramter in a Site object attached to a Process object}
 
@@ -22,7 +20,9 @@
 
  }
 
- \usage{\method{setParameterAtSite}{Process}(this, site, id, value, ...)}
+ \usage{
+\method{setParameterAtSite}{Process}(this, site, id, value, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -49,7 +49,7 @@
 	getParameterAtSite(p,s,"rate.multiplier")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

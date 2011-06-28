@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setSizes.DiscreteInsertor}
 \alias{setSizes.DiscreteInsertor}
 \alias{DiscreteInsertor.setSizes}
-\alias{setSizes.DiscreteInsertor}
 \alias{setSizes,DiscreteInsertor-method}
-
 
  \title{Set the sizes of the proposed insertions}
 
@@ -21,7 +19,9 @@
        The provided numeric vector is rounded.
  }
 
- \usage{\method{setSizes}{DiscreteInsertor}(this, value, ...)}
+ \usage{
+\method{setSizes}{DiscreteInsertor}(this, value, ...)
+}
 
  \arguments{
        \item{this}{A DiscreteInsertor object.}
@@ -45,7 +45,7 @@
        i$sizes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{DiscreteInsertor}}.

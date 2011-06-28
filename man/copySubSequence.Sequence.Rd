@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{copySubSequence.Sequence}
 \alias{copySubSequence.Sequence}
 \alias{Sequence.copySubSequence}
-\alias{copySubSequence.Sequence}
 \alias{copySubSequence,Sequence-method}
-
 
  \title{Copy a collection of Site objects aggregated by a Sequence object into a new Sequence object}
 
@@ -19,7 +17,9 @@
 	Copy a collection of Site objects aggregated by a Sequence object into a new Sequence object.
  }
 
- \usage{\method{copySubSequence}{Sequence}(this, index, process=NA, ...)}
+ \usage{
+\method{copySubSequence}{Sequence}(this, index, process=NA, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -43,7 +43,7 @@
 	s3
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

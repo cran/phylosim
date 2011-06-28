@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getParameterAtSite.Process}
 \alias{getParameterAtSite.Process}
 \alias{Process.getParameterAtSite}
-\alias{getParameterAtSite.Process}
 \alias{getParameterAtSite,Process-method}
-
 
  \title{Get the value of a site-process specific paramter from a Site object attached to a Process object}
 
@@ -20,7 +18,9 @@
 	The Process object must be attached to the Site object.
  }
 
- \usage{\method{getParameterAtSite}{Process}(this, site, id, ...)}
+ \usage{
+\method{getParameterAtSite}{Process}(this, site, id, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -44,7 +44,7 @@
 	getParameterAtSite(p,s,"rate.multiplier")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

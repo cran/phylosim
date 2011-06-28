@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRateParamList.GTR}
 \alias{getRateParamList.GTR}
 \alias{GTR.getRateParamList}
-\alias{getRateParamList.GTR}
 \alias{getRateParamList,GTR-method}
-
 
  \title{Get the rate parameters}
 
@@ -21,7 +19,9 @@
 	 The rate parameters are named as in PAML (see PAML documentation: \url{http://bit.ly/9SQK2f}).
  }
 
- \usage{\method{getRateParamList}{GTR}(this, ...)}
+ \usage{
+\method{getRateParamList}{GTR}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GTR object.}
@@ -51,7 +51,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GTR}}.

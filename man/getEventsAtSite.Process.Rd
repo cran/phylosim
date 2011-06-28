@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEventsAtSite.Process}
 \alias{getEventsAtSite.Process}
 \alias{Process.getEventsAtSite}
-\alias{getEventsAtSite.Process}
 \alias{getEventsAtSite,Process-method}
-
 
  \title{Generate the list of active Event objects given a Site object}
 
@@ -23,7 +21,9 @@
 	Descendant classes should implement meaningful getEventsAtSite methods.
  }
 
- \usage{\method{getEventsAtSite}{Process}(this, site, position, ...)}
+ \usage{
+\method{getEventsAtSite}{Process}(this, site, position, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -48,7 +48,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

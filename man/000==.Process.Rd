@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{==.Process}
 \alias{==.Process}
 \alias{Process.==}
-\alias{==.Process}
 \alias{==,Process-method}
-
  \alias{!=.Process}
 
  \title{Check whether the two supplied Process objects are identical}
@@ -20,7 +18,9 @@
 	Check whether the two supplied Process objects are identical.
  }
 
- \usage{\method{==}{Process}(e1, e2, ...)}
+ \usage{
+\method{==}{Process}(e1, e2, ...)
+}
 
  \arguments{
  	\item{e1}{A Process object.}
@@ -41,7 +41,7 @@
 	p1 == p2
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

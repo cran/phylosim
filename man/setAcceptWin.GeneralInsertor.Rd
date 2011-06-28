@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setAcceptWin.GeneralInsertor}
 \alias{setAcceptWin.GeneralInsertor}
 \alias{GeneralInsertor.setAcceptWin}
-\alias{setAcceptWin.GeneralInsertor}
 \alias{setAcceptWin,GeneralInsertor-method}
-
 
  \title{Set the size of the acceptance window}
 
@@ -24,7 +22,9 @@
 
  }
 
- \usage{\method{setAcceptWin}{GeneralInsertor}(this, value, ...)}
+ \usage{
+\method{setAcceptWin}{GeneralInsertor}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInsertor object.}
@@ -50,7 +50,7 @@
 	i$acceptWin
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInsertor}}.

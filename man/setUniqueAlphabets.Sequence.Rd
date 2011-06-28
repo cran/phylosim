@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setUniqueAlphabets.Sequence}
 \alias{setUniqueAlphabets.Sequence}
 \alias{Sequence.setUniqueAlphabets}
-\alias{setUniqueAlphabets.Sequence}
 \alias{setUniqueAlphabets,Sequence-method}
-
 
  \title{Forbidden action: setting the list of unique Alphabet objects attached to the Site object aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
        Forbidden action: setting the list of unique Alphabet objects attached to the Site object aggregated by a Sequence object.
  }
 
- \usage{\method{setUniqueAlphabets}{Sequence}(this, value, ...)}
+ \usage{
+\method{setUniqueAlphabets}{Sequence}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -31,7 +31,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{Sequence}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSymbolFreqs.Sequence}
 \alias{getSymbolFreqs.Sequence}
 \alias{Sequence.getSymbolFreqs}
-\alias{getSymbolFreqs.Sequence}
 \alias{getSymbolFreqs,Sequence-method}
-
 
  \title{Get a table with the frequencies of the states of a collection of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Get a table with the frequencies of the states of a collection of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{getSymbolFreqs}{Sequence}(this, index, ...)}
+ \usage{
+\method{getSymbolFreqs}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -42,7 +42,7 @@
 	getSymbolFreqs(s)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

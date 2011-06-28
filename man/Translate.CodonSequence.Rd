@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{Translate.CodonSequence}
 \alias{Translate.CodonSequence}
 \alias{CodonSequence.Translate}
-\alias{Translate.CodonSequence}
 \alias{Translate,CodonSequence-method}
-
 
  \title{Translate a CodonSequence object}
 
@@ -19,7 +17,9 @@
 	Translate a CodonSequence object.
  }
 
- \usage{\method{Translate}{CodonSequence}(this, ...)}
+ \usage{
+\method{Translate}{CodonSequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A CodonSequence object}
@@ -38,7 +38,7 @@
 	as
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonSequence}}.

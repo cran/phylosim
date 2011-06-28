@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,7 +57,9 @@ extends \link{GeneralInDel}\cr
 
  }
 
- \usage{GeneralDeletor(name="Anonymous", rate=NA, propose.by=NA, accept.by=NA, ...)}
+ \usage{
+GeneralDeletor(name="Anonymous", rate=NA, propose.by=NA, accept.by=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the object.}
@@ -116,7 +118,8 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	d$proposeBy<-function(process, sequence, position){ sample(3:6,1) }
 	d$proposeBy
 	# set/get acceptBy
-	d$acceptBy<-function(process, sequence, range){ sample(c(TRUE, FALSE), 1)} # reject half of the events
+   # reject half of the events
+	d$acceptBy<-function(process, sequence, range){ sample(c(TRUE, FALSE), 1)}
 	d$acceptBy
 	# create a sequence object, attach process
 	s<-NucleotideSequence(string="AATTGGCCCCGGTTAA", processes=list(list(d)))
@@ -136,7 +139,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
        s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GeneralInDel DiscreteDeletor ContinuousDeletor FastFieldDeletor

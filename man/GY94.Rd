@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,7 +69,12 @@ extends \link{CodonUNREST}\cr
  Yang, Z., Nielsen, R., Goldman, N., Pedersen Krabbe, A-M. (2000) Codon-Substitution Models for Heterogeneous Selection Pressure at Amino Acid Sites - Genetics 155:431-449 \url{http://bit.ly/bvjucn}
  }
 
- \usage{GY94(name="Anonymous", table.id=1, kappa=1, omega.default=1, codon.freqs=NA, scale.nuc=FALSE, ...)}
+ \usage{
+GY94(
+        name="Anonymous", table.id=1, kappa=1, 
+        omega.default=1, codon.freqs=NA, scale.nuc=FALSE, ...
+       )
+}
 
  \arguments{
  	\item{name}{Name of the object.}
@@ -147,7 +152,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	CodonUNREST GeneralSubstitution CodonSequence GTR WAG

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getNedges.PhyloSim}
 \alias{getNedges.PhyloSim}
 \alias{PhyloSim.getNedges}
-\alias{getNedges.PhyloSim}
 \alias{getNedges,PhyloSim-method}
-
 
  \title{Get the number of edges from phylo object aggregated by a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the number of edges from phylo object aggregated by a PhyloSim object.
  }
 
- \usage{\method{getNedges}{PhyloSim}(this, ...)}
+ \usage{
+\method{getNedges}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -39,7 +39,7 @@
 	sim$nedges
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

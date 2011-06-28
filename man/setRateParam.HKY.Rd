@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRateParam.HKY}
 \alias{setRateParam.HKY}
 \alias{HKY.setRateParam}
-\alias{setRateParam.HKY}
 \alias{setRateParam,HKY-method}
-
 
  \title{Set the value of a rate parameter}
 
@@ -21,7 +19,9 @@
 	 The rate parameters are: Alpha, Beta.
  }
 
- \usage{\method{setRateParam}{HKY}(this, name, value, ...)}
+ \usage{
+\method{setRateParam}{HKY}(this, name, value, ...)
+}
 
  \arguments{
  	\item{this}{An HKY object.}
@@ -44,7 +44,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{HKY}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setTotalRate.Site}
 \alias{setTotalRate.Site}
 \alias{Site.setTotalRate}
-\alias{setTotalRate.Site}
 \alias{setTotalRate,Site-method}
-
 
  \title{Forbidden action: setting the total active event rate for a Site object}
 
@@ -19,7 +17,9 @@
        Forbidden action: setting the total active event rate for a Site object.
  }
 
- \usage{\method{setTotalRate}{Site}(this, value, ...)}
+ \usage{
+\method{setTotalRate}{Site}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -31,7 +31,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{Site}}.

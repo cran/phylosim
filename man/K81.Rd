@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -47,7 +47,9 @@ extends \link{GTR}\cr
  Proc. Natl. Acad. Sci. USA 78:454-458 \url{http://dx.doi.org/10.1073/pnas.78.1.454}
  }
 
- \usage{K81(name="Anonymous", rate.params=list(Alpha = 1, Beta = 1, Gamma = 1), ...)}
+ \usage{
+K81(name="Anonymous", rate.params=list(Alpha = 1, Beta = 1, Gamma = 1), ...)
+}
 
  \arguments{
  	\item{name}{Object name.}
@@ -116,7 +118,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GTR UNREST GeneralSubstitution HKY

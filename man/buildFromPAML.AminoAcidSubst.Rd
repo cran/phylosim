@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{buildFromPAML.AminoAcidSubst}
 \alias{buildFromPAML.AminoAcidSubst}
 \alias{AminoAcidSubst.buildFromPAML}
-\alias{buildFromPAML.AminoAcidSubst}
 \alias{buildFromPAML,AminoAcidSubst-method}
-
 
  \title{Build rate matrix from PAML file}
 
@@ -19,7 +17,9 @@
 	Build rate matrix from PAML file.
  }
 
- \usage{\method{buildFromPAML}{AminoAcidSubst}(this, paml.file, ...)}
+ \usage{
+\method{buildFromPAML}{AminoAcidSubst}(this, paml.file, ...)
+}
 
  \arguments{
  	\item{this}{An AminoAcidSubst object.}
@@ -40,7 +40,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{AminoAcidSubst}}.

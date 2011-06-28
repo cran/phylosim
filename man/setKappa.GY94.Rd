@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setKappa.GY94}
 \alias{setKappa.GY94}
 \alias{GY94.setKappa}
-\alias{setKappa.GY94}
 \alias{setKappa,GY94-method}
-
 
  \title{Set the transition/transversion rate ratio}
 
@@ -19,7 +17,9 @@
 	Set the transition/transversion rate ratio.
  }
 
- \usage{\method{setKappa}{GY94}(this, value, ...)}
+ \usage{
+\method{setKappa}{GY94}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GY94 object.}
@@ -42,7 +42,7 @@
 	p$kappa
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GY94}}.

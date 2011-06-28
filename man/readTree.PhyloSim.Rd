@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{readTree.PhyloSim}
 \alias{readTree.PhyloSim}
 \alias{PhyloSim.readTree}
-\alias{readTree.PhyloSim}
 \alias{readTree,PhyloSim-method}
-
 
  \title{Read tree from file}
 
@@ -23,7 +21,9 @@
        to the \code{PhyloSim} object, it must contain all sequences corresponding to tip nodes.
  }
 
- \usage{\method{readTree}{PhyloSim}(this, file, ...)}
+ \usage{
+\method{readTree}{PhyloSim}(this, file, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -50,7 +50,7 @@
 	plot(sim)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

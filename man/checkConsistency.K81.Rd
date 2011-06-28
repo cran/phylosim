@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{checkConsistency.K81}
 \alias{checkConsistency.K81}
 \alias{K81.checkConsistency}
-\alias{checkConsistency.K81}
 \alias{checkConsistency,K81-method}
-
 
  \title{Check object consistency}
 
@@ -19,7 +17,9 @@
 		Check object consistency.
  }
 
- \usage{\method{checkConsistency}{K81}(this, ...)}
+ \usage{
+\method{checkConsistency}{K81}(this, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -32,7 +32,7 @@
 		an error otherwise.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{K81}}.

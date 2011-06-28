@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEventRate.GeneralSubstitution}
 \alias{getEventRate.GeneralSubstitution}
 \alias{GeneralSubstitution.getEventRate}
-\alias{getEventRate.GeneralSubstitution}
 \alias{getEventRate,GeneralSubstitution-method}
-
 
  \title{Get the scaled rate of an event from a GeneralSubstitution object}
 
@@ -25,7 +23,9 @@
 	This method doesn't take into account the site specific rate multipliers in any way.
  }
 
- \usage{\method{getEventRate}{GeneralSubstitution}(this, name=NA, from=NA, to=NA, ...)}
+ \usage{
+\method{getEventRate}{GeneralSubstitution}(this, name=NA, from=NA, to=NA, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -49,7 +49,7 @@
 	getEventRate(p,from="0",to="1")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

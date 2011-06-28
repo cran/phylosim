@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getLength.Sequence}
 \alias{getLength.Sequence}
 \alias{Sequence.getLength}
-\alias{getLength.Sequence}
 \alias{getLength,Sequence-method}
-
 
  \title{Get the number of Site objects aggregated in a Sequence object}
 
@@ -19,7 +17,9 @@
 	Get the number of Site objects aggregated in a Sequence object.
  }
 
- \usage{\method{getLength}{Sequence}(this, ...)}
+ \usage{
+\method{getLength}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -39,7 +39,7 @@
 	s$length
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

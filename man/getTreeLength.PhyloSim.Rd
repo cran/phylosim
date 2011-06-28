@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTreeLength.PhyloSim}
 \alias{getTreeLength.PhyloSim}
 \alias{PhyloSim.getTreeLength}
-\alias{getTreeLength.PhyloSim}
 \alias{getTreeLength,PhyloSim-method}
-
 
  \title{Get the tree length from a PhyloSim object}
 
@@ -21,7 +19,9 @@
 	This method retruns the sum of the edge lengths stored in the aggregated phylo object.
  }
 
- \usage{\method{getTreeLength}{PhyloSim}(this, ...)}
+ \usage{
+\method{getTreeLength}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -41,7 +41,7 @@
 	sim$treeLength
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{summary.PhyloSim}
 \alias{summary.PhyloSim}
 \alias{PhyloSim.summary}
-\alias{summary.PhyloSim}
 \alias{summary,PhyloSim-method}
-
 
  \title{Summarize the properties of an object}
 
@@ -19,7 +17,9 @@
        Summarize the properties of an object.
  }
 
- \usage{\method{summary}{PhyloSim}(object, ...)}
+ \usage{
+\method{summary}{PhyloSim}(object, ...)
+}
 
  \arguments{
        \item{object}{An object}
@@ -43,7 +43,7 @@
        summary(sim)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{PhyloSim}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setHandler.Event}
 \alias{setHandler.Event}
 \alias{Event.setHandler}
-\alias{setHandler.Event}
 \alias{setHandler,Event-method}
-
 
  \title{Forbidden action: setting the handler function of an Event object}
 
@@ -21,7 +19,9 @@
 	by directly modifying the this$.handler field or by the \code{.setHandler()} method.
  }
 
- \usage{\method{setHandler}{Event}(this, value, ...)}
+ \usage{
+\method{setHandler}{Event}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -33,7 +33,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{Event}}.

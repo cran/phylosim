@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setProcesses.Site}
 \alias{setProcesses.Site}
 \alias{Site.setProcesses}
-\alias{setProcesses.Site}
 \alias{setProcesses,Site-method}
-
 
  \title{Specify the list of Process objects attached to a Site object}
 
@@ -25,7 +23,9 @@
 	more than one process object.
  }
 
- \usage{\method{setProcesses}{Site}(this, value, ...)}
+ \usage{
+\method{setProcesses}{Site}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -53,7 +53,7 @@
 	s$processes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

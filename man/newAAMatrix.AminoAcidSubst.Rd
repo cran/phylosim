@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{newAAMatrix.AminoAcidSubst}
 \alias{newAAMatrix.AminoAcidSubst}
 \alias{AminoAcidSubst.newAAMatrix}
-\alias{newAAMatrix.AminoAcidSubst}
 \alias{newAAMatrix,AminoAcidSubst-method}
-
 
  \title{Undocumented method}
 
@@ -19,7 +17,9 @@
 	Undocumented method.
  }
 
- \usage{\method{newAAMatrix}{AminoAcidSubst}(name=NA, paml.file=NA, equ.dist=NA, ...)}
+ \usage{
+\method{newAAMatrix}{AminoAcidSubst}(name=NA, paml.file=NA, equ.dist=NA, ...)
+}
 
  \arguments{
  	\item{name}{Object name}
@@ -33,7 +33,7 @@
  }
 
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{AminoAcidSubst}}.

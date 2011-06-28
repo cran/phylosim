@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setName.PhyloSim}
 \alias{setName.PhyloSim}
 \alias{PhyloSim.setName}
-\alias{setName.PhyloSim}
 \alias{setName,PhyloSim-method}
-
 
  \title{Set the name of a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Set the name of a PhyloSim object.
  }
 
- \usage{\method{setName}{PhyloSim}(this, new.name, ...)}
+ \usage{
+\method{setName}{PhyloSim}(this, new.name, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -42,7 +42,7 @@
 	o$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAncestral.Site}
 \alias{getAncestral.Site}
 \alias{Site.getAncestral}
-\alias{getAncestral.Site}
 \alias{getAncestral,Site-method}
-
 
  \title{Get the ancestral object of a Site object}
 
@@ -19,7 +17,9 @@
 	Get the ancestral object of a Site object.
  }
 
- \usage{\method{getAncestral}{Site}(this, ...)}
+ \usage{
+\method{getAncestral}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -40,7 +40,7 @@
 	s2$ancestral
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

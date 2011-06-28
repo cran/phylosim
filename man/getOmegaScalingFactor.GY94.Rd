@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getOmegaScalingFactor.GY94}
 \alias{getOmegaScalingFactor.GY94}
 \alias{GY94.getOmegaScalingFactor}
-\alias{getOmegaScalingFactor.GY94}
 \alias{getOmegaScalingFactor,GY94-method}
-
 
  \title{Get the omega scaling factor}
 
@@ -28,7 +26,9 @@
 
  }
 
- \usage{\method{getOmegaScalingFactor}{GY94}(this, omega, ...)}
+ \usage{
+\method{getOmegaScalingFactor}{GY94}(this, omega, ...)
+}
 
  \arguments{
  	\item{this}{A GY94 object.}
@@ -47,7 +47,7 @@
 	getOmegaScalingFactor(p,omega=2)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GY94}}.

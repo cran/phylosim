@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setAlphabet.QMatrix}
 \alias{setAlphabet.QMatrix}
 \alias{QMatrix.setAlphabet}
-\alias{setAlphabet.QMatrix}
 \alias{setAlphabet,QMatrix-method}
-
 
  \title{Set the Alphabet object for a QMatrix object}
 
@@ -21,7 +19,9 @@
 	This method rebuilds the scaled and unscaled rate matrices and so sets all rates to NA.
  }
 
- \usage{\method{setAlphabet}{QMatrix}(this, value, ...)}
+ \usage{
+\method{setAlphabet}{QMatrix}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -45,7 +45,7 @@
 	summary(m)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSeqFromNode.PhyloSim}
 \alias{getSeqFromNode.PhyloSim}
 \alias{PhyloSim.getSeqFromNode}
-\alias{getSeqFromNode.PhyloSim}
 \alias{getSeqFromNode,PhyloSim-method}
-
 
  \title{Get the Sequence object associated with a given node of a phylo object aggregated by a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the Sequence object associated with a given node of a phylo object aggregated by a PhyloSim object.
  }
 
- \usage{\method{getSeqFromNode}{PhyloSim}(this, node=NA, ...)}
+ \usage{
+\method{getSeqFromNode}{PhyloSim}(this, node=NA, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -48,7 +48,7 @@
 	getSeqFromNode(sim,5)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

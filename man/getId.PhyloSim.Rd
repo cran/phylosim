@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getId.PhyloSim}
 \alias{getId.PhyloSim}
 \alias{PhyloSim.getId}
-\alias{getId.PhyloSim}
 \alias{getId,PhyloSim-method}
-
 
  \title{Get the unique identifier of a PhyloSim object}
 
@@ -21,7 +19,9 @@
        as returned by hashCode().
  }
 
- \usage{\method{getId}{PhyloSim}(this, ...)}
+ \usage{
+\method{getId}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -41,7 +41,7 @@
 	o$id;
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

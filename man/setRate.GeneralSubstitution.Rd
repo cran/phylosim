@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRate.GeneralSubstitution}
 \alias{setRate.GeneralSubstitution}
 \alias{GeneralSubstitution.setRate}
-\alias{setRate.GeneralSubstitution}
 \alias{setRate,GeneralSubstitution-method}
-
 
  \title{Set an unscaled rate for an event from a GeneralSubstitution object}
 
@@ -28,7 +26,9 @@
 	This method doesn't modify the site specific rate multipliers.
  }
 
- \usage{\method{setRate}{GeneralSubstitution}(this, name=NA, value, from=NA, to=NA, ...)}
+ \usage{
+\method{setRate}{GeneralSubstitution}(this, name=NA, value, from=NA, to=NA, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -57,7 +57,7 @@
 	getRate(p,from="0",to="1")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

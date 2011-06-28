@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setInsertHook.GeneralInsertor}
 \alias{setInsertHook.GeneralInsertor}
 \alias{GeneralInsertor.setInsertHook}
-\alias{setInsertHook.GeneralInsertor}
 \alias{setInsertHook,GeneralInsertor-method}
-
 
  \title{Set the insert hook function}
 
@@ -27,7 +25,9 @@
 	must return a Sequnece object, which will be inserted in the target sequence.
  }
 
- \usage{\method{setInsertHook}{GeneralInsertor}(this, value, ...)}
+ \usage{
+\method{setInsertHook}{GeneralInsertor}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInsertor object.}
@@ -59,7 +59,7 @@
 	getInsertHook(i)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInsertor}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setPosition.Event}
 \alias{setPosition.Event}
 \alias{Event.setPosition}
-\alias{setPosition.Event}
 \alias{setPosition,Event-method}
-
 
  \title{Set the position of the Site object associated to an Event object}
 
@@ -22,7 +20,9 @@
 	The position is *not* set by Site methods as \code{getEventsAtSite.Site}.
  }
 
- \usage{\method{setPosition}{Event}(this, value, ...)}
+ \usage{
+\method{setPosition}{Event}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -52,7 +52,7 @@
 	e$position
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

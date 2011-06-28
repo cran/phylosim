@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setNedges.PhyloSim}
 \alias{setNedges.PhyloSim}
 \alias{PhyloSim.setNedges}
-\alias{setNedges.PhyloSim}
 \alias{setNedges,PhyloSim-method}
-
 
  \title{Forbidden action: setting the number of edges for phylo object aggregated by a PhyloSim object}
 
@@ -19,7 +17,9 @@
        Forbidden action: setting the number of edges for phylo object aggregated by a PhyloSim object.
  }
 
- \usage{\method{setNedges}{PhyloSim}(this, value, ...)}
+ \usage{
+\method{setNedges}{PhyloSim}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -31,7 +31,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{PhyloSim}}.

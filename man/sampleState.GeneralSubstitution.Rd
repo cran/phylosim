@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{sampleState.GeneralSubstitution}
 \alias{sampleState.GeneralSubstitution}
 \alias{GeneralSubstitution.sampleState}
-\alias{sampleState.GeneralSubstitution}
 \alias{sampleState,GeneralSubstitution-method}
-
 
  \title{Sample a state from the equlibrium distribution of a GeneralSubstitution object}
 
@@ -19,7 +17,9 @@
 	Sample a state from the equlibrium distribution of a GeneralSubstitution object.
  }
 
- \usage{\method{sampleState}{GeneralSubstitution}(this, ...)}
+ \usage{
+\method{sampleState}{GeneralSubstitution}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -42,7 +42,7 @@
 	sampleState(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

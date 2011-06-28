@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setProposeBy.GeneralInDel}
 \alias{setProposeBy.GeneralInDel}
 \alias{GeneralInDel.setProposeBy}
-\alias{setProposeBy.GeneralInDel}
 \alias{setProposeBy,GeneralInDel-method}
-
  \alias{setProposeBy.GeneralInsertor}
 
  \title{Set the function used for proposing indel lengths}
@@ -23,7 +21,9 @@
 	argument named "process" which will hold the calling process object.
  }
 
- \usage{\method{setProposeBy}{GeneralInDel}(this, value, ...)}
+ \usage{
+\method{setProposeBy}{GeneralInDel}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInDel object.}
@@ -47,7 +47,7 @@
 	o$proposeBy
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInDel}}.

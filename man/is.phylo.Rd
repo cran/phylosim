@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -17,7 +17,9 @@
 	Phylo objects are created by the \pkg{APE} package. This method just return the value of \code{inherits(this,"phylo")}.
  }
 
- \usage{\method{is.phylo}{default}(this, ...)}
+ \usage{
+\method{is.phylo}{default}(this, ...)
+}
 
  \arguments{
  	\item{this}{An object.}
@@ -40,7 +42,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	The \pkg{ape} package.

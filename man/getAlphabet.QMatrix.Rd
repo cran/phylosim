@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAlphabet.QMatrix}
 \alias{getAlphabet.QMatrix}
 \alias{QMatrix.getAlphabet}
-\alias{getAlphabet.QMatrix}
 \alias{getAlphabet,QMatrix-method}
-
 
  \title{Get the Alphabet object associated with a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Get the Alphabet object associated with a QMatrix object.
  }
 
- \usage{\method{getAlphabet}{QMatrix}(this, ...)}
+ \usage{
+\method{getAlphabet}{QMatrix}(this, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -42,7 +42,7 @@
 	summary(m)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRateList.GeneralSubstitution}
 \alias{getRateList.GeneralSubstitution}
 \alias{GeneralSubstitution.getRateList}
-\alias{getRateList.GeneralSubstitution}
 \alias{getRateList,GeneralSubstitution-method}
-
 
  \title{Get a list of events and their unscaled rates from a GeneralSubstitution object}
 
@@ -22,7 +20,9 @@
 	The returned list contains the rates associated with the corresponding event names.
  }
 
- \usage{\method{getRateList}{GeneralSubstitution}(this, ...)}
+ \usage{
+\method{getRateList}{GeneralSubstitution}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -50,7 +50,7 @@
 	summary(p$QMatrix)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

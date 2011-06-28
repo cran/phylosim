@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{enableVirtual.PSRoot}
 \alias{enableVirtual.PSRoot}
 \alias{PSRoot.enableVirtual}
-\alias{enableVirtual.PSRoot}
 \alias{enableVirtual,PSRoot-method}
-
 
  \title{Enable the use of virtual fields for a given object}
 
@@ -20,7 +18,9 @@
 	R.oo disables the virtual field feature inside get/set methods. This method can be used to re-enable virtual fields.
  }
 
- \usage{\method{enableVirtual}{PSRoot}(this, ...)}
+ \usage{
+\method{enableVirtual}{PSRoot}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PSRoot object.}
@@ -31,7 +31,7 @@
  	The PSRoot object.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

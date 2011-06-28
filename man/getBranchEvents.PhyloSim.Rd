@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBranchEvents.PhyloSim}
 \alias{getBranchEvents.PhyloSim}
 \alias{PhyloSim.getBranchEvents}
-\alias{getBranchEvents.PhyloSim}
 \alias{getBranchEvents,PhyloSim-method}
-
 
  \title{Get the list of events having per-branch statistics recorded}
 
@@ -27,7 +25,9 @@
 	The branch lengths of the exported phylo objects are set to the value of the respective per-branch event count.
  }
 
- \usage{\method{getBranchEvents}{PhyloSim}(this, ...)}
+ \usage{
+\method{getBranchEvents}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -46,7 +46,9 @@
 	# NOTE: this will be a little bit slow
 	sim<-PhyloSim(
 		phylo=rcoal(3),
-		root.seq=CodonSequence(string="ATGATTATT",processes=list(list(GY94(kappa=2,omega.default=0.5))))
+		root.seq=CodonSequence(
+                               string="ATGATTATT",
+                               processes=list(list(GY94(kappa=2,omega.default=0.5))))
 	);
 	# make the tree longer to have more events
 	scaleTree(sim,5)
@@ -66,7 +68,7 @@
 	plot(subst)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

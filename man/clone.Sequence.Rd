@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{clone.Sequence}
 \alias{clone.Sequence}
 \alias{Sequence.clone}
-\alias{clone.Sequence}
 \alias{clone,Sequence-method}
-
 
  \title{Clone a Sequence object}
 
@@ -25,7 +23,9 @@
 
  }
 
- \usage{\method{clone}{Sequence}(this, ...)}
+ \usage{
+\method{clone}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -48,7 +48,7 @@
 	cs$sites[[1]]$ancestral
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Sequence clone.Object

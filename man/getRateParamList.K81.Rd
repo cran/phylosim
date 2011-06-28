@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRateParamList.K81}
 \alias{getRateParamList.K81}
 \alias{K81.getRateParamList}
-\alias{getRateParamList.K81}
 \alias{getRateParamList,K81-method}
-
 
  \title{Get the rate parameters}
 
@@ -21,7 +19,9 @@
 	The rate parameters are: Alpha, Beta, Gamma.
  }
 
- \usage{\method{getRateParamList}{K81}(this, ...)}
+ \usage{
+\method{getRateParamList}{K81}(this, ...)
+}
 
  \arguments{
  	\item{this}{A K81 object.}
@@ -53,7 +53,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{K81}}.

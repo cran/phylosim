@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setLogLevel.PhyloSim}
 \alias{setLogLevel.PhyloSim}
 \alias{PhyloSim.setLogLevel}
-\alias{setLogLevel.PhyloSim}
 \alias{setLogLevel,PhyloSim-method}
-
 
  \title{Set the log level for a given PhyloSim object}
 
@@ -25,7 +23,9 @@
 	The default log level is -1. The specified file will be truncated in the case it already exists.
  }
 
- \usage{\method{setLogLevel}{PhyloSim}(this, value, ...)}
+ \usage{
+\method{setLogLevel}{PhyloSim}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -48,7 +48,7 @@
 	sim$logLevel
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	getLogLevel PhyloSim

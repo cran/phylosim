@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plot.PhyloSim}
 \alias{plot.PhyloSim}
 \alias{PhyloSim.plot}
-\alias{plot.PhyloSim}
 \alias{plot,PhyloSim-method}
-
 
  \title{Plot a PhyloSim object}
 
@@ -23,7 +21,14 @@
 
  }
 
- \usage{\method{plot}{PhyloSim}(x, plot.tree, plot.ancestors, plot.chars, plot.legend, plot.labels, aspect.ratio, num.pages, char.text.size, axis.text.size, color.scheme, color.branches, tree.xlim, aln.xlim, tracks, aln.length.tolerance, plot.nongap.bl, ...)}
+ \usage{
+\method{plot}{PhyloSim}(
+    x, plot.tree, plot.ancestors, plot.chars, plot.legend, 
+    plot.labels, aspect.ratio, num.pages, char.text.size, 
+    axis.text.size, color.scheme, color.branches, tree.xlim,
+    aln.xlim, tracks, aln.length.tolerance, plot.nongap.bl, ...
+    )
+}
 
  \arguments{
  	\item{x}{A PhyloSim object.}
@@ -93,11 +98,12 @@
 	Simulate(sim)
        # Plot the alignment without the tree or ancestral sequences.
        plot(sim, plot.ancestors=FALSE, plot.tree=FALSE)
-       # Force a DNA-based color scheme (default is 'auto' to auto-detect based on the sequence composition)
+       # Force a DNA-based color scheme
+       # (default is 'auto' to auto-detect based on the sequence composition)
        plot(sim, color.scheme='dna', plot.legend=TRUE)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

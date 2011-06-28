@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{hasUndefinedRate.GeneralSubstitution}
 \alias{hasUndefinedRate.GeneralSubstitution}
 \alias{GeneralSubstitution.hasUndefinedRate}
-\alias{hasUndefinedRate.GeneralSubstitution}
 \alias{hasUndefinedRate,GeneralSubstitution-method}
-
 
  \title{Check if a GeneralSubstitution object has undefined rates}
 
@@ -19,7 +17,9 @@
 	Check if a GeneralSubstitution object has undefined rates.
  }
 
- \usage{\method{hasUndefinedRate}{GeneralSubstitution}(this, ...)}
+ \usage{
+\method{hasUndefinedRate}{GeneralSubstitution}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -41,7 +41,7 @@
 	hasUndefinedRate(p)	# FALSE
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

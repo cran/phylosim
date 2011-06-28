@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTips.PhyloSim}
 \alias{getTips.PhyloSim}
 \alias{PhyloSim.getTips}
-\alias{getTips.PhyloSim}
 \alias{getTips,PhyloSim-method}
-
 
  \title{Get the node identifiers of the tip nodes from a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the node identifiers of the tip nodes from a PhyloSim object.
  }
 
- \usage{\method{getTips}{PhyloSim}(this, ...)}
+ \usage{
+\method{getTips}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object}
@@ -39,7 +39,7 @@
 	sim$tips
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

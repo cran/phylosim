@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setAlphabet.GeneralSubstitution}
 \alias{setAlphabet.GeneralSubstitution}
 \alias{GeneralSubstitution.setAlphabet}
-\alias{setAlphabet.GeneralSubstitution}
 \alias{setAlphabet,GeneralSubstitution-method}
-
 
  \title{Set the Alphabet object aggregated by a GeneralSubstitution object}
 
@@ -22,7 +20,9 @@
 	This method will also re-initialize the equlibrium distribution by setting all frequencies to NA.
  }
 
- \usage{\method{setAlphabet}{GeneralSubstitution}(this, value, ...)}
+ \usage{
+\method{setAlphabet}{GeneralSubstitution}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -51,7 +51,7 @@
 	p$alphabet
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

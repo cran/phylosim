@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getProcesses.Sequence}
 \alias{getProcesses.Sequence}
 \alias{Sequence.getProcesses}
-\alias{getProcesses.Sequence}
 \alias{getProcesses,Sequence-method}
-
 
  \title{Get the Process objects attached to the Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Get the Process objects attached to the Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{getProcesses}{Sequence}(this, index, ...)}
+ \usage{
+\method{getProcesses}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -33,14 +33,18 @@
 
  \examples{
 	# create a sequence object with some processes attached
-	s<-Sequence(length=4,alphabets=list(NucleotideAlphabet()),processes=list(list(JC69(),K80()),list(GTR())))
+	s<-Sequence(
+               length=4,
+               alphabets=list(NucleotideAlphabet()),
+               processes=list(list(JC69(),K80()),list(GTR()))
+               )
 	# get the list of lists of attached processes from positions 1 and 3
 	getProcesses(s,c(1,3))
 	# get processes via virtual field
 	s$processes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

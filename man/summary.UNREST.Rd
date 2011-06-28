@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{summary.UNREST}
 \alias{summary.UNREST}
 \alias{UNREST.summary}
-\alias{summary.UNREST}
 \alias{summary,UNREST-method}
-
 
  \title{Summarize the properties of an object}
 
@@ -19,7 +17,9 @@
        Summarize the properties of an object.
  }
 
- \usage{\method{summary}{UNREST}(object, ...)}
+ \usage{
+\method{summary}{UNREST}(object, ...)
+}
 
  \arguments{
        \item{object}{An object}
@@ -41,7 +41,7 @@
        summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{UNREST}}.

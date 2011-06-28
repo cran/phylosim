@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setWriteProtected.Event}
 \alias{setWriteProtected.Event}
 \alias{Event.setWriteProtected}
-\alias{setWriteProtected.Event}
 \alias{setWriteProtected,Event-method}
-
 
  \title{Set the write protection field for an object}
 
@@ -20,7 +18,9 @@
 	Write protected objects cannot be modified through get/set methods and virtual fields.
  }
 
- \usage{\method{setWriteProtected}{Event}(this, value, ...)}
+ \usage{
+\method{setWriteProtected}{Event}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{An object.}
@@ -47,7 +47,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

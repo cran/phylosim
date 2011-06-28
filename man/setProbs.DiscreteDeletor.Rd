@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setProbs.DiscreteDeletor}
 \alias{setProbs.DiscreteDeletor}
 \alias{DiscreteDeletor.setProbs}
-\alias{setProbs.DiscreteDeletor}
 \alias{setProbs,DiscreteDeletor-method}
-
 
  \title{Set the deletion length probabilities}
 
@@ -24,7 +22,9 @@
 	sum to one and a warning is issued.
  }
 
- \usage{\method{setProbs}{DiscreteDeletor}(this, value, ...)}
+ \usage{
+\method{setProbs}{DiscreteDeletor}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A DiscreteDeletor object.}
@@ -50,7 +50,7 @@
 	d$probs
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{DiscreteDeletor}}.

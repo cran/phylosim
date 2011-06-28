@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setLogFile.PhyloSim}
 \alias{setLogFile.PhyloSim}
 \alias{PhyloSim.setLogFile}
-\alias{setLogFile.PhyloSim}
 \alias{setLogFile,PhyloSim-method}
-
 
  \title{Set the name of the file used for logging}
 
@@ -19,7 +17,9 @@
 	Set the name of the file used for logging.
  }
 
- \usage{\method{setLogFile}{PhyloSim}(this, value, ...)}
+ \usage{
+\method{setLogFile}{PhyloSim}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -44,7 +44,7 @@
 	sim$logFile
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

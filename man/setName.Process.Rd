@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setName.Process}
 \alias{setName.Process}
 \alias{Process.setName}
-\alias{setName.Process}
 \alias{setName,Process-method}
-
 
  \title{Set the name of a Process object}
 
@@ -21,7 +19,9 @@
 	This method also updates the unique identifier of the Process object.
  }
 
- \usage{\method{setName}{Process}(this, new.name, ...)}
+ \usage{
+\method{setName}{Process}(this, new.name, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -48,7 +48,7 @@
 	p$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

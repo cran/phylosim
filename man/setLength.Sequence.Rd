@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setLength.Sequence}
 \alias{setLength.Sequence}
 \alias{Sequence.setLength}
-\alias{setLength.Sequence}
 \alias{setLength,Sequence-method}
-
 
  \title{Forbidden action: setting the length of a Sequence object}
 
@@ -21,7 +19,9 @@
 	or modified later by the "insertSequence" and "deleteSubSequence" methods.
  }
 
- \usage{\method{setLength}{Sequence}(this, value, ...)}
+ \usage{
+\method{setLength}{Sequence}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -33,7 +33,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{Sequence}}.

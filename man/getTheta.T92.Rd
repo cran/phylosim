@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTheta.T92}
 \alias{getTheta.T92}
 \alias{T92.getTheta}
-\alias{getTheta.T92}
 \alias{getTheta,T92-method}
-
 
  \title{Get the GC content}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{getTheta}{T92}(this, ...)}
+ \usage{
+\method{getTheta}{T92}(this, ...)
+}
 
  \arguments{
        \item{this}{A T92 object.}
@@ -44,7 +44,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{T92}}.

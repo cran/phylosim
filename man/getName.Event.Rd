@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getName.Event}
 \alias{getName.Event}
 \alias{Event.getName}
-\alias{getName.Event}
 \alias{getName,Event-method}
-
 
  \title{Get the name of an Event object}
 
@@ -19,7 +17,9 @@
 	Get the name of an Event object.
  }
 
- \usage{\method{getName}{Event}(this, ...)}
+ \usage{
+\method{getName}{Event}(this, ...)
+}
 
  \arguments{
  	\item{this}{An event object.}
@@ -39,7 +39,7 @@
 	e$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

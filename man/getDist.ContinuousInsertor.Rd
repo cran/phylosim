@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getDist.ContinuousInsertor}
 \alias{getDist.ContinuousInsertor}
 \alias{ContinuousInsertor.getDist}
-\alias{getDist.ContinuousInsertor}
 \alias{getDist,ContinuousInsertor-method}
-
 
  \title{Get the length sampling expression}
 
@@ -23,7 +21,9 @@
 	rounded.
  }
 
- \usage{\method{getDist}{ContinuousInsertor}(this, ...)}
+ \usage{
+\method{getDist}{ContinuousInsertor}(this, ...)
+}
 
  \arguments{
  	\item{this}{A ContinuousInsertor object.}
@@ -49,7 +49,7 @@
 	proposeLength(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{ContinuousInsertor}}.

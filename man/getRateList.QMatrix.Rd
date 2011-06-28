@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRateList.QMatrix}
 \alias{getRateList.QMatrix}
 \alias{QMatrix.getRateList}
-\alias{getRateList.QMatrix}
 \alias{getRateList,QMatrix-method}
-
 
  \title{Get a list of events and their unscaled rates from a QMatrix object}
 
@@ -22,7 +20,9 @@
        The returned list contains the rates associated with the corresponding event names.
  }
 
- \usage{\method{getRateList}{QMatrix}(this, ...)}
+ \usage{
+\method{getRateList}{QMatrix}(this, ...)
+}
 
  \arguments{
        \item{this}{A GeneralSubstitution object.}
@@ -51,7 +51,7 @@
 	m$rateList
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{QMatrix}}.

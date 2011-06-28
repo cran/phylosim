@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setBaseFreqs.F81}
 \alias{setBaseFreqs.F81}
 \alias{F81.setBaseFreqs}
-\alias{setBaseFreqs.F81}
 \alias{setBaseFreqs,F81-method}
-
 
  \title{Set the base frequency parameters}
 
@@ -22,7 +20,9 @@
 	in the NucleotideAlphabet objects.
  }
 
- \usage{\method{setBaseFreqs}{F81}(this, value, ...)}
+ \usage{
+\method{setBaseFreqs}{F81}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A F81 object.}
@@ -47,7 +47,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{F81}}.

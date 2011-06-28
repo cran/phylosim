@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setMatrix.QMatrix}
 \alias{setMatrix.QMatrix}
 \alias{QMatrix.setMatrix}
-\alias{setMatrix.QMatrix}
 \alias{setMatrix,QMatrix-method}
-
 
  \title{Forbidden action: setting the unscaled rate matrix for a QMatrix object}
 
@@ -19,7 +17,9 @@
        Forbidden action: setting the unscaled rate matrix for a QMatrix object.
  }
 
- \usage{\method{setMatrix}{QMatrix}(this, value, ...)}
+ \usage{
+\method{setMatrix}{QMatrix}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -31,7 +31,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{QMatrix}}.

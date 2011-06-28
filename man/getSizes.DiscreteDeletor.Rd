@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSizes.DiscreteDeletor}
 \alias{getSizes.DiscreteDeletor}
 \alias{DiscreteDeletor.getSizes}
-\alias{getSizes.DiscreteDeletor}
 \alias{getSizes,DiscreteDeletor-method}
-
 
  \title{Get the sizes of the proposed deletions}
 
@@ -19,7 +17,9 @@
 	Get the sizes of the proposed deletions.
  }
 
- \usage{\method{getSizes}{DiscreteDeletor}(this, ...)}
+ \usage{
+\method{getSizes}{DiscreteDeletor}(this, ...)
+}
 
  \arguments{
  	\item{this}{A DiscreteDeletor object.}
@@ -42,7 +42,7 @@
 	d$sizes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{DiscreteDeletor}}.

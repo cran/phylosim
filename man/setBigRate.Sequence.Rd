@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setBigRate.Sequence}
 \alias{setBigRate.Sequence}
 \alias{Sequence.setBigRate}
-\alias{setBigRate.Sequence}
 \alias{setBigRate,Sequence-method}
-
 
  \title{Forbidden action: setting the sum of total active event rates for a Sequence object}
 
@@ -19,7 +17,9 @@
        Forbidden action: setting the sum of total active event rates for a Sequence object.
  }
 
- \usage{\method{setBigRate}{Sequence}(this, value, ...)}
+ \usage{
+\method{setBigRate}{Sequence}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -31,7 +31,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{Sequence}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRate.Event}
 \alias{setRate.Event}
 \alias{Event.setRate}
-\alias{setRate.Event}
 \alias{setRate,Event-method}
-
 
  \title{Set the rate of an Event object}
 
@@ -19,7 +17,9 @@
 	Set the rate of an Event object.
  }
 
- \usage{\method{setRate}{Event}(this, value, ...)}
+ \usage{
+\method{setRate}{Event}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -43,7 +43,7 @@
 	e$rate
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

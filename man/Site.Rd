@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -49,7 +49,9 @@ extends \link{PSRoot}\cr
 
  }
 
- \usage{Site(state=NA, alphabet=NA, ancestral=NA, processes=NA, sequence=NA, ...)}
+ \usage{
+Site(state=NA, alphabet=NA, ancestral=NA, processes=NA, sequence=NA, ...)
+}
 
  \arguments{
  	\item{state}{A symbol belonging to the specified alphabet.}
@@ -120,7 +122,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 		summary(site);
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
 
  \seealso{

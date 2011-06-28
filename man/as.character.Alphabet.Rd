@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{as.character.Alphabet}
 \alias{as.character.Alphabet}
 \alias{Alphabet.as.character}
-\alias{as.character.Alphabet}
 \alias{as.character,Alphabet-method}
-
 
  \title{Get the character representation of an Alphabet object}
 
@@ -19,7 +17,9 @@
 	Get the character representation of an Alphabet object.
  }
 
- \usage{\method{as.character}{Alphabet}(x, ...)}
+ \usage{
+\method{as.character}{Alphabet}(x, ...)
+}
 
  \arguments{
  	\item{x}{An Alphabet object}
@@ -38,7 +38,7 @@
 	as.character(a)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

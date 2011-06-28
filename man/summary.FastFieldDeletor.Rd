@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
 \name{summary.FastFieldDeletor}
 \alias{summary.FastFieldDeletor}
 \alias{FastFieldDeletor.summary}
-\alias{summary.FastFieldDeletor}
 \alias{summary,FastFieldDeletor-method}
-
 
 \title{Summarize the properties of an object}
 
@@ -19,7 +17,9 @@
       Summarize the properties of an object.
 }
 
-\usage{\method{summary}{FastFieldDeletor}(object, ...)}
+\usage{
+\method{summary}{FastFieldDeletor}(object, ...)
+}
 
 \arguments{
       \item{object}{An object}
@@ -38,7 +38,7 @@
       summary(a)
 }
 
-\author{Botond Sipos}
+\author{Botond Sipos, Gregory Jordan}
 
 \seealso{
       For more information see \code{\link{FastFieldDeletor}}.

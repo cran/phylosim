@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{deleteSubSequence.Sequence}
 \alias{deleteSubSequence.Sequence}
 \alias{Sequence.deleteSubSequence}
-\alias{deleteSubSequence.Sequence}
 \alias{deleteSubSequence,Sequence-method}
-
 
  \title{Delete a collection of sites aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Delete a collection of sites aggregated by a Sequence object.
  }
 
- \usage{\method{deleteSubSequence}{Sequence}(this, index, ...)}
+ \usage{
+\method{deleteSubSequence}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -42,7 +42,7 @@
 	s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{detachProcess.Site}
 \alias{detachProcess.Site}
 \alias{Site.detachProcess}
-\alias{detachProcess.Site}
 \alias{detachProcess,Site-method}
-
 
  \title{Site}
 
@@ -21,7 +19,9 @@
 
  }
 
- \usage{\method{detachProcess}{Site}(this, process, ...)}
+ \usage{
+\method{detachProcess}{Site}(this, process, ...)
+}
 
  \arguments{
  	\item{this}{A Site object}
@@ -47,7 +47,7 @@
 	s$processes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

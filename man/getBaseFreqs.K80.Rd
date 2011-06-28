@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBaseFreqs.K80}
 \alias{getBaseFreqs.K80}
 \alias{K80.getBaseFreqs}
-\alias{getBaseFreqs.K80}
 \alias{getBaseFreqs,K80-method}
-
 
  \title{Get the base frequency parameters}
 
@@ -22,7 +20,9 @@
 	in the NucleotideAlphabet objects. The K80 model has equal base frequencies.
  }
 
- \usage{\method{getBaseFreqs}{K80}(this, ...)}
+ \usage{
+\method{getBaseFreqs}{K80}(this, ...)
+}
 
  \arguments{
  	\item{this}{A K80 object.}
@@ -42,7 +42,7 @@
 	p$baseFreqs # uniform
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{K80}}.

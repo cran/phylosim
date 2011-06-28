@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{as.character.Sequence}
 \alias{as.character.Sequence}
 \alias{Sequence.as.character}
-\alias{as.character.Sequence}
 \alias{as.character,Sequence-method}
-
 
  \title{Get the string representation of a Sequence object}
 
@@ -21,7 +19,9 @@
 	aggregated Site object. Undefined states (NA-s) are represented by question marks.
  }
 
- \usage{\method{as.character}{Sequence}(x, ...)}
+ \usage{
+\method{as.character}{Sequence}(x, ...)
+}
 
  \arguments{
  	\item{x}{A Sequence object.}
@@ -39,7 +39,7 @@
 	as.character(s)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

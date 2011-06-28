@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{ll.PSRoot}
 \alias{ll.PSRoot}
 \alias{PSRoot.ll}
-\alias{ll.PSRoot}
 \alias{ll,PSRoot-method}
-
 
  \title{Display detailed information about the virtual fields and methods defined for a given object}
 
@@ -23,7 +21,9 @@
 	This method provides a "quick and minimal" documentation for PhyloSim classes.
  }
 
- \usage{\method{ll}{PSRoot}(this, quiet=FALSE, ...)}
+ \usage{
+\method{ll}{PSRoot}(this, quiet=FALSE, ...)
+}
 
  \arguments{
  	\item{this}{A PSRoot object.}
@@ -43,7 +43,7 @@
 	ll(Process())
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

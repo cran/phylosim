@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setId.QMatrix}
 \alias{setId.QMatrix}
 \alias{QMatrix.setId}
-\alias{setId.QMatrix}
 \alias{setId,QMatrix-method}
-
 
  \title{Forbidden action: setting the unique identifier for a QMatrix object}
 
@@ -19,7 +17,9 @@
        Forbidden action: setting the unique identifier for a QMatrix object.
  }
 
- \usage{\method{setId}{QMatrix}(this, value, ...)}
+ \usage{
+\method{setId}{QMatrix}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -31,7 +31,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{QMatrix}}.

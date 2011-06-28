@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{checkConsistency.Sequence}
 \alias{checkConsistency.Sequence}
 \alias{Sequence.checkConsistency}
-\alias{checkConsistency.Sequence}
 \alias{checkConsistency,Sequence-method}
-
 
  \title{Check object consistency}
 
@@ -19,7 +17,9 @@
 		Check object consistency.
  }
 
- \usage{\method{checkConsistency}{Sequence}(this, omit.sites=FALSE, ...)}
+ \usage{
+\method{checkConsistency}{Sequence}(this, omit.sites=FALSE, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -33,7 +33,7 @@
 		an error otherwise.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

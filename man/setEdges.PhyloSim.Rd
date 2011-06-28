@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setEdges.PhyloSim}
 \alias{setEdges.PhyloSim}
 \alias{PhyloSim.setEdges}
-\alias{setEdges.PhyloSim}
 \alias{setEdges,PhyloSim-method}
-
 
  \title{Forbidden action: setting the edge matrix for a phylo object aggregated by a PhyloSim object}
 
@@ -19,7 +17,9 @@
        Forbidden action: setting the edge matrix for a phylo object aggregated by a PhyloSim object.
  }
 
- \usage{\method{setEdges}{PhyloSim}(this, value, ...)}
+ \usage{
+\method{setEdges}{PhyloSim}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -31,7 +31,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{PhyloSim}}.

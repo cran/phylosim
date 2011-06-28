@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getStates.Sequence}
 \alias{getStates.Sequence}
 \alias{Sequence.getStates}
-\alias{getStates.Sequence}
 \alias{getStates,Sequence-method}
-
 
  \title{Get the states of a set of Site objects aggregated by a Sequence object}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{getStates}{Sequence}(this, index, ...)}
+ \usage{
+\method{getStates}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -44,7 +44,7 @@
 	s$states
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

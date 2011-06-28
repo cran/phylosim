@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setBaseFreqs.TN93}
 \alias{setBaseFreqs.TN93}
 \alias{TN93.setBaseFreqs}
-\alias{setBaseFreqs.TN93}
 \alias{setBaseFreqs,TN93-method}
-
 
  \title{Set the base frequency parameters}
 
@@ -22,7 +20,9 @@
 	in the NucleotideAlphabet objects.
  }
 
- \usage{\method{setBaseFreqs}{TN93}(this, value, ...)}
+ \usage{
+\method{setBaseFreqs}{TN93}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A TN93 object.}
@@ -47,7 +47,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{TN93}}.

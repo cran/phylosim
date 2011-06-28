@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getGenerateBy.GeneralInsertor}
 \alias{getGenerateBy.GeneralInsertor}
 \alias{GeneralInsertor.getGenerateBy}
-\alias{getGenerateBy.GeneralInsertor}
 \alias{getGenerateBy,GeneralInsertor-method}
-
 
  \title{Get the function object used for generating inserts}
 
@@ -19,7 +17,9 @@
 	Get the function object used for generating inserts.
  }
 
- \usage{\method{getGenerateBy}{GeneralInsertor}(this, ...)}
+ \usage{
+\method{getGenerateBy}{GeneralInsertor}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInsertor object.}
@@ -41,7 +41,15 @@
 	# save insert generator
 	old.gen<-getGenerateBy(i)
 	# set a new insert generator
-	i$generateBy<-function(process, length, target.seq, event.pos, insert.pos){ return(NucleotideSequence(string="AATTGGCC"))}
+	i$generateBy<-function(
+                           process,
+                           length,
+                           target.seq,
+                           event.pos,
+                           insert.pos
+                        ){
+                           return(NucleotideSequence(string="AATTGGCC"))
+                           }
 	# get the generator function
 	i$generateBy
 	# generate insert
@@ -52,7 +60,7 @@
 	generateInsert(i)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInsertor}}.

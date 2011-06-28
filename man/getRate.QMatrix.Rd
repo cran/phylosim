@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRate.QMatrix}
 \alias{getRate.QMatrix}
 \alias{QMatrix.getRate}
-\alias{getRate.QMatrix}
 \alias{getRate,QMatrix-method}
-
 
  \title{Get an unscaled rate of an event from a QMatrix object}
 
@@ -24,7 +22,9 @@
 
  }
 
- \usage{\method{getRate}{QMatrix}(this, name=NA, from=NA, to=NA, ...)}
+ \usage{
+\method{getRate}{QMatrix}(this, name=NA, from=NA, to=NA, ...)
+}
 
  \arguments{
        \item{this}{A QMatrix object.}

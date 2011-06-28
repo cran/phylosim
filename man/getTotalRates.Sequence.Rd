@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTotalRates.Sequence}
 \alias{getTotalRates.Sequence}
 \alias{Sequence.getTotalRates}
-\alias{getTotalRates.Sequence}
 \alias{getTotalRates,Sequence-method}
-
 
  \title{Get the total site rates from a Sequence object}
 
@@ -21,7 +19,9 @@
 	See \code{getTotalRatesFromRange.Sequence} for more details.
  }
 
- \usage{\method{getTotalRates}{Sequence}(this, ...)}
+ \usage{
+\method{getTotalRates}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -32,7 +32,7 @@
  	A numeric vector containing the total site rates.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	getTotalRatesFromRange.Sequence

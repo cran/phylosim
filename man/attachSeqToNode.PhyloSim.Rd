@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{attachSeqToNode.PhyloSim}
 \alias{attachSeqToNode.PhyloSim}
 \alias{PhyloSim.attachSeqToNode}
-\alias{attachSeqToNode.PhyloSim}
 \alias{attachSeqToNode,PhyloSim-method}
-
 
  \title{Assotiate a Sequence object with a given node of a phylo object aggregated by a PhyloSim object}
 
@@ -22,7 +20,9 @@
 
  }
 
- \usage{\method{attachSeqToNode}{PhyloSim}(this, node=NA, seq=NA, ...)}
+ \usage{
+\method{attachSeqToNode}{PhyloSim}(this, node=NA, seq=NA, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -36,7 +36,7 @@
  }
 
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

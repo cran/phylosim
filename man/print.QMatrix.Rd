@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{print.QMatrix}
 \alias{print.QMatrix}
 \alias{QMatrix.print}
-\alias{print.QMatrix}
 \alias{print,QMatrix-method}
-
 
  \title{Print the character representation of a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Print the character representation of a QMatrix object.
  }
 
- \usage{\method{print}{QMatrix}(x, ...)}
+ \usage{
+\method{print}{QMatrix}(x, ...)
+}
 
  \arguments{
  	\item{x}{A QMatrix object.}
@@ -39,7 +39,7 @@
 	m
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{insertSequence.Sequence}
 \alias{insertSequence.Sequence}
 \alias{Sequence.insertSequence}
-\alias{insertSequence.Sequence}
 \alias{insertSequence,Sequence-method}
-
 
  \title{Insert a Sequence object into another Sequence object after a specified position}
 
@@ -19,7 +17,9 @@
 	Insert a Sequence object into another Sequence object after a specified position.
  }
 
- \usage{\method{insertSequence}{Sequence}(this, insert, position, process=NA, paranoid=FALSE, ...)}
+ \usage{
+\method{insertSequence}{Sequence}(this, insert, position, process=NA, paranoid=FALSE, ...)
+}
 
  \arguments{
  	\item{this}{The target Sequence object.}
@@ -44,7 +44,7 @@
 	target
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRateList.QMatrix}
 \alias{setRateList.QMatrix}
 \alias{QMatrix.setRateList}
-\alias{setRateList.QMatrix}
 \alias{setRateList,QMatrix-method}
-
 
  \title{Setting the unscaled rates stored in a QMatrix object}
 
@@ -22,7 +20,9 @@
        and the associated rates. The rate must be specified for every event!
  }
 
- \usage{\method{setRateList}{QMatrix}(this, value, ...)}
+ \usage{
+\method{setRateList}{QMatrix}(this, value, ...)
+}
 
  \arguments{
        \item{this}{A QMatrix object.}
@@ -52,7 +52,7 @@
 	m$rateList
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{QMatrix}}.

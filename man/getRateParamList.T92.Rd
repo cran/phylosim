@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRateParamList.T92}
 \alias{getRateParamList.T92}
 \alias{T92.getRateParamList}
-\alias{getRateParamList.T92}
 \alias{getRateParamList,T92-method}
-
 
  \title{Get the rate parameters}
 
@@ -21,7 +19,9 @@
        The rate parameters are: Alpha, Beta.
  }
 
- \usage{\method{getRateParamList}{T92}(this, ...)}
+ \usage{
+\method{getRateParamList}{T92}(this, ...)
+}
 
  \arguments{
        \item{this}{A T92 object.}
@@ -51,7 +51,7 @@
        summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{T92}}.

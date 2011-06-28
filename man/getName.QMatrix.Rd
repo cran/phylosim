@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getName.QMatrix}
 \alias{getName.QMatrix}
 \alias{QMatrix.getName}
-\alias{getName.QMatrix}
 \alias{getName,QMatrix-method}
-
 
  \title{Get the name of a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Get the name of a QMatrix object.
  }
 
- \usage{\method{getName}{QMatrix}(this, ...)}
+ \usage{
+\method{getName}{QMatrix}(this, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -41,7 +41,7 @@
 	m$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

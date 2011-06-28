@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -45,7 +45,9 @@ extends \link{PSRoot}\cr
 
  }
 
- \usage{QMatrix(name="Anonymous", alphabet=NA, rate.list=NA, process=NA, ...)}
+ \usage{
+QMatrix(name="Anonymous", alphabet=NA, rate.list=NA, process=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the QMatrix object (a character vector of length one).}
@@ -124,7 +126,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	m$scaledMatrix
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GeneralSubstitution Alphabet Process

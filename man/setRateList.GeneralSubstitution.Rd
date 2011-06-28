@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRateList.GeneralSubstitution}
 \alias{setRateList.GeneralSubstitution}
 \alias{GeneralSubstitution.setRateList}
-\alias{setRateList.GeneralSubstitution}
 \alias{setRateList,GeneralSubstitution-method}
-
 
  \title{Setting the rates for a GeneralSubstitution object}
 
@@ -22,7 +20,9 @@
 	and the associated rates. The rate must be specified for every event!
  }
 
- \usage{\method{setRateList}{GeneralSubstitution}(this, value, ...)}
+ \usage{
+\method{setRateList}{GeneralSubstitution}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -51,7 +51,7 @@
 	summary(p$QMatrix)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

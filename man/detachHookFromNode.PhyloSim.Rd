@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{detachHookFromNode.PhyloSim}
 \alias{detachHookFromNode.PhyloSim}
 \alias{PhyloSim.detachHookFromNode}
-\alias{detachHookFromNode.PhyloSim}
 \alias{detachHookFromNode,PhyloSim-method}
-
 
  \title{Detach a node hook function from a given node of a phylo object aggregated by a PhyloSim object}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{detachHookFromNode}{PhyloSim}(this, node=NA, ...)}
+ \usage{
+\method{detachHookFromNode}{PhyloSim}(this, node=NA, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -59,7 +59,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	attachHookToNode PhyloSim Simulate.PhyloSim

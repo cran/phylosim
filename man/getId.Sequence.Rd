@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getId.Sequence}
 \alias{getId.Sequence}
 \alias{Sequence.getId}
-\alias{getId.Sequence}
 \alias{getId,Sequence-method}
-
 
  \title{Get the unique identifier of a Sequence object}
 
@@ -21,7 +19,9 @@
 	by hashCode().
  }
 
- \usage{\method{getId}{Sequence}(this, ...)}
+ \usage{
+\method{getId}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -41,7 +41,7 @@
 	s$id
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

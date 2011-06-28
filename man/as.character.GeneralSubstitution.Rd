@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{as.character.GeneralSubstitution}
 \alias{as.character.GeneralSubstitution}
 \alias{GeneralSubstitution.as.character}
-\alias{as.character.GeneralSubstitution}
 \alias{as.character,GeneralSubstitution-method}
-
 
  \title{Return the character representation of a GeneralSubstitution object}
 
@@ -21,7 +19,9 @@
 	\code{getId.Process} method defined in the parent class.
  }
 
- \usage{\method{as.character}{GeneralSubstitution}(x, ...)}
+ \usage{
+\method{as.character}{GeneralSubstitution}(x, ...)
+}
 
  \arguments{
  	\item{x}{A GeneralSubstitution object.}
@@ -41,7 +41,7 @@
 	p
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTotalRatesFromRange.Sequence}
 \alias{getTotalRatesFromRange.Sequence}
 \alias{Sequence.getTotalRatesFromRange}
-\alias{getTotalRatesFromRange.Sequence}
 \alias{getTotalRatesFromRange,Sequence-method}
-
 
  \title{Get the vector of total site rates for a collection of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Get the vector of total site rates for a collection of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{getTotalRatesFromRange}{Sequence}(this, index, ...)}
+ \usage{
+\method{getTotalRatesFromRange}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -33,14 +33,18 @@
 
  \examples{
 	# create a sequence with some processes attached
-	s<-Sequence(string="ATGC",alphabets=list(NucleotideAlphabet()),processes=list(list(JC69()),list(JC69(),GTR())))
+	s<-Sequence(
+               string="ATGC",
+               alphabets=list(NucleotideAlphabet()),
+               processes=list(list(JC69()),list(JC69(),GTR()))
+               )
 	# get total rates for positions 1 and 3
 	getTotalRatesFromRange(s,c(1,3))
 	# get all total rates via virtual field
 	s$totalRates	# via the "getTotalRates.Sequence" method
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

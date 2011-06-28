@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTransTable.CodonAlphabet}
 \alias{getTransTable.CodonAlphabet}
 \alias{CodonAlphabet.getTransTable}
-\alias{getTransTable.CodonAlphabet}
 \alias{getTransTable,CodonAlphabet-method}
-
 
  \title{Get the list storing the genetic code table}
 
@@ -19,7 +17,9 @@
 	Get the list storing the genetic code table.
  }
 
- \usage{\method{getTransTable}{CodonAlphabet}(this, ...)}
+ \usage{
+\method{getTransTable}{CodonAlphabet}(this, ...)
+}
 
  \arguments{
  	\item{this}{A CodonAlphabet object.}
@@ -39,7 +39,7 @@
 	a$transTable
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonAlphabet}}.

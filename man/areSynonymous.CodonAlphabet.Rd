@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{areSynonymous.CodonAlphabet}
 \alias{areSynonymous.CodonAlphabet}
 \alias{CodonAlphabet.areSynonymous}
-\alias{areSynonymous.CodonAlphabet}
 \alias{areSynonymous,CodonAlphabet-method}
-
 
  \title{Check whether two codons are synonymous}
 
@@ -19,7 +17,9 @@
 	Check whether two codons are synonymous.
  }
 
- \usage{\method{areSynonymous}{CodonAlphabet}(this, codons, ...)}
+ \usage{
+\method{areSynonymous}{CodonAlphabet}(this, codons, ...)
+}
 
  \arguments{
  	\item{this}{A CodonAlphabet object.}
@@ -38,7 +38,7 @@
 	areSynonymous(a,c("TCC","CCT"))
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonAlphabet}}.

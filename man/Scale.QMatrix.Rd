@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{Scale.QMatrix}
 \alias{Scale.QMatrix}
 \alias{QMatrix.Scale}
-\alias{Scale.QMatrix}
 \alias{Scale,QMatrix-method}
-
 
  \title{Scale the scaled rate matrix stored in a QMatrix object by the provided factor}
 
@@ -21,7 +19,9 @@
 	This methods sets the scaled rate matrix to \code{unscaled_matrix * constant}.
  }
 
- \usage{\method{Scale}{QMatrix}(this, constant=NA, ...)}
+ \usage{
+\method{Scale}{QMatrix}(this, constant=NA, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -45,7 +45,7 @@
 	summary(m)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

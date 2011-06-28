@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAlphabet.Process}
 \alias{getAlphabet.Process}
 \alias{Process.getAlphabet}
-\alias{getAlphabet.Process}
 \alias{getAlphabet,Process-method}
-
 
  \title{Get the Alphabet object associated with a given Process object}
 
@@ -19,7 +17,9 @@
 	Get the Alphabet object associated with a given Process object.
  }
 
- \usage{\method{getAlphabet}{Process}(this, ...)}
+ \usage{
+\method{getAlphabet}{Process}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -39,7 +39,7 @@
 	p$alphabet
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

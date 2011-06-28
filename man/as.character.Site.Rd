@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{as.character.Site}
 \alias{as.character.Site}
 \alias{Site.as.character}
-\alias{as.character.Site}
 \alias{as.character,Site-method}
-
 
  \title{Get the character representation of a Site object}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{as.character}{Site}(x, ...)}
+ \usage{
+\method{as.character}{Site}(x, ...)
+}
 
  \arguments{
  	\item{x}{A Site object.}
@@ -40,7 +40,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

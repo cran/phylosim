@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setSizes.DiscreteDeletor}
 \alias{setSizes.DiscreteDeletor}
 \alias{DiscreteDeletor.setSizes}
-\alias{setSizes.DiscreteDeletor}
 \alias{setSizes,DiscreteDeletor-method}
-
 
  \title{Set the sizes of the proposed deletions}
 
@@ -21,7 +19,9 @@
 	The provided numeric vector is rounded.
  }
 
- \usage{\method{setSizes}{DiscreteDeletor}(this, value, ...)}
+ \usage{
+\method{setSizes}{DiscreteDeletor}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A DiscreteDeletor object.}
@@ -45,7 +45,7 @@
 	d$sizes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{DiscreteDeletor}}.

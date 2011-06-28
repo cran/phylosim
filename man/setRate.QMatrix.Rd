@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRate.QMatrix}
 \alias{setRate.QMatrix}
 \alias{QMatrix.setRate}
-\alias{setRate.QMatrix}
 \alias{setRate,QMatrix-method}
-
 
  \title{Set an unscaled rate in a QMatrix object}
 
@@ -24,7 +22,9 @@
 
  }
 
- \usage{\method{setRate}{QMatrix}(this, name=NA, value, from=NA, to=NA, scale=TRUE, diag=TRUE, guess.equ=TRUE, ...)}
+ \usage{
+\method{setRate}{QMatrix}(this, name=NA, value, from=NA, to=NA, scale=TRUE, diag=TRUE, guess.equ=TRUE, ...)
+}
 
  \arguments{
        \item{this}{A QMatrix object.}
@@ -58,7 +58,7 @@
        getRate(m,from="0",to="1")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{QMatrix}}.

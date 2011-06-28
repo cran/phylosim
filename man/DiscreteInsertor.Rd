@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -42,7 +42,9 @@ extends \link{GeneralInsertor}\cr
 
  }
      
- \usage{DiscreteInsertor(name="Anonymous", rate=NA, sizes=NA, probs=NA, ...)}
+ \usage{
+DiscreteInsertor(name="Anonymous", rate=NA, sizes=NA, probs=NA, ...)
+}
      
  \arguments{
        \item{name}{The name of the object.}
@@ -121,7 +123,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
        sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        GeneralInsertor ContinuousInsertor GeneralInDel

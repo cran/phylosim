@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setSymbols.Alphabet}
 \alias{setSymbols.Alphabet}
 \alias{Alphabet.setSymbols}
-\alias{setSymbols.Alphabet}
 \alias{setSymbols,Alphabet-method}
-
 
  \title{Specify a new symbol set for an Alphabet object}
 
@@ -19,7 +17,9 @@
 	Specify a new symbol set for an Alphabet object.
  }
 
- \usage{\method{setSymbols}{Alphabet}(this, set, ...)}
+ \usage{
+\method{setSymbols}{Alphabet}(this, set, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -46,7 +46,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

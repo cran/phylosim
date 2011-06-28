@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{checkConsistency.T92}
 \alias{checkConsistency.T92}
 \alias{T92.checkConsistency}
-\alias{checkConsistency.T92}
 \alias{checkConsistency,T92-method}
-
 
  \title{Check object consistency}
 
@@ -19,7 +17,9 @@
 		Check object consistency.
  }
 
- \usage{\method{checkConsistency}{T92}(this, ...)}
+ \usage{
+\method{checkConsistency}{T92}(this, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -32,7 +32,7 @@
 		an error otherwise.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{T92}}.

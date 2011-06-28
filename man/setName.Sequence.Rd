@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setName.Sequence}
 \alias{setName.Sequence}
 \alias{Sequence.setName}
-\alias{setName.Sequence}
 \alias{setName,Sequence-method}
-
 
  \title{Set the name of a Sequence object}
 
@@ -19,7 +17,9 @@
 	Set the name of a Sequence object.
  }
 
- \usage{\method{setName}{Sequence}(this, new.name, ...)}
+ \usage{
+\method{setName}{Sequence}(this, new.name, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -44,7 +44,7 @@
 	s$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

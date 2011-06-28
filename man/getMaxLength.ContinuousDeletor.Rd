@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getMaxLength.ContinuousDeletor}
 \alias{getMaxLength.ContinuousDeletor}
 \alias{ContinuousDeletor.getMaxLength}
-\alias{getMaxLength.ContinuousDeletor}
 \alias{getMaxLength,ContinuousDeletor-method}
-
 
  \title{Get the maximum length}
 
@@ -19,7 +17,9 @@
 	Get the maximum length.
  }
 
- \usage{\method{getMaxLength}{ContinuousDeletor}(this, ...)}
+ \usage{
+\method{getMaxLength}{ContinuousDeletor}(this, ...)
+}
 
  \arguments{
  	\item{this}{A ContinuousDeletor object.}
@@ -45,7 +45,7 @@
 	proposeLength(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{ContinuousDeletor}}.

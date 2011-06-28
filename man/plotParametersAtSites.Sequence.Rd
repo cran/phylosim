@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plotParametersAtSites.Sequence}
 \alias{plotParametersAtSites.Sequence}
 \alias{Sequence.plotParametersAtSites}
-\alias{plotParametersAtSites.Sequence}
 \alias{plotParametersAtSites,Sequence-method}
-
 
  \title{Plot the value of a site-process specifc paramter for a collection of Site objects aggregated by a Sequence object}
 
@@ -21,7 +19,9 @@
 	in the index vector.
  }
 
- \usage{\method{plotParametersAtSites}{Sequence}(this, process, id, index, ...)}
+ \usage{
+\method{plotParametersAtSites}{Sequence}(this, process, id, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -45,7 +45,7 @@
 	plotParametersAtSites(s,p,"rate.multiplier")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Site Process Sequence

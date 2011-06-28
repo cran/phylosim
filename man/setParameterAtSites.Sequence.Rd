@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setParameterAtSites.Sequence}
 \alias{setParameterAtSites.Sequence}
 \alias{Sequence.setParameterAtSites}
-\alias{setParameterAtSites.Sequence}
 \alias{setParameterAtSites,Sequence-method}
-
 
  \title{Set the values of a site-process specific paramater for a process and a collection of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Set the values of a site-process specific paramater for a process and a collection of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{setParameterAtSites}{Sequence}(this, process, id, value, index, ...)}
+ \usage{
+\method{setParameterAtSites}{Sequence}(this, process, id, value, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -38,7 +38,8 @@
 	# create a sequence, attach a process
 	p<-K80()
 	s<-Sequence(length=6,alphabets=list(NucleotideAlphabet()),processes=list(list(p)))
-	# set a new pattern of rate multipliers in the range 1:3, the default value is 1.0 by the way
+	# set a new pattern of rate multipliers in the range 1:3,
+   # the default value is 1.0 by the way
 	setParameterAtSites(s,p,"rate.multiplier",c(2,3),1:3)
 	# get rate multipliers
 	getParameterAtSites(s,p,"rate.multiplier")
@@ -48,7 +49,7 @@
 	getParameterAtSites(s,p,"rate.multiplier")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Site Process For more information see \code{\link{Sequence}}.

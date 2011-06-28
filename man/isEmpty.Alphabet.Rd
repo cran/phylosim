@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{isEmpty.Alphabet}
 \alias{isEmpty.Alphabet}
 \alias{Alphabet.isEmpty}
-\alias{isEmpty.Alphabet}
 \alias{isEmpty,Alphabet-method}
-
 
  \title{Check if the symbol set is empty}
 
@@ -19,7 +17,9 @@
 	Check if the symbol set is empty.
  }
 
- \usage{\method{isEmpty}{Alphabet}(this, ...)}
+ \usage{
+\method{isEmpty}{Alphabet}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -41,7 +41,7 @@
 	isEmpty(a)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

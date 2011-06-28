@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plot.DiscreteInsertor}
 \alias{plot.DiscreteInsertor}
 \alias{DiscreteInsertor.plot}
-\alias{plot.DiscreteInsertor}
 \alias{plot,DiscreteInsertor-method}
-
 
  \title{Plot the insertion length distribution}
 
@@ -19,7 +17,9 @@
        Plot the insertion length distribution.
  }
 
- \usage{\method{plot}{DiscreteInsertor}(x, ...)}
+ \usage{
+\method{plot}{DiscreteInsertor}(x, ...)
+}
 
  \arguments{
        \item{x}{A DiscreteInsertor object.}
@@ -40,7 +40,7 @@
        plot(i)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{DiscreteInsertor}}.

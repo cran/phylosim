@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getProposeBy.GeneralInDel}
 \alias{getProposeBy.GeneralInDel}
 \alias{GeneralInDel.getProposeBy}
-\alias{getProposeBy.GeneralInDel}
 \alias{getProposeBy,GeneralInDel-method}
-
  \alias{getProposeBy.GeneralInsertor}
 
  \title{Get the function used for proposing indel lengths}
@@ -20,7 +18,9 @@
 	Get the function used for proposing indel lengths.
  }
 
- \usage{\method{getProposeBy}{GeneralInDel}(this, ...)}
+ \usage{
+\method{getProposeBy}{GeneralInDel}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInDel object.}
@@ -43,7 +43,7 @@
 	o$proposeBy
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInDel}}.

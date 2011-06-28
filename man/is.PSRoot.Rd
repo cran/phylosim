@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,7 +16,9 @@
 	Check if an object inherits from PSRoot.
  }
 
- \usage{\method{is.PSRoot}{default}(this, ...)}
+ \usage{
+\method{is.PSRoot}{default}(this, ...)
+}
 
  \arguments{
  	\item{this}{An object.}
@@ -38,7 +40,7 @@
 	is.PSRoot(x)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

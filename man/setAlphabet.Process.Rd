@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setAlphabet.Process}
 \alias{setAlphabet.Process}
 \alias{Process.setAlphabet}
-\alias{setAlphabet.Process}
 \alias{setAlphabet,Process-method}
-
 
  \title{Assotiate an Alphabet object with a Process object}
 
@@ -19,7 +17,9 @@
 	Assotiate an Alphabet object with a Process object.
  }
 
- \usage{\method{setAlphabet}{Process}(this, new.alphabet, ...)}
+ \usage{
+\method{setAlphabet}{Process}(this, new.alphabet, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -43,7 +43,7 @@
 	p$alphabet
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

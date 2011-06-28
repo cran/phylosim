@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{saveAlignment.PhyloSim}
 \alias{saveAlignment.PhyloSim}
 \alias{PhyloSim.saveAlignment}
-\alias{saveAlignment.PhyloSim}
 \alias{saveAlignment,PhyloSim-method}
-
 
  \title{Save the alignment stored in a PhyloSim object in a Fasta file}
 
@@ -19,7 +17,9 @@
 	Save the alignment stored in a PhyloSim object in a Fasta file.
  }
 
- \usage{\method{saveAlignment}{PhyloSim}(this, file="phylosim.fas", skip.internal=FALSE, paranoid=FALSE, ...)}
+ \usage{
+\method{saveAlignment}{PhyloSim}(this, file="phylosim.fas", skip.internal=FALSE, paranoid=FALSE, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -53,7 +53,7 @@
 	unlink(file);
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

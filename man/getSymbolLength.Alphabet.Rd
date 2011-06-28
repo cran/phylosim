@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSymbolLength.Alphabet}
 \alias{getSymbolLength.Alphabet}
 \alias{Alphabet.getSymbolLength}
-\alias{getSymbolLength.Alphabet}
 \alias{getSymbolLength,Alphabet-method}
-
 
  \title{Get the length of the symbols in a given alphabet object}
 
@@ -19,7 +17,9 @@
 	Get the length of the symbols in a given alphabet object.
  }
 
- \usage{\method{getSymbolLength}{Alphabet}(this, ...)}
+ \usage{
+\method{getSymbolLength}{Alphabet}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -41,7 +41,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

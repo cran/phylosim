@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setOmegas.CodonSequence}
 \alias{setOmegas.CodonSequence}
 \alias{CodonSequence.setOmegas}
-\alias{setOmegas.CodonSequence}
 \alias{setOmegas,CodonSequence-method}
-
  \alias{setOmegas.Sequence}
 
  \title{Set the omegas for a collection of sites}
@@ -20,7 +18,9 @@
 	Set the omegas for a collection of sites.
  }
 
- \usage{\method{setOmegas}{CodonSequence}(this, process, value, index, ...)}
+ \usage{
+\method{setOmegas}{CodonSequence}(this, process, value, index, ...)
+}
 
  \arguments{
  	\item{this}{A CodonSequence object.}
@@ -46,7 +46,7 @@
 	getOmegas(s,p,c(1:3,10,20))
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonSequence}}.

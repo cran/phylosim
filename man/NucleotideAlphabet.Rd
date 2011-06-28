@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -37,7 +37,9 @@ extends \link{Alphabet}\cr
 
  }
 
- \usage{NucleotideAlphabet(...)}
+ \usage{
+NucleotideAlphabet(...)
+}
 
  \arguments{
  	\item{...}{Not used.}
@@ -66,7 +68,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	summary(b)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Alphabet

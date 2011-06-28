@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{sampleStates.Sequence}
 \alias{sampleStates.Sequence}
 \alias{Sequence.sampleStates}
-\alias{sampleStates.Sequence}
 \alias{sampleStates,Sequence-method}
-
 
  \title{Sample the states for a collection of Site objects aggregated by a Sequence object}
 
@@ -27,7 +25,9 @@
 	substitution process (object inheriting from GeneralSubstitution) attached.
  }
 
- \usage{\method{sampleStates}{Sequence}(this, index, ...)}
+ \usage{
+\method{sampleStates}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -58,7 +58,7 @@
 	s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	sampleState.GeneralSubstitution GeneralSubstitution

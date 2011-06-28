@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{Perform.Event}
 \alias{Perform.Event}
 \alias{Event.Perform}
-\alias{Perform.Event}
 \alias{Perform,Event-method}
-
 
  \title{Perform an event}
 
@@ -27,7 +25,9 @@
 	only once for every Event object.
  }
 
- \usage{\method{Perform}{Event}(this, ...)}
+ \usage{
+\method{Perform}{Event}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -42,14 +42,16 @@
 	# create a sequence and attach a process
 	s<-NucleotideSequence(string="ATGC",processes=list(list(JC69())))
 	# get the first active event from the first site
-	e<-getEvents(s,1)[[1]]	# only Sequence methods set .position, so s$sites[[1]]$events[[1]] wouldn't work.
+   #only Sequence methods set .position,
+   #so s$sites[[1]]$events[[1]] wouldn't work.
+	e<-getEvents(s,1)[[1]]
 	# perform e
 	Perform(e)
 	# check the effect of the event on s
 	s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

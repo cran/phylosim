@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSiteSpecificParamList.Process}
 \alias{getSiteSpecificParamList.Process}
 \alias{Process.getSiteSpecificParamList}
-\alias{getSiteSpecificParamList.Process}
 \alias{getSiteSpecificParamList,Process-method}
-
 
  \title{Get the list of site specific parameters of a Process object}
 
@@ -20,7 +18,9 @@
 	Every site specific parameter is a list storing the name, the identifier and the type of the given parameter.
  }
 
- \usage{\method{getSiteSpecificParamList}{Process}(this, ...)}
+ \usage{
+\method{getSiteSpecificParamList}{Process}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -40,7 +40,7 @@
 	p$siteSpecificParamList
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

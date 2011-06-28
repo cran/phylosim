@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSite.Event}
 \alias{getSite.Event}
 \alias{Event.getSite}
-\alias{getSite.Event}
 \alias{getSite,Event-method}
-
 
  \title{Get the Site object associated with an Event object}
 
@@ -19,7 +17,9 @@
 	Get the Site object associated with an Event object.
  }
 
- \usage{\method{getSite}{Event}(this, ...)}
+ \usage{
+\method{getSite}{Event}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -41,7 +41,7 @@
 	e$site
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

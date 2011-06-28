@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setName.Event}
 \alias{setName.Event}
 \alias{Event.setName}
-\alias{setName.Event}
 \alias{setName,Event-method}
-
 
  \title{Set the name of an Event object}
 
@@ -19,7 +17,9 @@
 	Set the name of an Event object.
  }
 
- \usage{\method{setName}{Event}(this, new.name, ...)}
+ \usage{
+\method{setName}{Event}(this, new.name, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -43,7 +43,7 @@
 	e$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -47,7 +47,9 @@ extends \link{Process}\cr
 
  }
 
- \usage{GeneralSubstitution(name="Anonymous", alphabet=NA, rate.list=NA, equ.dist=NA, ...)}
+ \usage{
+GeneralSubstitution(name="Anonymous", alphabet=NA, rate.list=NA, equ.dist=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the object.}
@@ -151,7 +153,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	hasUndefinedRate(gsc)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Process QMatrix Event Site GeneralIndel GTR WAG

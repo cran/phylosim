@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setDeletionTolerance.Sequence}
 \alias{setDeletionTolerance.Sequence}
 \alias{Sequence.setDeletionTolerance}
-\alias{setDeletionTolerance.Sequence}
 \alias{setDeletionTolerance,Sequence-method}
-
 
  \title{Set the deletion tolerance site-process specific parameter for a collection of Site objects aggregated by a Sequence object}
 
@@ -21,7 +19,9 @@
 	See \code{setParameterAtSites.Sequence} for more details.
  }
 
- \usage{\method{setDeletionTolerance}{Sequence}(this, process, value, index, ...)}
+ \usage{
+\method{setDeletionTolerance}{Sequence}(this, process, value, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -36,7 +36,7 @@
  }
 
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	setParameterAtSites.Sequence

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBaseFreqs.HKY}
 \alias{getBaseFreqs.HKY}
 \alias{HKY.getBaseFreqs}
-\alias{getBaseFreqs.HKY}
 \alias{getBaseFreqs,HKY-method}
-
 
  \title{Get the base frequency parameters}
 
@@ -22,7 +20,9 @@
 	in the NucleotideAlphabet objects.
  }
 
- \usage{\method{getBaseFreqs}{HKY}(this, ...)}
+ \usage{
+\method{getBaseFreqs}{HKY}(this, ...)
+}
 
  \arguments{
  	\item{this}{An HKY object.}
@@ -46,7 +46,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{HKY}}.

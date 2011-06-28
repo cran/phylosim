@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAlphabet.Site}
 \alias{getAlphabet.Site}
 \alias{Site.getAlphabet}
-\alias{getAlphabet.Site}
 \alias{getAlphabet,Site-method}
-
 
  \title{Get the Alphabet object attached to a Site object}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{getAlphabet}{Site}(this, ...)}
+ \usage{
+\method{getAlphabet}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -45,7 +45,7 @@
 	s$alphabet
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{isAttached.Site}
 \alias{isAttached.Site}
 \alias{Site.isAttached}
-\alias{isAttached.Site}
 \alias{isAttached,Site-method}
-
 
  \title{Check whether a Process object is attached to a Site object}
 
@@ -19,7 +17,9 @@
 	Check whether a Process object is attached to a Site object.
  }
 
- \usage{\method{isAttached}{Site}(this, process, ...)}
+ \usage{
+\method{isAttached}{Site}(this, process, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -43,7 +43,7 @@
 	isAttached(s,p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Site Process attachProcess detachProcess getProcesses setProcesses

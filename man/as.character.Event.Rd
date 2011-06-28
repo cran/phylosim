@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{as.character.Event}
 \alias{as.character.Event}
 \alias{Event.as.character}
-\alias{as.character.Event}
 \alias{as.character,Event-method}
-
 
  \title{Get the character representation of an Event object}
 
@@ -22,7 +20,9 @@
 	"event name" ("event rate") <-- "generator process id", like \code{"A->T (0.333333333333333) <-- JC69:Anonymous:44780832"}.
  }
 
- \usage{\method{as.character}{Event}(x, ...)}
+ \usage{
+\method{as.character}{Event}(x, ...)
+}
 
  \arguments{
  	\item{x}{An Event object.}
@@ -44,7 +44,7 @@
 	e
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

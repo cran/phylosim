@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plusGamma.Sequence}
 \alias{plusGamma.Sequence}
 \alias{Sequence.plusGamma}
-\alias{plusGamma.Sequence}
 \alias{plusGamma,Sequence-method}
-
 
  \title{Sample the rate multiplier parameters of a Process from a Gamma distribution for a collection of Site objects aggregated by a Sequence object}
 
@@ -28,7 +26,9 @@
 	rates over sites: approximate methods - Journal of Molecular Evolution 39:306-314 \url{http://dx.doi.org/10.1007/BF00160154}
  }
 
- \usage{\method{plusGamma}{Sequence}(this, process, shape, index, ncat=4, ...)}
+ \usage{
+\method{plusGamma}{Sequence}(this, process, shape, index, ncat=4, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -63,7 +63,7 @@
 	getRateMultipliers(s,p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

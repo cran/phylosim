@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSequences.PhyloSim}
 \alias{getSequences.PhyloSim}
 \alias{PhyloSim.getSequences}
-\alias{getSequences.PhyloSim}
 \alias{getSequences,PhyloSim-method}
-
 
  \title{Gets all the Sequence objects associated with the nodes of a phylo object aggregated by a PhyloSim object}
 
@@ -21,7 +19,9 @@
 	The order of the Sequence objects in the returned list reflects the identifiers of the associated nodes.
  }
 
- \usage{\method{getSequences}{PhyloSim}(this, ...)}
+ \usage{
+\method{getSequences}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -50,7 +50,7 @@
 	sim$sequences[[3]]
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

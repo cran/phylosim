@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -36,7 +36,12 @@ extends \link{Sequence}\cr
 
  }
 
- \usage{CodonSequence(name=NA, string=NA, length=NA, table.id=1, processes=NA, ancestral.obj=NA, ...)}
+ \usage{
+CodonSequence(
+    name=NA, string=NA, length=NA, 
+    table.id=1, processes=NA, ancestral.obj=NA, ...
+    )
+}
 
  \arguments{
        \item{name}{Name of the Sequence object.}
@@ -87,7 +92,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
        s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonSequence}}.

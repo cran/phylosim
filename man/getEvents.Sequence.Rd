@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEvents.Sequence}
 \alias{getEvents.Sequence}
 \alias{Sequence.getEvents}
-\alias{getEvents.Sequence}
 \alias{getEvents,Sequence-method}
-
 
  \title{Get the list of active Event objects for a set of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Get the list of active Event objects for a set of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{getEvents}{Sequence}(this, index, ...)}
+ \usage{
+\method{getEvents}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -33,14 +33,18 @@
 
  \examples{
 	# create a sequence with a process attached
-	s<-Sequence(string="ATGC",alphabets=list(NucleotideAlphabet()),processes=list(list(JC69())))
+	s<-Sequence(
+               string="ATGC",
+               alphabets=list(NucleotideAlphabet()),
+               processes=list(list(JC69()))
+               )
 	# get the active events from range 1:3
 	getEvents(s,1:3)
 	# get all active events via virtual field
 	s$events
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

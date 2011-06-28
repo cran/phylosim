@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{checkConsistency.AminoAcidSubst}
 \alias{checkConsistency.AminoAcidSubst}
 \alias{AminoAcidSubst.checkConsistency}
-\alias{checkConsistency.AminoAcidSubst}
 \alias{checkConsistency,AminoAcidSubst-method}
-
 
  \title{Check object consistency}
 
@@ -19,7 +17,9 @@
 		Check object consistency.
  }
 
- \usage{\method{checkConsistency}{AminoAcidSubst}(this, ...)}
+ \usage{
+\method{checkConsistency}{AminoAcidSubst}(this, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -32,7 +32,7 @@
 		an error otherwise.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{AminoAcidSubst}}.

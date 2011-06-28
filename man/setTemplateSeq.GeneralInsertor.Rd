@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setTemplateSeq.GeneralInsertor}
 \alias{setTemplateSeq.GeneralInsertor}
 \alias{GeneralInsertor.setTemplateSeq}
-\alias{setTemplateSeq.GeneralInsertor}
 \alias{setTemplateSeq,GeneralInsertor-method}
-
 
  \title{Set the template sequence object}
 
@@ -21,7 +19,9 @@
 	to generate insert sequences.
  }
 
- \usage{\method{setTemplateSeq}{GeneralInsertor}(this, value, ...)}
+ \usage{
+\method{setTemplateSeq}{GeneralInsertor}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInsertor object.}
@@ -54,7 +54,7 @@
 	generateInsert(i)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInsertor}}.

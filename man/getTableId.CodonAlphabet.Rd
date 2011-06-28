@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTableId.CodonAlphabet}
 \alias{getTableId.CodonAlphabet}
 \alias{CodonAlphabet.getTableId}
-\alias{getTableId.CodonAlphabet}
 \alias{getTableId,CodonAlphabet-method}
-
 
  \title{Get the genetic code id}
 
@@ -19,7 +17,9 @@
 	Get the genetic code id.
  }
 
- \usage{\method{getTableId}{CodonAlphabet}(this, ...)}
+ \usage{
+\method{getTableId}{CodonAlphabet}(this, ...)
+}
 
  \arguments{
  	\item{this}{A CodonAlphabet object.}
@@ -39,7 +39,7 @@
 	a$tableId
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonAlphabet}}.

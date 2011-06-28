@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setProcesses.Sequence}
 \alias{setProcesses.Sequence}
 \alias{Sequence.setProcesses}
-\alias{setProcesses.Sequence}
 \alias{setProcesses,Sequence-method}
-
 
  \title{Specify a set of Process objects to be attached to a set of Site objects aggregated by a Sequence object}
 
@@ -22,7 +20,9 @@
 	are detached, so specifying an empty list will detach all processes.
  }
 
- \usage{\method{setProcesses}{Sequence}(this, value, index, ...)}
+ \usage{
+\method{setProcesses}{Sequence}(this, value, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -52,7 +52,7 @@
 	s$processes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

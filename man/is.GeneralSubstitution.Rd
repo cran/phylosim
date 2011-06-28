@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,7 +16,9 @@
        Check if an object is an instance of the GeneralSubstitution class.
  }
 
- \usage{\method{is.GeneralSubstitution}{default}(this, ...)}
+ \usage{
+\method{is.GeneralSubstitution}{default}(this, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -36,7 +38,7 @@
 	is.GeneralSubstitution(pp)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{GeneralSubstitution}}.

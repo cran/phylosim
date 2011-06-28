@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRate.GeneralInDel}
 \alias{setRate.GeneralInDel}
 \alias{GeneralInDel.setRate}
-\alias{setRate.GeneralInDel}
 \alias{setRate,GeneralInDel-method}
-
 
  \title{Set the general rate}
 
@@ -19,7 +17,9 @@
 	Set the general rate.
  }
 
- \usage{\method{setRate}{GeneralInDel}(this, value, ...)}
+ \usage{
+\method{setRate}{GeneralInDel}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInDel object.}
@@ -43,7 +43,7 @@
 	o$rate
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInDel}}.

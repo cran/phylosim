@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,7 +44,9 @@ extends \link{GeneralSubstitution}\cr
  39:105-111 \url{http://bit.ly/aFO0cq}
  }
 
- \usage{UNREST(name="Anonymous", rate.list=NA, equ.dist=NA, ...)}
+ \usage{
+UNREST(name="Anonymous", rate.list=NA, equ.dist=NA, ...)
+}
 
  \arguments{
  	\item{name}{Object name.}
@@ -105,7 +107,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GeneralSubstitution GTR

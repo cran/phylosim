@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -60,7 +60,9 @@ extends \link{Alphabet}\cr
 
  }
 
- \usage{CodonAlphabet(table.id=1, ...)}
+ \usage{
+CodonAlphabet(table.id=1, ...)
+}
 
  \arguments{
  	\item{table.id}{The identifier of the genetic code table.}
@@ -102,7 +104,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	summary(a)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonAlphabet}}.

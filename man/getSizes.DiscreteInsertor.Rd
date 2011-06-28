@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSizes.DiscreteInsertor}
 \alias{getSizes.DiscreteInsertor}
 \alias{DiscreteInsertor.getSizes}
-\alias{getSizes.DiscreteInsertor}
 \alias{getSizes,DiscreteInsertor-method}
-
 
  \title{Get the sizes of the proposed insertions}
 
@@ -19,7 +17,9 @@
        Get the sizes of the proposed insertions.
  }
 
- \usage{\method{getSizes}{DiscreteInsertor}(this, ...)}
+ \usage{
+\method{getSizes}{DiscreteInsertor}(this, ...)
+}
 
  \arguments{
        \item{this}{A DiscreteInsertor object.}
@@ -42,7 +42,7 @@
        i$sizes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{DiscreteInsertor}}.

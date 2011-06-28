@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setState.Site}
 \alias{setState.Site}
 \alias{Site.setState}
-\alias{setState.Site}
 \alias{setState,Site-method}
-
 
  \title{Set the state of a Site object}
 
@@ -19,7 +17,9 @@
 	Set the state of a Site object.
  }
 
- \usage{\method{setState}{Site}(this, new.state, ...)}
+ \usage{
+\method{setState}{Site}(this, new.state, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -45,7 +45,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

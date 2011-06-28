@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getId.QMatrix}
 \alias{getId.QMatrix}
 \alias{QMatrix.getId}
-\alias{getId.QMatrix}
 \alias{getId,QMatrix-method}
-
 
  \title{Get the unique identifier of a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Get the unique identifier of a QMatrix object.
  }
 
- \usage{\method{getId}{QMatrix}(this, ...)}
+ \usage{
+\method{getId}{QMatrix}(this, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -39,7 +39,7 @@
 	m$id
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

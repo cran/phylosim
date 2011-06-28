@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBigRate.Sequence}
 \alias{getBigRate.Sequence}
 \alias{Sequence.getBigRate}
-\alias{getBigRate.Sequence}
 \alias{getBigRate,Sequence-method}
-
 
  \title{Get the sum of all active event rates from a Sequence object}
 
@@ -21,7 +19,9 @@
 	It basically returns the last element of the cumulative site rates vector.
  }
 
- \usage{\method{getBigRate}{Sequence}(this, ...)}
+ \usage{
+\method{getBigRate}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -44,7 +44,7 @@
 	s$bigRate
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

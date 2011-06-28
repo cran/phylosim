@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getName.Process}
 \alias{getName.Process}
 \alias{Process.getName}
-\alias{getName.Process}
 \alias{getName,Process-method}
-
 
  \title{Get the name of a Process object}
 
@@ -19,7 +17,9 @@
 	Get the name of a Process object.
  }
 
- \usage{\method{getName}{Process}(this, ...)}
+ \usage{
+\method{getName}{Process}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -39,7 +39,7 @@
 	p$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

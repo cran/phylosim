@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRootNode.PhyloSim}
 \alias{getRootNode.PhyloSim}
 \alias{PhyloSim.getRootNode}
-\alias{getRootNode.PhyloSim}
 \alias{getRootNode,PhyloSim-method}
-
 
  \title{Get the identifier of the root node from a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the identifier of the root node from a PhyloSim object.
  }
 
- \usage{\method{getRootNode}{PhyloSim}(this, ...)}
+ \usage{
+\method{getRootNode}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -39,7 +39,7 @@
 	sim$rootNode
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

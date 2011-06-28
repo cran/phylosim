@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{attachProcess.Site}
 \alias{attachProcess.Site}
 \alias{Site.attachProcess}
-\alias{attachProcess.Site}
 \alias{attachProcess,Site-method}
-
 
  \title{Attach a Process object to a Site object}
 
@@ -27,7 +25,9 @@
 
  }
 
- \usage{\method{attachProcess}{Site}(this, process, ...)}
+ \usage{
+\method{attachProcess}{Site}(this, process, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -52,7 +52,7 @@
 	p$writeProtected
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Site Process detachProcess setProcesses getProcesses isAttached

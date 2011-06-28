@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setPhylo.PhyloSim}
 \alias{setPhylo.PhyloSim}
 \alias{PhyloSim.setPhylo}
-\alias{setPhylo.PhyloSim}
 \alias{setPhylo,PhyloSim-method}
-
 
  \title{Set the phylo object for a PhyloSim object}
 
@@ -21,7 +19,9 @@
 	The internal structure of the provided phylo object is reordered in a cladeweise fashion.
  }
 
- \usage{\method{setPhylo}{PhyloSim}(this, value, ...)}
+ \usage{
+\method{setPhylo}{PhyloSim}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -46,7 +46,7 @@
 	sim$tree;
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	The PhyloSim class, the \pkg{ape} package.

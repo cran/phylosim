@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEdge.PhyloSim}
 \alias{getEdge.PhyloSim}
 \alias{PhyloSim.getEdge}
-\alias{getEdge.PhyloSim}
 \alias{getEdge,PhyloSim-method}
-
 
  \title{Get and edge from the edge matrix}
 
@@ -19,7 +17,9 @@
 	Get and edge from the edge matrix.
  }
 
- \usage{\method{getEdge}{PhyloSim}(this, number=NA, ...)}
+ \usage{
+\method{getEdge}{PhyloSim}(this, number=NA, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -38,7 +38,7 @@
 	getEdge(sim,3)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

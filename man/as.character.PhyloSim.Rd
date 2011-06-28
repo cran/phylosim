@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{as.character.PhyloSim}
 \alias{as.character.PhyloSim}
 \alias{PhyloSim.as.character}
-\alias{as.character.PhyloSim}
 \alias{as.character,PhyloSim-method}
-
 
  \title{Return the character representation of a PhyloSim object}
 
@@ -21,7 +19,9 @@
 	The character representation is the identifier of the PhyloSim object as returned by the \code{getId} method.
  }
 
- \usage{\method{as.character}{PhyloSim}(x, ...)}
+ \usage{
+\method{as.character}{PhyloSim}(x, ...)
+}
 
  \arguments{
  	\item{x}{A PhyloSim object.}
@@ -39,7 +39,7 @@
 	as.character(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

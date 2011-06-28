@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRateParamList.F84}
 \alias{setRateParamList.F84}
 \alias{F84.setRateParamList}
-\alias{setRateParamList.F84}
 \alias{setRateParamList,F84-method}
-
 
  \title{Set the rate parameters}
 
@@ -21,7 +19,9 @@
        The rate parameters are: Kappa.
  }
 
- \usage{\method{setRateParamList}{F84}(this, value, ...)}
+ \usage{
+\method{setRateParamList}{F84}(this, value, ...)
+}
 
  \arguments{
        \item{this}{A F84 object.}
@@ -46,7 +46,7 @@
        summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{F84}}.

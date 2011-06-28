@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{proposeLength.GeneralInDel}
 \alias{proposeLength.GeneralInDel}
 \alias{GeneralInDel.proposeLength}
-\alias{proposeLength.GeneralInDel}
 \alias{proposeLength,GeneralInDel-method}
-
 
  \title{Propose indel length}
 
@@ -21,7 +19,9 @@
 	This method simply calls the function returned by the \code{getProposeBy} method.
  }
 
- \usage{\method{proposeLength}{GeneralInDel}(this, ...)}
+ \usage{
+\method{proposeLength}{GeneralInDel}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInDel object.}
@@ -40,7 +40,7 @@
 	proposeLength(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInDel}}.

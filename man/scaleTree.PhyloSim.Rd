@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{scaleTree.PhyloSim}
 \alias{scaleTree.PhyloSim}
 \alias{PhyloSim.scaleTree}
-\alias{scaleTree.PhyloSim}
 \alias{scaleTree,PhyloSim-method}
-
 
  \title{Scale the branch lengths of a phylo object aggragted by a PhyloSim object}
 
@@ -20,7 +18,9 @@
 	This method multiples all the edge lengths by the specified factor.
  }
 
- \usage{\method{scaleTree}{PhyloSim}(this, factor, ...)}
+ \usage{
+\method{scaleTree}{PhyloSim}(this, factor, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -43,7 +43,7 @@
 	sim$treeLength
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

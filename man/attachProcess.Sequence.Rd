@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{attachProcess.Sequence}
 \alias{attachProcess.Sequence}
 \alias{Sequence.attachProcess}
-\alias{attachProcess.Sequence}
 \alias{attachProcess,Sequence-method}
-
 
  \title{Attach a Process object to a set of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Attach a Process object to a set of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{attachProcess}{Sequence}(this, process, index, ...)}
+ \usage{
+\method{attachProcess}{Sequence}(this, process, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -45,7 +45,7 @@
 	s$processes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

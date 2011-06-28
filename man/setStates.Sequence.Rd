@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setStates.Sequence}
 \alias{setStates.Sequence}
 \alias{Sequence.setStates}
-\alias{setStates.Sequence}
 \alias{setStates,Sequence-method}
-
 
  \title{Set the states for a set of Site objects aggregated by a Sequence object}
 
@@ -20,7 +18,9 @@
 	The value vector is recycled, which is useful when creating repeated patterns.
  }
 
- \usage{\method{setStates}{Sequence}(this, value, index, ...)}
+ \usage{
+\method{setStates}{Sequence}(this, value, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -49,7 +49,7 @@
 	s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,7 +96,9 @@ extends \link{PSRoot}\cr
 	J. Phys. Chem. 81 (25):2340-2361 \url{http://dx.doi.org/10.1021/j100540a008}
  }
 
- \usage{PhyloSim(phylo=NA, root.seq=NA, name=NA, log.file=NA, log.level=-1, ...)}
+ \usage{
+PhyloSim(phylo=NA, root.seq=NA, name=NA, log.file=NA, log.level=-1, ...)
+}
 
  \arguments{
  	\item{phylo}{A rooted phylo object, constructed by the APE package.}
@@ -197,7 +199,8 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	## the resulting alignment matrix.
 
 	Simulate(
-		PhyloSim(phy=rcoal(3),root=NucleotideSequence(string="ATGC", proc=list(list(JC69())) ) )
+		PhyloSim(phy=rcoal(3),
+       root=NucleotideSequence(string="ATGC", proc=list(list(JC69())) ) )
 	)$alignment
 
 	# Construct a phylo object for the following
@@ -311,7 +314,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	## the GitHub repository for even more examples.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
 	\code{\link{PSRoot} \link{Alphabet} \link{AminoAcidAlphabet}

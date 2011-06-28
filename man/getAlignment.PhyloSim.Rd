@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAlignment.PhyloSim}
 \alias{getAlignment.PhyloSim}
 \alias{PhyloSim.getAlignment}
-\alias{getAlignment.PhyloSim}
 \alias{getAlignment,PhyloSim-method}
-
 
  \title{Get the alignment stored in a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the alignment stored in a PhyloSim object.
  }
 
- \usage{\method{getAlignment}{PhyloSim}(this, ...)}
+ \usage{
+\method{getAlignment}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -47,7 +47,7 @@
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

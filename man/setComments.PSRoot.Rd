@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setComments.PSRoot}
 \alias{setComments.PSRoot}
 \alias{PSRoot.setComments}
-\alias{setComments.PSRoot}
 \alias{setComments,PSRoot-method}
-
 
  \title{Set the comments associated with an object}
 
@@ -21,7 +19,9 @@
 	The comment field can contain any type of object.
  }
 
- \usage{\method{setComments}{PSRoot}(this, new_value, ...)}
+ \usage{
+\method{setComments}{PSRoot}(this, new_value, ...)
+}
 
  \arguments{
  	\item{this}{A PSRoot object.}
@@ -45,7 +45,7 @@
 	o$comments
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

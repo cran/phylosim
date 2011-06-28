@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setSiteSpecificParamList.Process}
 \alias{setSiteSpecificParamList.Process}
 \alias{Process.setSiteSpecificParamList}
-\alias{setSiteSpecificParamList.Process}
 \alias{setSiteSpecificParamList,Process-method}
-
 
  \title{Forbidden action: setting the site specific paramter list for a Process object}
 
@@ -20,7 +18,9 @@
 	Use .addSiteSpecificParameter to add new site specific paramters when implementing new processes.
  }
 
- \usage{\method{setSiteSpecificParamList}{Process}(this, value, ...)}
+ \usage{
+\method{setSiteSpecificParamList}{Process}(this, value, ...)
+}
 
  \arguments{
        \item{this}{An object.}
@@ -32,7 +32,7 @@
 	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{Process}}.

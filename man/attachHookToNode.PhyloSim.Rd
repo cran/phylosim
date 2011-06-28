@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{attachHookToNode.PhyloSim}
 \alias{attachHookToNode.PhyloSim}
 \alias{PhyloSim.attachHookToNode}
-\alias{attachHookToNode.PhyloSim}
 \alias{attachHookToNode,PhyloSim-method}
-
 
  \title{Attach a callback function to a given node of a phylo object aggregated by a PhyloSim object}
 
@@ -28,7 +26,9 @@
 	non-homogeneous sequence evolution.
  }
 
- \usage{\method{attachHookToNode}{PhyloSim}(this, node=NA, fun=NA, ...)}
+ \usage{
+\method{attachHookToNode}{PhyloSim}(this, node=NA, fun=NA, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -69,7 +69,7 @@
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

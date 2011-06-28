@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setProcess.QMatrix}
 \alias{setProcess.QMatrix}
 \alias{QMatrix.setProcess}
-\alias{setProcess.QMatrix}
 \alias{setProcess,QMatrix-method}
-
 
  \title{Assotiate a process object with a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Assotiate a process object with a QMatrix object.
  }
 
- \usage{\method{setProcess}{QMatrix}(this, value, ...)}
+ \usage{
+\method{setProcess}{QMatrix}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -49,7 +49,7 @@
 	m$process
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

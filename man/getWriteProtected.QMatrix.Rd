@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getWriteProtected.QMatrix}
 \alias{getWriteProtected.QMatrix}
 \alias{QMatrix.getWriteProtected}
-\alias{getWriteProtected.QMatrix}
 \alias{getWriteProtected,QMatrix-method}
-
 
  \title{Check if the object is write protected}
 
@@ -23,7 +21,9 @@
        Write protected objects cannot be modified through get/set methods and virtual fields.
  }
 
- \usage{\method{getWriteProtected}{QMatrix}(this, ...)}
+ \usage{
+\method{getWriteProtected}{QMatrix}(this, ...)
+}
 
  \arguments{
        \item{this}{A QMatrix object.}
@@ -35,7 +35,7 @@
  }
 
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        getWriteProtected.Process

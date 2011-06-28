@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{globalConsistencyCheck.PSRoot}
 \alias{globalConsistencyCheck.PSRoot}
 \alias{PSRoot.globalConsistencyCheck}
-\alias{globalConsistencyCheck.PSRoot}
 \alias{globalConsistencyCheck,PSRoot-method}
-
 
  \title{Check the consistency of all objects inheriting form PSRoot in the current environment}
 
@@ -22,7 +20,9 @@
 	which can take a lots of time. Prints the results of the checks as text.
  }
 
- \usage{\method{globalConsistencyCheck}{PSRoot}(...)}
+ \usage{
+\method{globalConsistencyCheck}{PSRoot}(...)
+}
 
  \arguments{
  	\item{...}{Not used.}
@@ -41,7 +41,7 @@
 	PSRoot$globalConsistencyCheck();
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

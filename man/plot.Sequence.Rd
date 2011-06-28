@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plot.Sequence}
 \alias{plot.Sequence}
 \alias{Sequence.plot}
-\alias{plot.Sequence}
 \alias{plot,Sequence-method}
-
 
  \title{Plot the total site rates for a collection of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Plot the total site rates for a collection of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{plot}{Sequence}(x, index=NA, ...)}
+ \usage{
+\method{plot}{Sequence}(x, index=NA, ...)
+}
 
  \arguments{
  	\item{x}{A Sequence object.}
@@ -40,7 +40,7 @@
 	plot(s)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

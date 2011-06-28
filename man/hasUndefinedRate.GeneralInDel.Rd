@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{hasUndefinedRate.GeneralInDel}
 \alias{hasUndefinedRate.GeneralInDel}
 \alias{GeneralInDel.hasUndefinedRate}
-\alias{hasUndefinedRate.GeneralInDel}
 \alias{hasUndefinedRate,GeneralInDel-method}
-
 
  \title{Check whether the general rate of a GeneralInDel object is undefined}
 
@@ -19,7 +17,9 @@
 	Check whether the general rate of a GeneralInDel object is undefined.
  }
 
- \usage{\method{hasUndefinedRate}{GeneralInDel}(this, ...)}
+ \usage{
+\method{hasUndefinedRate}{GeneralInDel}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInDel object.}
@@ -41,7 +41,7 @@
 	hasUndefinedRate(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInDel}}.

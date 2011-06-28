@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{print.PSRootSummary}
 \alias{print.PSRootSummary}
 \alias{PSRootSummary.print}
-\alias{print.PSRootSummary}
 \alias{print,PSRootSummary-method}
-
 
  \title{Print out a PSRootSummary object}
 
@@ -19,7 +17,9 @@
 	Print out a PSRootSummary object.
  }
 
- \usage{\method{print}{PSRootSummary}(x, ...)}
+ \usage{
+\method{print}{PSRootSummary}(x, ...)
+}
 
  \arguments{
  	\item{x}{A PSRootSummary object.}
@@ -30,7 +30,7 @@
  	The summary object (invisible).
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRootSummary}}.

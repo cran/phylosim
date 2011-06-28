@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getScale.BrownianInsertor}
 \alias{getScale.BrownianInsertor}
 \alias{BrownianInsertor.getScale}
-\alias{getScale.BrownianInsertor}
 \alias{getScale,BrownianInsertor-method}
-
 
  \title{Get scale parameter}
 
@@ -19,7 +17,9 @@
 	Get scale parameter.
  }
 
- \usage{\method{getScale}{BrownianInsertor}(this, ...)}
+ \usage{
+\method{getScale}{BrownianInsertor}(this, ...)
+}
 
  \arguments{
  	\item{this}{A BrownianInsertor object.}
@@ -41,7 +41,7 @@
 	p$scale
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{BrownianInsertor}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{isStopCodon.CodonAlphabet}
 \alias{isStopCodon.CodonAlphabet}
 \alias{CodonAlphabet.isStopCodon}
-\alias{isStopCodon.CodonAlphabet}
 \alias{isStopCodon,CodonAlphabet-method}
-
 
  \title{Check if a codon is a stop codon}
 
@@ -19,7 +17,9 @@
 	Check if a codon is a stop codon.
  }
 
- \usage{\method{isStopCodon}{CodonAlphabet}(this, codon, ...)}
+ \usage{
+\method{isStopCodon}{CodonAlphabet}(this, codon, ...)
+}
 
  \arguments{
  	\item{this}{A CodonAlphabet object.}
@@ -39,7 +39,7 @@
 	isStopCodon(a,"TGA")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonAlphabet}}.

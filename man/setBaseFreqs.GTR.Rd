@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setBaseFreqs.GTR}
 \alias{setBaseFreqs.GTR}
 \alias{GTR.setBaseFreqs}
-\alias{setBaseFreqs.GTR}
 \alias{setBaseFreqs,GTR-method}
-
 
  \title{Set the base frequency parameters}
 
@@ -22,7 +20,9 @@
 	in the NucleotideAlphabet objects.
  }
 
- \usage{\method{setBaseFreqs}{GTR}(this, value, ...)}
+ \usage{
+\method{setBaseFreqs}{GTR}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GTR object.}
@@ -47,7 +47,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GTR}}.

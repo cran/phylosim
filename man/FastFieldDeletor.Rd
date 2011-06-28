@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -62,7 +62,12 @@ extends \link{GeneralDeletor}\cr
 
  }
 
- \usage{FastFieldDeletor(name="Anonymous", type="geometric", length.param.1=NA, length.param.2=NA, tolerance.margin=0, ...)}
+ \usage{
+FastFieldDeletor(
+            name="Anonymous", type="geometric", 
+            length.param.1=NA, length.param.2=NA, tolerance.margin=0, ...
+            )
+}
 
  \arguments{
  	\item{name}{Object name.}
@@ -137,7 +142,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{FastFieldDeletor}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBaseFreqs.F84}
 \alias{getBaseFreqs.F84}
 \alias{F84.getBaseFreqs}
-\alias{getBaseFreqs.F84}
 \alias{getBaseFreqs,F84-method}
-
 
  \title{Get the base frequency parameters}
 
@@ -22,7 +20,9 @@
        in the NucleotideAlphabet objects.
  }
 
- \usage{\method{getBaseFreqs}{F84}(this, ...)}
+ \usage{
+\method{getBaseFreqs}{F84}(this, ...)
+}
 
  \arguments{
        \item{this}{A F84 object.}
@@ -46,7 +46,7 @@
        summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{F84}}.

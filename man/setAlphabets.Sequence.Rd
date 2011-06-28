@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setAlphabets.Sequence}
 \alias{setAlphabets.Sequence}
 \alias{Sequence.setAlphabets}
-\alias{setAlphabets.Sequence}
 \alias{setAlphabets,Sequence-method}
-
 
  \title{Assotiate Alphabet objects to a set of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Assotiate Alphabet objects to a set of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{setAlphabets}{Sequence}(this, value, index, ...)}
+ \usage{
+\method{setAlphabets}{Sequence}(this, value, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -49,7 +49,7 @@
 	s$alphabets
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

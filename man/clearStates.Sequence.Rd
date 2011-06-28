@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{clearStates.Sequence}
 \alias{clearStates.Sequence}
 \alias{Sequence.clearStates}
-\alias{clearStates.Sequence}
 \alias{clearStates,Sequence-method}
-
 
  \title{Set the states of a collection of Site objects aggregated by a Sequence object to undefined (NA)}
 
@@ -19,7 +17,9 @@
 	Set the states of a collection of Site objects aggregated by a Sequence object to undefined (NA).
  }
 
- \usage{\method{clearStates}{Sequence}(this, index, ...)}
+ \usage{
+\method{clearStates}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -43,7 +43,7 @@
 	s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getString.Sequence}
 \alias{getString.Sequence}
 \alias{Sequence.getString}
-\alias{getString.Sequence}
 \alias{getString,Sequence-method}
-
 
  \title{Get the string representation of a Sequence object}
 
@@ -21,7 +19,9 @@
 	aggregated Site object. Undefined states (NA-s) are represented by question marks.
  }
 
- \usage{\method{getString}{Sequence}(this, ...)}
+ \usage{
+\method{getString}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -41,7 +41,7 @@
 	s$string
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

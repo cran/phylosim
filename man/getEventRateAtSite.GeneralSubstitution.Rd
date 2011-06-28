@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEventRateAtSite.GeneralSubstitution}
 \alias{getEventRateAtSite.GeneralSubstitution}
 \alias{GeneralSubstitution.getEventRateAtSite}
-\alias{getEventRateAtSite.GeneralSubstitution}
 \alias{getEventRateAtSite,GeneralSubstitution-method}
-
 
  \title{Get the site spcific rate of an event from a GeneralSubstitution object}
 
@@ -25,7 +23,9 @@
 
  }
 
- \usage{\method{getEventRateAtSite}{GeneralSubstitution}(this, site, name=NA, from=NA, to=NA, ...)}
+ \usage{
+\method{getEventRateAtSite}{GeneralSubstitution}(this, site, name=NA, from=NA, to=NA, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object. It must be attached to the provided Site object.}
@@ -56,7 +56,7 @@
 	getEventRateAtSite(p,s,from="0",to="1")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

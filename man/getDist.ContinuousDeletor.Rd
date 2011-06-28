@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getDist.ContinuousDeletor}
 \alias{getDist.ContinuousDeletor}
 \alias{ContinuousDeletor.getDist}
-\alias{getDist.ContinuousDeletor}
 \alias{getDist,ContinuousDeletor-method}
-
 
  \title{Get the length sampling expression}
 
@@ -23,7 +21,9 @@
 	rounded.
  }
 
- \usage{\method{getDist}{ContinuousDeletor}(this, ...)}
+ \usage{
+\method{getDist}{ContinuousDeletor}(this, ...)
+}
 
  \arguments{
  	\item{this}{A ContinuousDeletor object.}
@@ -49,7 +49,7 @@
 	proposeLength(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{ContinuousDeletor}}.

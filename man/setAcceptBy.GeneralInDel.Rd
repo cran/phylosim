@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setAcceptBy.GeneralInDel}
 \alias{setAcceptBy.GeneralInDel}
 \alias{GeneralInDel.setAcceptBy}
-\alias{setAcceptBy.GeneralInDel}
 \alias{setAcceptBy,GeneralInDel-method}
-
  \alias{setAcceptBy.GeneralInsertor}
 
  \title{Set the function used for accepting/rejecting indel events}
@@ -23,7 +21,9 @@
 	window (a vector containing the positions affecting acceptance).
  }
 
- \usage{\method{setAcceptBy}{GeneralInDel}(this, value, ...)}
+ \usage{
+\method{setAcceptBy}{GeneralInDel}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInDel object.}
@@ -38,7 +38,11 @@
  \examples{
 	# create a GeneralInDel object
 	# rejecting half of the events
-	o<-GeneralInDel(rate=1, propose.by=function(process){return(5)}, accept.by=function( ){sample(c(TRUE,FALSE),1)});
+	o<-GeneralInDel(
+                   rate=1,
+                   propose.by=function(process){return(5)},
+                   accept.by=function( ){sample(c(TRUE,FALSE),1)}
+                   );
 	# set/get the acceptBy function
 	setAcceptBy(o,value=function( ){return(FALSE)})	# reject all events
 	getAcceptBy(o)
@@ -47,7 +51,7 @@
 	o$acceptBy
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInDel}}.

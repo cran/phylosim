@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -42,7 +42,9 @@ extends \link{PSRoot}\cr
 
  }
 
- \usage{Sequence(name=NA, string=NA, length=NA, alphabets=NA, processes=NA, ancestral.obj=NA, ...)}
+ \usage{
+Sequence(name=NA, string=NA, length=NA, alphabets=NA, processes=NA, ancestral.obj=NA, ...)
+}
 
  \arguments{
 	\item{name}{The name of the Sequence object.}
@@ -228,7 +230,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	getEvents(sc,1:2)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Alphabet Site Process Event

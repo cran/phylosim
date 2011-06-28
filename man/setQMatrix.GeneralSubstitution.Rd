@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setQMatrix.GeneralSubstitution}
 \alias{setQMatrix.GeneralSubstitution}
 \alias{GeneralSubstitution.setQMatrix}
-\alias{setQMatrix.GeneralSubstitution}
 \alias{setQMatrix,GeneralSubstitution-method}
-
 
  \title{Set the QMatrix object aggregated by a GeneralSubstitution object}
 
@@ -21,7 +19,9 @@
 	This method is mostly used internally.
  }
 
- \usage{\method{setQMatrix}{GeneralSubstitution}(this, value, ...)}
+ \usage{
+\method{setQMatrix}{GeneralSubstitution}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -52,7 +52,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

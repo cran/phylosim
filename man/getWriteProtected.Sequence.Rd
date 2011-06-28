@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getWriteProtected.Sequence}
 \alias{getWriteProtected.Sequence}
 \alias{Sequence.getWriteProtected}
-\alias{getWriteProtected.Sequence}
 \alias{getWriteProtected,Sequence-method}
-
 
  \title{Check if the object is write protected}
 
@@ -20,7 +18,9 @@
 	Write protected objects cannot be modified through get/set methods and virtual fields.
  }
 
- \usage{\method{getWriteProtected}{Sequence}(this, ...)}
+ \usage{
+\method{getWriteProtected}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{An object.}
@@ -44,7 +44,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

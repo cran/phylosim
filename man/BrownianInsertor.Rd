@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -54,7 +54,9 @@ extends \link{DiscreteInsertor}\cr
 
  }
 
- \usage{BrownianInsertor(name="Anonymous", type="discrete", scale=0.001, ...)}
+ \usage{
+BrownianInsertor(name="Anonymous", type="discrete", scale=0.001, ...)
+}
 
  \arguments{
  	\item{name}{Object name.}
@@ -98,7 +100,13 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 
  \examples{
 	# create a BrownianInsertor process, discrete type
-	p<-BrownianInsertor(type="discrete",scale=0.05, sizes=1:4,probs=c(3/6,1/6,1/6,1/6),rate=0.05)
+	p<-BrownianInsertor(
+                       type="discrete",
+                       scale=0.05,
+                       sizes=1:4,
+                       probs=c(3/6,1/6,1/6,1/6),
+                       rate=0.05
+                       )
 	# get object summary
 	summary(p)
 	# plot insert length distribution
@@ -116,7 +124,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	getInsertionTolerance(res,p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	DiscreteInsertor ContinuousInsertor GeneralInsertor GeneralInDel

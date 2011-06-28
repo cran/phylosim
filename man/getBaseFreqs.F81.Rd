@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBaseFreqs.F81}
 \alias{getBaseFreqs.F81}
 \alias{F81.getBaseFreqs}
-\alias{getBaseFreqs.F81}
 \alias{getBaseFreqs,F81-method}
-
 
  \title{Get the base frequency parameters}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{getBaseFreqs}{F81}(this, ...)}
+ \usage{
+\method{getBaseFreqs}{F81}(this, ...)
+}
 
  \arguments{
  	\item{this}{A F81 object.}
@@ -44,7 +44,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{F81}}.

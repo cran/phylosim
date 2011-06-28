@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getId.Process}
 \alias{getId.Process}
 \alias{Process.getId}
-\alias{getId.Process}
 \alias{getId,Process-method}
-
 
  \title{Get the unique identifier of a Process object}
 
@@ -21,7 +19,9 @@
 	as returned by hashCode().
  }
 
- \usage{\method{getId}{Process}(this, ...)}
+ \usage{
+\method{getId}{Process}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Process object.}
@@ -42,7 +42,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

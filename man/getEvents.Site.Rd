@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEvents.Site}
 \alias{getEvents.Site}
 \alias{Site.getEvents}
-\alias{getEvents.Site}
 \alias{getEvents,Site-method}
-
 
  \title{Get the list of active event objects given the current state of the Site object}
 
@@ -20,7 +18,9 @@
 	The list of active event object might change according to the state of the Site object.
  }
 
- \usage{\method{getEvents}{Site}(this, ...)}
+ \usage{
+\method{getEvents}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -43,7 +43,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRootSeq.PhyloSim}
 \alias{getRootSeq.PhyloSim}
 \alias{PhyloSim.getRootSeq}
-\alias{getRootSeq.PhyloSim}
 \alias{getRootSeq,PhyloSim-method}
-
 
  \title{Get the root sequence aggregated by a PhyloSim object}
 
@@ -20,7 +18,9 @@
 
  }
 
- \usage{\method{getRootSeq}{PhyloSim}(this, ...)}
+ \usage{
+\method{getRootSeq}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -44,7 +44,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}. Sequence Process

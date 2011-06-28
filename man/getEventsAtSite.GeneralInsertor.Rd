@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEventsAtSite.GeneralInsertor}
 \alias{getEventsAtSite.GeneralInsertor}
 \alias{GeneralInsertor.getEventsAtSite}
-\alias{getEventsAtSite.GeneralInsertor}
 \alias{getEventsAtSite,GeneralInsertor-method}
-
 
  \title{Generate insertion event object given the state of the target site}
 
@@ -24,7 +22,9 @@
 	returned if the rate is zero or NA.
  }
 
- \usage{\method{getEventsAtSite}{GeneralInsertor}(this, target.site, ...)}
+ \usage{
+\method{getEventsAtSite}{GeneralInsertor}(this, target.site, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInsertor object.}
@@ -65,7 +65,7 @@
 	s
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GeneralInsertor GeneralInDel Process Event

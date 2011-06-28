@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getName.PhyloSim}
 \alias{getName.PhyloSim}
 \alias{PhyloSim.getName}
-\alias{getName.PhyloSim}
 \alias{getName,PhyloSim-method}
-
 
  \title{Get the name of a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the name of a PhyloSim object.
  }
 
- \usage{\method{getName}{PhyloSim}(this, ...)}
+ \usage{
+\method{getName}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -41,7 +41,7 @@
 	o$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{omegaHist.CodonSequence}
 \alias{omegaHist.CodonSequence}
 \alias{CodonSequence.omegaHist}
-\alias{omegaHist.CodonSequence}
 \alias{omegaHist,CodonSequence-method}
-
 
  \title{Plot a histogram of omega values from a range}
 
@@ -19,7 +17,9 @@
 	Plot a histogram of omega values from a range.
  }
 
- \usage{\method{omegaHist}{CodonSequence}(this, process, breaks, index, ...)}
+ \usage{
+\method{omegaHist}{CodonSequence}(this, process, breaks, index, ...)
+}
 
  \arguments{
  	\item{this}{A CodonSequence object.}
@@ -45,7 +45,7 @@
        omegaHist(s,p,breaks=10,1:15)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonSequence}}.

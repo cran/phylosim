@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getProcess.QMatrix}
 \alias{getProcess.QMatrix}
 \alias{QMatrix.getProcess}
-\alias{getProcess.QMatrix}
 \alias{getProcess,QMatrix-method}
-
 
  \title{Get the process object associated with a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Get the process object associated with a QMatrix object.
  }
 
- \usage{\method{getProcess}{QMatrix}(this, ...)}
+ \usage{
+\method{getProcess}{QMatrix}(this, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -48,7 +48,7 @@
 	m$process
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

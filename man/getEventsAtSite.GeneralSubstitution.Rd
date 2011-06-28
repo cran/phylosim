@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEventsAtSite.GeneralSubstitution}
 \alias{getEventsAtSite.GeneralSubstitution}
 \alias{GeneralSubstitution.getEventsAtSite}
-\alias{getEventsAtSite.GeneralSubstitution}
 \alias{getEventsAtSite,GeneralSubstitution-method}
-
 
  \title{Generate the list of active Event objects for a given attached Site object}
 
@@ -23,7 +21,9 @@
 	It returns an empty list if the state of the site is "NA".
  }
 
- \usage{\method{getEventsAtSite}{GeneralSubstitution}(this, target.site, ...)}
+ \usage{
+\method{getEventsAtSite}{GeneralSubstitution}(this, target.site, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -52,7 +52,7 @@
 	getEventsAtSite(p,s)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

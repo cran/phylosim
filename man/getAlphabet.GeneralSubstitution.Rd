@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAlphabet.GeneralSubstitution}
 \alias{getAlphabet.GeneralSubstitution}
 \alias{GeneralSubstitution.getAlphabet}
-\alias{getAlphabet.GeneralSubstitution}
 \alias{getAlphabet,GeneralSubstitution-method}
-
 
  \title{Get the Alphabet object aggregated by a GeneralSubstitution object}
 
@@ -21,7 +19,9 @@
 	This method also sets the alphabet for the associated QMatrix object, which will set all rates to NA.
  }
 
- \usage{\method{getAlphabet}{GeneralSubstitution}(this, ...)}
+ \usage{
+\method{getAlphabet}{GeneralSubstitution}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -49,7 +49,7 @@
 	p$alphabet
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

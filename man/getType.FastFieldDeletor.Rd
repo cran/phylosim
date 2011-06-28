@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getType.FastFieldDeletor}
 \alias{getType.FastFieldDeletor}
 \alias{FastFieldDeletor.getType}
-\alias{getType.FastFieldDeletor}
 \alias{getType,FastFieldDeletor-method}
-
 
  \title{Get the type of a FastFieldDeletor object}
 
@@ -19,7 +17,9 @@
 	Get the type of a FastFieldDeletor object.
  }
 
- \usage{\method{getType}{FastFieldDeletor}(this, ...)}
+ \usage{
+\method{getType}{FastFieldDeletor}(this, ...)
+}
 
  \arguments{
  	\item{this}{A FastFieldDeletor object.}
@@ -40,7 +40,7 @@
 	p$type
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{FastFieldDeletor}}.

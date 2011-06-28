@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{BrownianPath.BrownianInsertor}
 \alias{BrownianPath.BrownianInsertor}
 \alias{BrownianInsertor.BrownianPath}
-\alias{BrownianPath.BrownianInsertor}
 \alias{BrownianPath,BrownianInsertor-method}
-
 
  \title{Generate a Brownian path}
 
@@ -22,7 +20,9 @@
 	and the vector p describing the trends. More useful as a static method.
  }
 
- \usage{\method{BrownianPath}{BrownianInsertor}(this, p=NA, a=NA, ...)}
+ \usage{
+\method{BrownianPath}{BrownianInsertor}(this, p=NA, a=NA, ...)
+}
 
  \arguments{
 	\item{this}{A BrownianInsertor object.}
@@ -41,7 +41,7 @@
 	plot(path)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{BrownianInsertor}}.

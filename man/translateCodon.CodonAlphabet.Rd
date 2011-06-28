@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{translateCodon.CodonAlphabet}
 \alias{translateCodon.CodonAlphabet}
 \alias{CodonAlphabet.translateCodon}
-\alias{translateCodon.CodonAlphabet}
 \alias{translateCodon,CodonAlphabet-method}
-
 
  \title{Translate a codon}
 
@@ -19,7 +17,9 @@
 	Translate a codon.
  }
 
- \usage{\method{translateCodon}{CodonAlphabet}(this, codon, ...)}
+ \usage{
+\method{translateCodon}{CodonAlphabet}(this, codon, ...)
+}
 
  \arguments{
  	\item{this}{A CodonAlphabet object.}
@@ -38,7 +38,7 @@
 	translateCodon(a,"AGG")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{CodonAlphabet}}.

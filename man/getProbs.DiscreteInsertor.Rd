@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getProbs.DiscreteInsertor}
 \alias{getProbs.DiscreteInsertor}
 \alias{DiscreteInsertor.getProbs}
-\alias{getProbs.DiscreteInsertor}
 \alias{getProbs,DiscreteInsertor-method}
-
 
  \title{Get the insertion length probabilities}
 
@@ -19,7 +17,9 @@
        Get the insertion length probabilities.
  }
 
- \usage{\method{getProbs}{DiscreteInsertor}(this, ...)}
+ \usage{
+\method{getProbs}{DiscreteInsertor}(this, ...)
+}
 
  \arguments{
        \item{this}{A DiscreteInsertor object.}
@@ -44,7 +44,7 @@
        i$probs
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{DiscreteInsertor}}.

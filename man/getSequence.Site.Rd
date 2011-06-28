@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSequence.Site}
 \alias{getSequence.Site}
 \alias{Site.getSequence}
-\alias{getSequence.Site}
 \alias{getSequence,Site-method}
-
 
  \title{Get the Sequence object associated with a given Site object}
 
@@ -19,7 +17,9 @@
 	Get the Sequence object associated with a given Site object.
  }
 
- \usage{\method{getSequence}{Site}(this, ...)}
+ \usage{
+\method{getSequence}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -40,7 +40,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

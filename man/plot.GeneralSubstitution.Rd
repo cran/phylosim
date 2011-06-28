@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plot.GeneralSubstitution}
 \alias{plot.GeneralSubstitution}
 \alias{GeneralSubstitution.plot}
-\alias{plot.GeneralSubstitution}
 \alias{plot,GeneralSubstitution-method}
-
 
  \title{Create a bubble plot of the substitution process}
 
@@ -24,7 +22,9 @@
 	distribution has undefined elements.
  }
 
- \usage{\method{plot}{GeneralSubstitution}(x, scale=1, ...)}
+ \usage{
+\method{plot}{GeneralSubstitution}(x, scale=1, ...)
+}
 
  \arguments{
  	\item{x}{An object inheriting from GeneralSubstitution.}
@@ -45,7 +45,7 @@
 	plot(WAG())
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

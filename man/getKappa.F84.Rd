@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getKappa.F84}
 \alias{getKappa.F84}
 \alias{F84.getKappa}
-\alias{getKappa.F84}
 \alias{getKappa,F84-method}
-
 
  \title{Get the transition transversion rate ratio}
 
@@ -19,7 +17,9 @@
 	Get the transition transversion rate ratio.
  }
 
- \usage{\method{getKappa}{F84}(this, ...)}
+ \usage{
+\method{getKappa}{F84}(this, ...)
+}
 
  \arguments{
  	\item{this}{A F84 object.}
@@ -43,7 +43,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{F84}}.

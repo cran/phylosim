@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAlphabets.Sequence}
 \alias{getAlphabets.Sequence}
 \alias{Sequence.getAlphabets}
-\alias{getAlphabets.Sequence}
 \alias{getAlphabets,Sequence-method}
-
 
  \title{Get the list of the Alphabet objects attached to the Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Get the list of the Alphabet objects attached to the Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{getAlphabets}{Sequence}(this, index, ...)}
+ \usage{
+\method{getAlphabets}{Sequence}(this, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -44,7 +44,7 @@
 	s$alphabets
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

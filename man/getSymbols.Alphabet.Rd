@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getSymbols.Alphabet}
 \alias{getSymbols.Alphabet}
 \alias{Alphabet.getSymbols}
-\alias{getSymbols.Alphabet}
 \alias{getSymbols,Alphabet-method}
-
 
  \title{Get the symbol set from an Alphabet object}
 
@@ -19,7 +17,9 @@
 	Get the symbol set from an Alphabet object.
  }
 
- \usage{\method{getSymbols}{Alphabet}(this, ...)}
+ \usage{
+\method{getSymbols}{Alphabet}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -40,7 +40,7 @@
 	a$symbols
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

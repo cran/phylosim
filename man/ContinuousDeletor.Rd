@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,7 +44,9 @@ extends \link{GeneralDeletor}\cr
 
  }
 
- \usage{ContinuousDeletor(name="Anonymous", rate=NA, dist=NA, max.length=NA, ...)}
+ \usage{
+ContinuousDeletor(name="Anonymous", rate=NA, dist=NA, max.length=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the object.}
@@ -121,7 +123,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
        sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GeneralDeletor DiscreteDeletor GeneralInDel

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getMethodsList.PSRoot}
 \alias{getMethodsList.PSRoot}
 \alias{PSRoot.getMethodsList}
-\alias{getMethodsList.PSRoot}
 \alias{getMethodsList,PSRoot-method}
-
 
  \title{Get the list of applicable methods for an object}
 
@@ -19,7 +17,9 @@
 	Get the list of applicable methods for an object.
  }
 
- \usage{\method{getMethodsList}{PSRoot}(this, ...)}
+ \usage{
+\method{getMethodsList}{PSRoot}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PSRoot object.}
@@ -39,7 +39,7 @@
 	o$methodsList
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PSRoot}}.

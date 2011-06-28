@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBaseFreqs.GTR}
 \alias{getBaseFreqs.GTR}
 \alias{GTR.getBaseFreqs}
-\alias{getBaseFreqs.GTR}
 \alias{getBaseFreqs,GTR-method}
-
 
  \title{Get the base frequency parameters}
 
@@ -19,7 +17,9 @@
 	Get the base frequency parameters.
  }
 
- \usage{\method{getBaseFreqs}{GTR}(this, ...)}
+ \usage{
+\method{getBaseFreqs}{GTR}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GTR object.}
@@ -43,7 +43,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GTR}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setSequence.Site}
 \alias{setSequence.Site}
 \alias{Site.setSequence}
-\alias{setSequence.Site}
 \alias{setSequence,Site-method}
-
 
  \title{Assotiate a Sequence object with a Site object}
 
@@ -19,7 +17,9 @@
 	Assotiate a Sequence object with a Site object.
  }
 
- \usage{\method{setSequence}{Site}(this, new.seq, ...)}
+ \usage{
+\method{setSequence}{Site}(this, new.seq, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -42,7 +42,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

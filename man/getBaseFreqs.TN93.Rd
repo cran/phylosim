@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getBaseFreqs.TN93}
 \alias{getBaseFreqs.TN93}
 \alias{TN93.getBaseFreqs}
-\alias{getBaseFreqs.TN93}
 \alias{getBaseFreqs,TN93-method}
-
 
  \title{Get the base frequency parameters}
 
@@ -19,7 +17,9 @@
 	Get the base frequency parameters.
  }
 
- \usage{\method{getBaseFreqs}{TN93}(this, ...)}
+ \usage{
+\method{getBaseFreqs}{TN93}(this, ...)
+}
 
  \arguments{
  	\item{this}{A TN93 object.}
@@ -43,7 +43,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{TN93}}.

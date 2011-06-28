@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plot.DiscreteDeletor}
 \alias{plot.DiscreteDeletor}
 \alias{DiscreteDeletor.plot}
-\alias{plot.DiscreteDeletor}
 \alias{plot,DiscreteDeletor-method}
-
 
  \title{Plot the deletion length distribution}
 
@@ -19,7 +17,9 @@
 	Plot the deletion length distribution.
  }
 
- \usage{\method{plot}{DiscreteDeletor}(x, ...)}
+ \usage{
+\method{plot}{DiscreteDeletor}(x, ...)
+}
 
  \arguments{
  	\item{x}{A DiscreteDeletor object.}
@@ -40,7 +40,7 @@
 	plot(d)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{DiscreteDeletor}}.

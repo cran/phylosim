@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -35,7 +35,9 @@ extends \link{PSRoot}\cr
 
  }
 
- \usage{Alphabet(symbols=NA, type="Generic", ...)}
+ \usage{
+Alphabet(symbols=NA, type="Generic", ...)
+}
 
  \arguments{
  	\item{symbols}{A character vector containing the symbols for the alphabet. All elements must have the
@@ -93,7 +95,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 		a == b;
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
 
  \seealso{

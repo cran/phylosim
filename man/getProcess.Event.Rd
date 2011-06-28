@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getProcess.Event}
 \alias{getProcess.Event}
 \alias{Event.getProcess}
-\alias{getProcess.Event}
 \alias{getProcess,Event-method}
-
 
  \title{Get the Process object which generated an Event object}
 
@@ -19,7 +17,9 @@
 	Get the Process object which generated an Event object.
  }
 
- \usage{\method{getProcess}{Event}(this, ...)}
+ \usage{
+\method{getProcess}{Event}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -39,7 +39,7 @@
 	e$process
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTipLabels.PhyloSim}
 \alias{getTipLabels.PhyloSim}
 \alias{PhyloSim.getTipLabels}
-\alias{getTipLabels.PhyloSim}
 \alias{getTipLabels,PhyloSim-method}
-
 
  \title{Get the tip labels from a phylo object aggregated by a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the tip labels from a phylo object aggregated by a PhyloSim object.
  }
 
- \usage{\method{getTipLabels}{PhyloSim}(this, ...)}
+ \usage{
+\method{getTipLabels}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -39,7 +39,7 @@
 	sim$tipLabels
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

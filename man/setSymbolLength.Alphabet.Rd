@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setSymbolLength.Alphabet}
 \alias{setSymbolLength.Alphabet}
 \alias{Alphabet.setSymbolLength}
-\alias{setSymbolLength.Alphabet}
 \alias{setSymbolLength,Alphabet-method}
-
 
  \title{Forbidden action: setting the symbol length for an Alphabet object}
 
@@ -19,7 +17,9 @@
 	Forbidden action: setting the symbol length for an Alphabet object.
  }
 
- \usage{\method{setSymbolLength}{Alphabet}(this, value, ...)}
+ \usage{
+\method{setSymbolLength}{Alphabet}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{An Alphabet object.}
@@ -31,7 +31,7 @@
  	Throws an error.
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

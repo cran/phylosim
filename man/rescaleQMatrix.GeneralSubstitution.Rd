@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{rescaleQMatrix.GeneralSubstitution}
 \alias{rescaleQMatrix.GeneralSubstitution}
 \alias{GeneralSubstitution.rescaleQMatrix}
-\alias{rescaleQMatrix.GeneralSubstitution}
 \alias{rescaleQMatrix,GeneralSubstitution-method}
-
 
  \title{Rescale the scaled rate matrix of a QMatrix object aggregated by a GeneralSubstitution object}
 
@@ -29,7 +27,9 @@
 
  }
 
- \usage{\method{rescaleQMatrix}{GeneralSubstitution}(this, ...)}
+ \usage{
+\method{rescaleQMatrix}{GeneralSubstitution}(this, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -48,7 +48,7 @@
 	rescaleQMatrix(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

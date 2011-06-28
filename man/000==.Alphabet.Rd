@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{==.Alphabet}
 \alias{==.Alphabet}
 \alias{Alphabet.==}
-\alias{==.Alphabet}
 \alias{==,Alphabet-method}
-
  \alias{!=.Alphabet}
  \title{Check if two alaphabet objects have the same symbol set}
 
@@ -19,7 +17,9 @@
 	Check if two alaphabet objects have the same symbol set.
  }
 
- \usage{\method{==}{Alphabet}(e1, e2, ...)}
+ \usage{
+\method{==}{Alphabet}(e1, e2, ...)
+}
 
  \arguments{
  	\item{e1}{An Alphabet object.}
@@ -45,7 +45,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Alphabet}}.

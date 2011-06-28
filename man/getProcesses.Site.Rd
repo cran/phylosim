@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getProcesses.Site}
 \alias{getProcesses.Site}
 \alias{Site.getProcesses}
-\alias{getProcesses.Site}
 \alias{getProcesses,Site-method}
-
 
  \title{Get the list of Process objects attached to a Site object}
 
@@ -19,7 +17,9 @@
 	Get the list of Process objects attached to a Site object.
  }
 
- \usage{\method{getProcesses}{Site}(this, ...)}
+ \usage{
+\method{getProcesses}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -39,7 +39,7 @@
 	s$processes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.

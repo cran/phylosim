@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
 \name{summary.T92}
 \alias{summary.T92}
 \alias{T92.summary}
-\alias{summary.T92}
 \alias{summary,T92-method}
-
 
 \title{Summarize the properties of an object}
 
@@ -19,7 +17,9 @@
       Summarize the properties of an object.
 }
 
-\usage{\method{summary}{T92}(object, ...)}
+\usage{
+\method{summary}{T92}(object, ...)
+}
 
 \arguments{
       \item{object}{An object}
@@ -38,7 +38,7 @@
       summary(a)
 }
 
-\author{Botond Sipos}
+\author{Botond Sipos, Gregory Jordan}
 
 \seealso{
       For more information see \code{\link{T92}}.

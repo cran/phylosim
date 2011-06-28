@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -47,7 +47,12 @@ extends \link{GTR}\cr
  of mitochondrial DNA Journal of Molecular Evolution 22:160-174 \url{http://bit.ly/a9AxKm}
  }
 
- \usage{HKY(name="Anonymous", rate.params=list(Alpha = 1, Beta = 1), base.freqs=c(0.25, 0.25, 0.25, 0.25), ...)}
+ \usage{
+HKY(
+    name="Anonymous", rate.params=list(Alpha = 1, Beta = 1), 
+    base.freqs=c(0.25, 0.25, 0.25, 0.25), ...
+    )
+}
 
  \arguments{
  	\item{name}{Object name.}
@@ -119,7 +124,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GTR UNREST GeneralSubstitution TN93

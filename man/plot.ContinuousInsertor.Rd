@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{plot.ContinuousInsertor}
 \alias{plot.ContinuousInsertor}
 \alias{ContinuousInsertor.plot}
-\alias{plot.ContinuousInsertor}
 \alias{plot,ContinuousInsertor-method}
-
 
  \title{Plot the density of proposed lengths}
 
@@ -19,7 +17,9 @@
 	Plot the density of proposed lengths.
  }
 
- \usage{\method{plot}{ContinuousInsertor}(x, sample.size=NA, ...)}
+ \usage{
+\method{plot}{ContinuousInsertor}(x, sample.size=NA, ...)
+}
 
  \arguments{
  	\item{x}{A ContinuousInsertor object.}
@@ -42,7 +42,7 @@
 	plot(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{ContinuousInsertor}}.

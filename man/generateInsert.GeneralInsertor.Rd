@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{generateInsert.GeneralInsertor}
 \alias{generateInsert.GeneralInsertor}
 \alias{GeneralInsertor.generateInsert}
-\alias{generateInsert.GeneralInsertor}
 \alias{generateInsert,GeneralInsertor-method}
-
 
  \title{Generate an insert}
 
@@ -31,7 +29,9 @@
 	The \code{generateBy}, \code{proposeBy} and \code{templateSeq} fields must be set in order to use this method.
  }
 
- \usage{\method{generateInsert}{GeneralInsertor}(this, length=NA, target.seq=NA, event.pos=NA, insert.pos=NA, ...)}
+ \usage{
+\method{generateInsert}{GeneralInsertor}(this, length=NA, target.seq=NA, event.pos=NA, insert.pos=NA, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralInsertor object.}
@@ -68,7 +68,7 @@
 	generateInsert(i)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralInsertor}}.

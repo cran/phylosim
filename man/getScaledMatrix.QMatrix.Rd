@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getScaledMatrix.QMatrix}
 \alias{getScaledMatrix.QMatrix}
 \alias{QMatrix.getScaledMatrix}
-\alias{getScaledMatrix.QMatrix}
 \alias{getScaledMatrix,QMatrix-method}
-
 
  \title{Get the scaled rate matrix form a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Get the scaled rate matrix form a QMatrix object.
  }
 
- \usage{\method{getScaledMatrix}{QMatrix}(this, ...)}
+ \usage{
+\method{getScaledMatrix}{QMatrix}(this, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -40,7 +40,7 @@
 	m$scaledMatrix
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

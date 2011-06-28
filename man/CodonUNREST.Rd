@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -41,7 +41,9 @@ extends \link{GeneralSubstitution}\cr
 
  }
 
- \usage{CodonUNREST(name="Anonymous", table.id=1, rate.list=NA, equ.dist=NA, ...)}
+ \usage{
+CodonUNREST(name="Anonymous", table.id=1, rate.list=NA, equ.dist=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the object.}
@@ -80,7 +82,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GeneralSubstitution GY94

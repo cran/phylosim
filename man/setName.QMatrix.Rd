@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setName.QMatrix}
 \alias{setName.QMatrix}
 \alias{QMatrix.setName}
-\alias{setName.QMatrix}
 \alias{setName,QMatrix-method}
-
 
  \title{Set the name of a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Set the name of a QMatrix object.
  }
 
- \usage{\method{setName}{QMatrix}(this, value, ...)}
+ \usage{
+\method{setName}{QMatrix}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -42,7 +42,7 @@
 	m$name
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

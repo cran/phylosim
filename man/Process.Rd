@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -43,7 +43,9 @@ extends \link{PSRoot}\cr
 
  }
 
- \usage{Process(name=NA, alphabet=NA, ...)}
+ \usage{
+Process(name=NA, alphabet=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the Process object: a character vector of length one.}
@@ -121,7 +123,7 @@ extends \link{PSRoot}\cr
 	getParameterAtSite(p,s,id="rate.multiplier")
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Process}}.

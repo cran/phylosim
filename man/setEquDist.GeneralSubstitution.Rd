@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setEquDist.GeneralSubstitution}
 \alias{setEquDist.GeneralSubstitution}
 \alias{GeneralSubstitution.setEquDist}
-\alias{setEquDist.GeneralSubstitution}
 \alias{setEquDist,GeneralSubstitution-method}
-
  \alias{setEquDist.AminoAcidSubst}
 
  \title{Set the equilibrium distribution for a GeneralSubstitution object}
@@ -24,7 +22,9 @@
 	The provided numeric vector will be resacled in the case the sum of the elemnts is not one.
  }
 
- \usage{\method{setEquDist}{GeneralSubstitution}(this, value, force=FALSE, silent=FALSE, ...)}
+ \usage{
+\method{setEquDist}{GeneralSubstitution}(this, value, force=FALSE, silent=FALSE, ...)
+}
 
  \arguments{
  	\item{this}{A GeneralSubstitution object.}
@@ -41,7 +41,10 @@
  \examples{
 	# create a GeneralSubstitution object
 	# provide an Alphabet object and the rates
-	p<-GeneralSubstitution(alphabet=BinaryAlphabet(), rate.list=list("1->0"=1,"0->1"=1))
+	p<-GeneralSubstitution(
+                           alphabet=BinaryAlphabet(),
+                           rate.list=list("1->0"=1,"0->1"=1)
+                           )
 	# get equlibrium distribution
 	getEquDist(p)
 	# get equilibrium distribution via virtual field
@@ -56,7 +59,7 @@
 	p$equDist
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GeneralSubstitution}}.

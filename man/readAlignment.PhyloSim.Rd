@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{readAlignment.PhyloSim}
 \alias{readAlignment.PhyloSim}
 \alias{PhyloSim.readAlignment}
-\alias{readAlignment.PhyloSim}
 \alias{readAlignment,PhyloSim-method}
-
 
  \title{Read alignment from file}
 
@@ -24,7 +22,9 @@
        may also contain additional ancestral sequences).
  }
 
- \usage{\method{readAlignment}{PhyloSim}(this, file, format="fasta", ...)}
+ \usage{
+\method{readAlignment}{PhyloSim}(this, file, format="fasta", ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -56,7 +56,7 @@
 	plot(sim)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

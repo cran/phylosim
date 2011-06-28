@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getAncestral.Sequence}
 \alias{getAncestral.Sequence}
 \alias{Sequence.getAncestral}
-\alias{getAncestral.Sequence}
 \alias{getAncestral,Sequence-method}
-
 
  \title{Get the ancestral object of a Sequence object}
 
@@ -19,7 +17,9 @@
 	Get the ancestral object of a Sequence object.
  }
 
- \usage{\method{getAncestral}{Sequence}(this, ...)}
+ \usage{
+\method{getAncestral}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -41,7 +41,7 @@
 	cs$ancestral$id
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

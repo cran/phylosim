@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getMatrix.QMatrix}
 \alias{getMatrix.QMatrix}
 \alias{QMatrix.getMatrix}
-\alias{getMatrix.QMatrix}
 \alias{getMatrix,QMatrix-method}
-
 
  \title{Get the unscaled rate matrix form a QMatrix object}
 
@@ -19,7 +17,9 @@
 	Get the unscaled rate matrix form a QMatrix object.
  }
 
- \usage{\method{getMatrix}{QMatrix}(this, ...)}
+ \usage{
+\method{getMatrix}{QMatrix}(this, ...)
+}
 
  \arguments{
  	\item{this}{A QMatrix object.}
@@ -40,7 +40,7 @@
 	m$matrix
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{QMatrix}}.

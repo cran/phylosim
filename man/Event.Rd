@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -39,7 +39,9 @@ extends \link{PSRoot}\cr
 
  }
 
- \usage{Event(name=NA, rate=NA, site=NA, position=NA, process=NA, handler=NA, ...)}
+ \usage{
+Event(name=NA, rate=NA, site=NA, position=NA, process=NA, handler=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the Event object. Often stores useful information.}
@@ -115,7 +117,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	s$state
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Site Process Sequence getEventsAtSite.GeneralSubstitution

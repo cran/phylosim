@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -38,7 +38,9 @@ extends \link{Process}\cr
 
  }
 
- \usage{GeneralInDel(name="Anonymous", rate=NA, propose.by=NA, accept.by=NA, ...)}
+ \usage{
+GeneralInDel(name="Anonymous", rate=NA, propose.by=NA, accept.by=NA, ...)
+}
 
  \arguments{
  	\item{name}{The name of the object.}
@@ -80,7 +82,11 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	# create a GeneralInDel object
 	# rejecting half of the events
 	# and proposing sizes in the range 1:10
-	o<-GeneralInDel(rate=1, propose.by=function(process){sample(1:10,1)}, accept.by=function(){sample(c(TRUE,FALSE),1)});
+	o<-GeneralInDel(
+                   rate=1,
+                   propose.by=function(process){sample(1:10,1)},
+                   accept.by=function(){sample(c(TRUE,FALSE),1)}
+                   );
 	# check if inherits from GeneralInDel
 	is.GeneralInDel(o)
 	# check if it has undefined rates
@@ -100,7 +106,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	proposeLength(o)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	Process GeneralInsertor GeneralDeletor GeneralSubstitution

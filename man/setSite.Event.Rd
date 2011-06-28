@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setSite.Event}
 \alias{setSite.Event}
 \alias{Event.setSite}
-\alias{setSite.Event}
 \alias{setSite,Event-method}
-
 
  \title{Assotiate an Event object with a Site object}
 
@@ -19,7 +17,9 @@
 	Assotiate an Event object with a Site object.
  }
 
- \usage{\method{setSite}{Event}(this, new.site, ...)}
+ \usage{
+\method{setSite}{Event}(this, new.site, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -45,7 +45,7 @@
 	e$site
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

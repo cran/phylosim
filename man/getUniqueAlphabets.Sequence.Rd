@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getUniqueAlphabets.Sequence}
 \alias{getUniqueAlphabets.Sequence}
 \alias{Sequence.getUniqueAlphabets}
-\alias{getUniqueAlphabets.Sequence}
 \alias{getUniqueAlphabets,Sequence-method}
-
 
  \title{Get the list of unique Alphabet objects associated to Site objects aggaregated by a Sequence object}
 
@@ -21,7 +19,9 @@
 	two instances of the same class are considered to be different.
  }
 
- \usage{\method{getUniqueAlphabets}{Sequence}(this, ...)}
+ \usage{
+\method{getUniqueAlphabets}{Sequence}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -34,14 +34,19 @@
 
  \examples{
 	# create a Sequence object with some Alphabet objects attached
-	s<-Sequence(alphabets=list(NucleotideAlphabet(),BinaryAlphabet(),NucleotideAlphabet()),length=10)
+	s<-Sequence(
+               alphabets=list(NucleotideAlphabet(),
+               BinaryAlphabet(),
+               NucleotideAlphabet()),
+               length=10
+               )
 	# get the list of attached alphabets
 	s$alphabets
 	# get the unique list of attahced Alphabet objects
 	getUniqueAlphabets(s)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

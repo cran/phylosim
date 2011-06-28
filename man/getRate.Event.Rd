@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRate.Event}
 \alias{getRate.Event}
 \alias{Event.getRate}
-\alias{getRate.Event}
 \alias{getRate,Event-method}
-
 
  \title{Get the rate of an Event object}
 
@@ -19,7 +17,9 @@
 	Get the rate of an Event object.
  }
 
- \usage{\method{getRate}{Event}(this, ...)}
+ \usage{
+\method{getRate}{Event}(this, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -39,7 +39,7 @@
 	e$rate
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

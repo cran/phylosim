@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{Undocumented.PhyloSim}
 \alias{Undocumented.PhyloSim}
 \alias{PhyloSim.Undocumented}
-\alias{Undocumented.PhyloSim}
 \alias{Undocumented,PhyloSim-method}
-
  \alias{Undocumented}
  \alias{BrownianPath}
  \alias{buildFromPAML}
@@ -270,13 +268,15 @@
 	See the corresponding specific methods if applicable.
  }
 
- \usage{\method{Undocumented}{PhyloSim}(...)}
+ \usage{
+\method{Undocumented}{PhyloSim}(...)
+}
 
  \arguments{
  	\item{...}{Not used.}
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

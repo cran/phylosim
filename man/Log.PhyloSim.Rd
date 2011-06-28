@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{Log.PhyloSim}
 \alias{Log.PhyloSim}
 \alias{PhyloSim.Log}
-\alias{Log.PhyloSim}
 \alias{Log,PhyloSim-method}
-
 
  \title{Save a message in the PhyloSim log file}
 
@@ -22,7 +20,9 @@
 	in the case you write classes for PhyloSim.
  }
 
- \usage{\method{Log}{PhyloSim}(this, message, ...)}
+ \usage{
+\method{Log}{PhyloSim}(this, message, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -48,7 +48,7 @@
 	unlink(sim$logFile)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

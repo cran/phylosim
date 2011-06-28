@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setToleranceMargin.FastFieldDeletor}
 \alias{setToleranceMargin.FastFieldDeletor}
 \alias{FastFieldDeletor.setToleranceMargin}
-\alias{setToleranceMargin.FastFieldDeletor}
 \alias{setToleranceMargin,FastFieldDeletor-method}
-
 
  \title{Set the tolerance margin}
 
@@ -19,7 +17,9 @@
 	Set the tolerance margin.
  }
 
- \usage{\method{setToleranceMargin}{FastFieldDeletor}(this, value, ...)}
+ \usage{
+\method{setToleranceMargin}{FastFieldDeletor}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A FastFieldDeletor object.}
@@ -42,7 +42,7 @@
 	p$toleranceMargin
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{FastFieldDeletor}}.

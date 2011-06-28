@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setLengthParam2.FastFieldDeletor}
 \alias{setLengthParam2.FastFieldDeletor}
 \alias{FastFieldDeletor.setLengthParam2}
-\alias{setLengthParam2.FastFieldDeletor}
 \alias{setLengthParam2,FastFieldDeletor-method}
-
 
  \title{Set the second length parameter}
 
@@ -19,7 +17,9 @@
 	Set the second length parameter.
  }
 
- \usage{\method{setLengthParam2}{FastFieldDeletor}(this, value, ...)}
+ \usage{
+\method{setLengthParam2}{FastFieldDeletor}(this, value, ...)
+}
 
  \arguments{
  	\item{this}{A FastFieldDeletor object.}
@@ -42,7 +42,7 @@
 	p$lengthParam2
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{FastFieldDeletor}}.

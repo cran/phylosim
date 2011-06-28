@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRateParam.GTR}
 \alias{setRateParam.GTR}
 \alias{GTR.setRateParam}
-\alias{setRateParam.GTR}
 \alias{setRateParam,GTR-method}
-
 
  \title{Set the value of a rate parameter}
 
@@ -21,7 +19,9 @@
 	 The rate parameters are named as in PAML (see PAML documentation: \url{http://bit.ly/9SQK2f}).
  }
 
- \usage{\method{setRateParam}{GTR}(this, name, value, ...)}
+ \usage{
+\method{setRateParam}{GTR}(this, name, value, ...)
+}
 
  \arguments{
  	\item{this}{A GTR object.}
@@ -44,7 +44,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{GTR}}.

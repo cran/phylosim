@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getRateParamList.TN93}
 \alias{getRateParamList.TN93}
 \alias{TN93.getRateParamList}
-\alias{getRateParamList.TN93}
 \alias{getRateParamList,TN93-method}
-
 
  \title{Get the rate parameters}
 
@@ -21,7 +19,9 @@
 	The rate parameters are: Alpha1, Alpha2, Beta.
  }
 
- \usage{\method{getRateParamList}{TN93}(this, ...)}
+ \usage{
+\method{getRateParamList}{TN93}(this, ...)
+}
 
  \arguments{
  	\item{this}{A TN93 object.}
@@ -53,7 +53,7 @@
 	summary(p)
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{TN93}}.

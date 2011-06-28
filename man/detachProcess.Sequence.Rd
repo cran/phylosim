@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{detachProcess.Sequence}
 \alias{detachProcess.Sequence}
 \alias{Sequence.detachProcess}
-\alias{detachProcess.Sequence}
 \alias{detachProcess,Sequence-method}
-
 
  \title{Detach a Process object from a set of Site objects aggregated by a Sequence object}
 
@@ -19,7 +17,9 @@
 	Detach a Process object from a set of Site objects aggregated by a Sequence object.
  }
 
- \usage{\method{detachProcess}{Sequence}(this, process, index, ...)}
+ \usage{
+\method{detachProcess}{Sequence}(this, process, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -43,7 +43,7 @@
 	s$processes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Sequence}}.

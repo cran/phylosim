@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getNodes.PhyloSim}
 \alias{getNodes.PhyloSim}
 \alias{PhyloSim.getNodes}
-\alias{getNodes.PhyloSim}
 \alias{getNodes,PhyloSim-method}
-
 
  \title{Get the node identifiers from a PhyloSim object}
 
@@ -19,7 +17,9 @@
 	Get the node identifiers from a PhyloSim object.
  }
 
- \usage{\method{getNodes}{PhyloSim}(this, ...)}
+ \usage{
+\method{getNodes}{PhyloSim}(this, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -39,7 +39,7 @@
 	sim$nodes
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

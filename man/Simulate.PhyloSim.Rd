@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{Simulate.PhyloSim}
 \alias{Simulate.PhyloSim}
 \alias{PhyloSim.Simulate}
-\alias{Simulate.PhyloSim}
 \alias{Simulate,PhyloSim-method}
-
 
  \title{Run a simulation according to a PhyloSim object}
 
@@ -23,7 +21,9 @@
 	Process object must be attached to the root sequence object.
  }
 
- \usage{\method{Simulate}{PhyloSim}(this, quiet=FALSE, ...)}
+ \usage{
+\method{Simulate}{PhyloSim}(this, quiet=FALSE, ...)
+}
 
  \arguments{
  	\item{this}{A PhyloSim object.}
@@ -52,7 +52,7 @@
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{PhyloSim}}.

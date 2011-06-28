@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -31,7 +31,9 @@ extends \link[R.oo]{Object}\cr
 
  }
 
- \usage{PSRoot(...)}
+ \usage{
+PSRoot(...)
+}
 
  \arguments{
    \item{...}{Not used.}
@@ -68,7 +70,7 @@ extends \link[R.oo]{Object}\cr
 		ll(obj);
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
 
  \seealso{

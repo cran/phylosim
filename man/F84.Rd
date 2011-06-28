@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -43,7 +43,9 @@ extends \link{GTR}\cr
 
  }
 
- \usage{F84(name="Anonymous", rate.params=list(Kappa = 0), base.freqs=c(0.25, 0.25, 0.25, 0.25))}
+ \usage{
+F84(name="Anonymous", rate.params=list(Kappa = 0), base.freqs=c(0.25, 0.25, 0.25, 0.25))
+}
 
  \arguments{
  	\item{name}{Object name.}
@@ -115,7 +117,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	sim$alignment
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	GTR UNREST GeneralSubstitution HKY

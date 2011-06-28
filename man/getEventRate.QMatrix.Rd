@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getEventRate.QMatrix}
 \alias{getEventRate.QMatrix}
 \alias{QMatrix.getEventRate}
-\alias{getEventRate.QMatrix}
 \alias{getEventRate,QMatrix-method}
-
 
  \title{Get the unscaled rate of an event from a QMatrix object}
 
@@ -26,7 +24,9 @@
 	The scaling is performed by the \code{rescaleQMatrix.GeneralSubstitution} method.
  }
 
- \usage{\method{getEventRate}{QMatrix}(this, name=NA, from=NA, to=NA, ...)}
+ \usage{
+\method{getEventRate}{QMatrix}(this, name=NA, from=NA, to=NA, ...)
+}
 
  \arguments{
        \item{this}{A QMatrix object.}
@@ -50,7 +50,7 @@
        getEventRate(m,from="0",to="1")	# returns NA
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
        For more information see \code{\link{QMatrix}}.

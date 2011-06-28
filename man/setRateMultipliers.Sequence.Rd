@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setRateMultipliers.Sequence}
 \alias{setRateMultipliers.Sequence}
 \alias{Sequence.setRateMultipliers}
-\alias{setRateMultipliers.Sequence}
 \alias{setRateMultipliers,Sequence-method}
-
 
  \title{Set the values of the rate multiplier parameters for a given Process object and a collection of Site  object aggregated by a Sequence object}
 
@@ -20,7 +18,9 @@
 	This method just calls \code{setParameterAtSites(this=this,process=process,id="rate.multiplier",value=value,index=index)} See setParameterAtSites.Sequence for details.
  }
 
- \usage{\method{setRateMultipliers}{Sequence}(this, process, value, index, ...)}
+ \usage{
+\method{setRateMultipliers}{Sequence}(this, process, value, index, ...)
+}
 
  \arguments{
  	\item{this}{A Sequence object.}
@@ -35,7 +35,7 @@
  }
 
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	setParameterAtSites.Sequence

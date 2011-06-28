@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{setProcess.Event}
 \alias{setProcess.Event}
 \alias{Event.setProcess}
-\alias{setProcess.Event}
 \alias{setProcess,Event-method}
-
 
  \title{Set the generator process for an Event object}
 
@@ -19,7 +17,9 @@
 	Set the generator process for an Event object.
  }
 
- \usage{\method{setProcess}{Event}(this, new.proc, ...)}
+ \usage{
+\method{setProcess}{Event}(this, new.proc, ...)
+}
 
  \arguments{
  	\item{this}{An Event object.}
@@ -43,7 +43,7 @@
 	e$process
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Event}}.

@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ./PhyloSimSource.R
+%  ../PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -9,9 +9,7 @@
  \name{getTotalRate.Site}
 \alias{getTotalRate.Site}
 \alias{Site.getTotalRate}
-\alias{getTotalRate.Site}
 \alias{getTotalRate,Site-method}
-
 
  \title{Get the total active event rate}
 
@@ -20,7 +18,9 @@
 	The total rate is the sum of the rates of all active events given the current state of the Site object.
  }
 
- \usage{\method{getTotalRate}{Site}(this, ...)}
+ \usage{
+\method{getTotalRate}{Site}(this, ...)
+}
 
  \arguments{
  	\item{this}{A Site object.}
@@ -44,7 +44,7 @@
 
  }
 
- \author{Botond Sipos}
+ \author{Botond Sipos, Gregory Jordan}
 
  \seealso{
  	For more information see \code{\link{Site}}.
