@@ -54,6 +54,8 @@ extends \link{PSRoot}\cr
  \section{Fields and Methods}{
  	\bold{Methods:}\cr
 \tabular{rll}{
+ \tab \code{!=} \tab  -\cr
+ \tab \code{==} \tab  -\cr
  \tab \code{as.character} \tab  -\cr
  \tab \code{checkConsistency} \tab  -\cr
  \tab \code{clone} \tab  -\cr
@@ -68,8 +70,6 @@ extends \link{PSRoot}\cr
  \tab \code{hasSiteSpecificParameter} \tab  -\cr
  \tab \code{hasUndefinedRate} \tab  -\cr
  \tab \code{is} \tab  -\cr
- \tab \code{==} \tab  -\cr
- \tab \code{!=} \tab  -\cr
  \tab \code{setAlphabet} \tab  -\cr
  \tab \code{setId} \tab  -\cr
  \tab \code{setName} \tab  -\cr

@@ -65,8 +65,8 @@ extends \link{Process}\cr
  \tab \code{clone} \tab  -\cr
  \tab \code{getAlphabet} \tab  -\cr
  \tab \code{getEquDist} \tab  -\cr
- \tab \code{getEventRateAtSite} \tab  -\cr
  \tab \code{getEventRate} \tab  -\cr
+ \tab \code{getEventRateAtSite} \tab  -\cr
  \tab \code{getEventsAtSite} \tab  -\cr
  \tab \code{getQMatrix} \tab  -\cr
  \tab \code{getRate} \tab  -\cr
@@ -86,13 +86,13 @@ extends \link{Process}\cr
 
 
  \bold{Methods inherited from Process}:\cr
-as.character, checkConsistency, clone, getAlphabet, getEventsAtSite, getId, getName, getParameterAtSite, getSiteSpecificParamIds, getSiteSpecificParamList, getWriteProtected, hasSiteSpecificParameter, hasUndefinedRate, is, ==, !=, setAlphabet, setId, setName, setParameterAtSite, setSiteSpecificParamIds, setSiteSpecificParamList, setWriteProtected, summary
+!=, ==, as.character, checkConsistency, clone, getAlphabet, getEventsAtSite, getId, getName, getParameterAtSite, getSiteSpecificParamIds, getSiteSpecificParamList, getWriteProtected, hasSiteSpecificParameter, hasUndefinedRate, is, setAlphabet, setId, setName, setParameterAtSite, setSiteSpecificParamIds, setSiteSpecificParamList, setWriteProtected, summary
 
  \bold{Methods inherited from PSRoot}:\cr
 checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is.na, is, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
 
  \bold{Methods inherited from Object}:\cr
-as.character, attachLocally, attach, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, [[<-, [[, $<-, $, objectSize, print, registerFinalizer, save
+[[, [[<-, $, $<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, objectSize, print, registerFinalizer, save
 
  }
 

@@ -66,8 +66,8 @@ extends \link{PSRoot}\cr
  \tab \code{getMatrix} \tab  -\cr
  \tab \code{getName} \tab  -\cr
  \tab \code{getProcess} \tab  -\cr
- \tab \code{getRateList} \tab  -\cr
  \tab \code{getRate} \tab  -\cr
+ \tab \code{getRateList} \tab  -\cr
  \tab \code{getScaledMatrix} \tab  -\cr
  \tab \code{getWriteProtected} \tab  -\cr
  \tab \code{is} \tab  -\cr
@@ -78,8 +78,8 @@ extends \link{PSRoot}\cr
  \tab \code{setMatrix} \tab  -\cr
  \tab \code{setName} \tab  -\cr
  \tab \code{setProcess} \tab  -\cr
- \tab \code{setRateList} \tab  -\cr
  \tab \code{setRate} \tab  -\cr
+ \tab \code{setRateList} \tab  -\cr
  \tab \code{setScaledMatrix} \tab  -\cr
  \tab \code{setWriteProtected} \tab  -\cr
  \tab \code{summary} \tab  -\cr
@@ -90,7 +90,7 @@ extends \link{PSRoot}\cr
 checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is.na, is, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
 
  \bold{Methods inherited from Object}:\cr
-as.character, attachLocally, attach, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, [[<-, [[, $<-, $, objectSize, print, registerFinalizer, save
+[[, [[<-, $, $<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, objectSize, print, registerFinalizer, save
 
  }
 

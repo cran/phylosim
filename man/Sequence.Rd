@@ -71,8 +71,8 @@ extends \link{PSRoot}\cr
  \tab \code{getAlphabets} \tab  -\cr
  \tab \code{getAncestral} \tab  -\cr
  \tab \code{getBigRate} \tab  -\cr
- \tab \code{getCumulativeRatesFromRange} \tab  -\cr
  \tab \code{getCumulativeRates} \tab  -\cr
+ \tab \code{getCumulativeRatesFromRange} \tab  -\cr
  \tab \code{getDeletionTolerance} \tab  -\cr
  \tab \code{getEvents} \tab  -\cr
  \tab \code{getId} \tab  -\cr
@@ -87,15 +87,15 @@ extends \link{PSRoot}\cr
  \tab \code{getStates} \tab  -\cr
  \tab \code{getString} \tab  -\cr
  \tab \code{getSymbolFreqs} \tab  -\cr
- \tab \code{getTotalRatesFromRange} \tab  -\cr
  \tab \code{getTotalRates} \tab  -\cr
+ \tab \code{getTotalRatesFromRange} \tab  -\cr
  \tab \code{getUniqueAlphabets} \tab  -\cr
  \tab \code{getUniqueProcesses} \tab  -\cr
  \tab \code{getWriteProtected} \tab  -\cr
  \tab \code{insertSequence} \tab  -\cr
  \tab \code{is} \tab  -\cr
- \tab \code{plotParametersAtSites} \tab  -\cr
  \tab \code{plot} \tab  -\cr
+ \tab \code{plotParametersAtSites} \tab  -\cr
  \tab \code{plusGamma} \tab  -\cr
  \tab \code{plusInvGamma} \tab  -\cr
  \tab \code{sampleStates} \tab  -\cr
@@ -126,7 +126,7 @@ extends \link{PSRoot}\cr
 checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is.na, is, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
 
  \bold{Methods inherited from Object}:\cr
-as.character, attachLocally, attach, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, [[<-, [[, $<-, $, objectSize, print, registerFinalizer, save
+[[, [[<-, $, $<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, objectSize, print, registerFinalizer, save
 
  }
 
