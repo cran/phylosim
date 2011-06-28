@@ -4,14 +4,13 @@
 ##	
 ##########################################################################/** 
 #
-# @RdocClass AminoAcidSubst
+# @RdocClass CodonSubst
 # 
-# @title "The AminoAcidSubst class"
+# @title "The CodonSubst class"
 # 
 # \description{ 
 #       This is a class implementing a continuous-time Markov process acting on 
-#       the state-space defined by the \code{AminoAcidAlphabet} class. The rate
-#	matrix of this model is completely unrestricted.
+#       the state-space defined by the \code{CodonAlphabet} class. 
 #
 #	The rate matrix can be built from PAML files specified by the \code{paml.file} argument.
 #	Alternatively the rates can be specified as a list through the \code{rate.list} parameter.
@@ -35,11 +34,9 @@
 # 
 # \examples{ 
 #	# create an object
-#	p<-AminoAcidSubst()
+#	p<-CodonSubst()
 #	# build rate matrix from paml file
 #	# buildFromPAML(p,"path_to_paml_file")	# do not run this
-#	# set a rate
-#	setRate(p,"A->D",2)
 #	# get object summary	
 #	summary(p)
 # }
@@ -52,7 +49,7 @@
 # 
 #*/###########################################################################
 setConstructorS3(
-  "AminoAcidSubst",
+  "CodonSubst",
   function( 
 		name="Anonymous", 
 		paml.file=NA,
@@ -65,7 +62,7 @@ setConstructorS3(
 		got.equ.dist<-!missing(equ.dist);
 		
 		extend.with.s<-function(this){		
-			this<-extend(this, "AminoAcidSubst",
+			this<-extend(this, "CodonSubst",
 				.s.matrix=data.matrix(matrix(ncol=this$.alphabet$size,nrow=this$.alphabet$size)),
 				.paml.file=NA
 				);
@@ -86,18 +83,18 @@ setConstructorS3(
 			if(got.rate.list & got.equ.dist){
 				this<-GeneralSubstitution(
 					name=name,
-					alphabet=AminoAcidAlphabet(),
+					alphabet=CodonAlphabet(),
 					rate.list=rate.list,
 					equ.dist=equ.dist
 				);	
-				this<-extend(this, "AminoAcidSubst");
+				this<-extend(this, "CodonSubst");
 			}
 		
 			# Got rate list	
 			else if(got.rate.list & !got.equ.dist){
 				this<-GeneralSubstitution(
 					name=name,
-					alphabet=AminoAcidAlphabet(),
+					alphabet=CodonAlphabet(),
 					rate.list=rate.list
 				);	
 				this<-extend.with.s(this);
@@ -107,10 +104,10 @@ setConstructorS3(
 			else if(!got.rate.list & got.equ.dist){
 				this<-GeneralSubstitution(
 					name=name,
-					alphabet=AminoAcidAlphabet(),
+					alphabet=CodonAlphabet(),
 					equ.dist=equ.dist
 				);	
-				this<-extend(this, "AminoAcidSubst");
+				this<-extend(this, "CodonSubst");
 				this<-extend.with.s(this);
 			}
 
@@ -118,7 +115,7 @@ setConstructorS3(
 			else if(!got.rate.list & !got.equ.dist){
 				this<-GeneralSubstitution(
 					name=name,
-					alphabet=AminoAcidAlphabet()
+					alphabet=CodonAlphabet()
 				);	
 				this<-extend.with.s(this);
 			}
@@ -132,7 +129,7 @@ setConstructorS3(
 
 			this<-GeneralSubstitution(
 				name=name,
-				alphabet=AminoAcidAlphabet()
+				alphabet=CodonAlphabet()
 			);	
 
 			this<-extend.with.s(this);
@@ -189,7 +186,7 @@ setConstructorS3(
 #*/###########################################################################
 setMethodS3(
 	"checkConsistency", 
-	class="AminoAcidSubst", 
+	class="CodonSubst", 
 	function(
 		this,
 		...
@@ -202,8 +199,8 @@ setMethodS3(
 
       may.fail<-function(this) {
 
-			if(!inherits(this$alphabet, "AminoAcidAlphabet")){
-				throw("This process must have as alphabet an AminoAcidAlphabet object!\n");
+			if(!inherits(this$alphabet, "CodonAlphabet")){
+				throw("This process must have as alphabet an CodonAlphabet object!\n");
 			}
 
 			if(!any(is.na(this$.s.matrix))){
@@ -248,18 +245,18 @@ setMethodS3(
 # @synopsis 
 # 
 # \arguments{ 
-# 	\item{this}{An AminoAcidSubst object.} 
+# 	\item{this}{A CodonSubst object.} 
 #	\item{paml.file}{Path to the PAML file.}
 # 	\item{...}{Not used.} 
 # } 
 # 
 # \value{ 
-# 	The AminoAcidSubst object (invisible).
+# 	The CodonSubst object (invisible).
 # } 
 # 
 # \examples{
 #	# create an object
-#	p<-AminoAcidSubst()
+#	p<-CodonSubst()
 #	# build rate matrix from paml file
 #	# buildFromPAML(p,"path_to_paml_file")	# do not run this
 #	# get object summary	
@@ -275,7 +272,7 @@ setMethodS3(
 #*/###########################################################################
 setMethodS3(
 	"buildFromPAML", 
-	class="AminoAcidSubst", 
+	class="CodonSubst", 
 	function(
 		this,
 		paml.file,
@@ -321,7 +318,7 @@ setMethodS3(
 ##	
 setMethodS3(
 	".readFromPAML", 
-	class="AminoAcidSubst", 
+	class="CodonSubst", 
 	function(
 		this,
 		paml.file,
@@ -381,7 +378,7 @@ setMethodS3(
 		# Reading the exchangeability matrix:
 
 		# Assuming here that the order of the
-		# amino acids is the same as in the AminoAcidAlphabet
+		# codons is the same as in the CodonAlphabet
 		# object.	
 	
 		numbers<-scan(file=paml.file,what=0.0,skip=skip,nlines=(size-1),quiet=TRUE);
@@ -438,7 +435,7 @@ setMethodS3(
 ##
 setMethodS3(
   "setEquDist",
-  class="AminoAcidSubst",
+  class="CodonSubst",
   function(
     this,
     value,
@@ -522,7 +519,7 @@ setMethodS3(
 # \examples{
 #
 #       # create an object
-#       a<-AminoAcidSubst()
+#       a<-CodonSubst()
 #       # get a summary
 #       summary(a)
 # }
@@ -536,7 +533,7 @@ setMethodS3(
 #*/###########################################################################
 setMethodS3(
   "summary",
-  class="AminoAcidSubst",
+  class="CodonSubst",
   function(
     object,
     ...
@@ -567,13 +564,13 @@ setMethodS3(
 );
 
 ##
-## Method: newAAMatrix 
+## Method: newMatrix 
 ##
 ###########################################################################/**
 #
-# @RdocMethod newAAMatrix
+# @RdocMethod newMatrix
 # 
-# @title "Undocumented method" 
+# @title "New codon substitution matrix from PAML file" 
 # 
 # \description{ 
 #	@get "title".
@@ -589,7 +586,7 @@ setMethodS3(
 # } 
 # 
 # \value{ 
-# 	A process object inheriting from AminoAcidSubst.
+# 	A process object inheriting from CodonSubst.
 # } 
 # 
 # 
@@ -601,8 +598,8 @@ setMethodS3(
 # 
 #*/###########################################################################
 setMethodS3(
-	"newAAMatrix", 
-	class="AminoAcidSubst", 
+	"newMatrix", 
+	class="CodonSubst", 
 	function(
 		name=NA,
 		paml.file=NA,
@@ -629,7 +626,7 @@ setMethodS3(
 		else {
 		
 			file<-paste(PAMLDIR,"/",paml.file,sep="");
-			this<-AminoAcidSubst(paml.file=file);
+			this<-CodonSubst(paml.file=file);
 			this<-extend(this,name);
 			this$name<-this$name;
 			save(this, file=rdname);
@@ -651,4 +648,4 @@ setMethodS3(
 	validators=getOption("R.methodsS3:validators:setMethodS3")
 );
 
-				
+			
