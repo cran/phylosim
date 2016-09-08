@@ -171,7 +171,8 @@ setConstructorS3(
 				# Return details:
 				return(
 					list(
-						type="substitution"
+						type="substitution",
+                        accepted=TRUE
 					)
 				);	
 		}	
@@ -2145,7 +2146,7 @@ setMethodS3(
 # \description{ 
 #	@get "title".
 #
-#	Bubble plots (\url{http://biowiki.org/BubblePlots}) visualize the characteristics of the 
+#	Bubble plots visualize the characteristics of the 
 #	substitution process. The area of the circles is proportional to the rates/probabilities.
 #	The plot is not produced if the rate matrix or the equlibrium 
 #	distribution has undefined elements.

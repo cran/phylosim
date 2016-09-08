@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -16,7 +16,7 @@
  \description{
 	Create a bubble plot of the substitution process.
 
-	Bubble plots (\url{http://biowiki.org/BubblePlots}) visualize the characteristics of the
+	Bubble plots visualize the characteristics of the
 	substitution process. The area of the circles is proportional to the rates/probabilities.
 	The plot is not produced if the rate matrix or the equlibrium
 	distribution has undefined elements.

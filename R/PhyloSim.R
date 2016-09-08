@@ -64,7 +64,7 @@
 #	The examples below demonstrate only some more common simulation settings,
 #	the framework offers much more flexibility. See the package
 #	vignette (\code{vignette("PhyloSim",package="phylosim")}) and the
-#	examples directory (\url{http://github.com/sbotond/phylosim/tree/master/examples/}) 
+#	examples directory (\url{http://github.com/bsipos/phylosim/tree/master/examples/}) 
 #	for additional examples.
 #	
 #	@classhierarchy
@@ -96,7 +96,7 @@
 #	## The following examples demonstrate
 #	## the typical use of the framework.
 #	## See the package vignette and
-#	## \url{http://github.com/sbotond/phylosim/tree/master/examples/}
+#	## \url{http://github.com/bsipos/phylosim/tree/master/examples/}
 #
 #	## The ll() method gives information about the methods defined
 #	## in the immediate class of an object.
@@ -144,7 +144,7 @@
 #	plot(gtr)
 #
 #	# construct root sequence object
-#	s<-NucleotideSequence(length=40)
+#	s<-NucleotideSequence(length=20)
 #	# attach process via virtual field
 #	s$processes<-list(list(gtr))
 #	# sample states from the equilibrium
@@ -154,8 +154,8 @@
 #	# the "rate.multiplier" site-process-specific parameter
 #	# from a discrete gamma distribution (GTR+G).
 #	plusGamma(s,gtr,shape=0.1)
-#	# make the range 11:20 invariable
-#	setRateMultipliers(s,gtr,0,11:20)
+#	# make the range 11:12 invariable
+#	setRateMultipliers(s,gtr,0,11:12)
 #	# get the rate multipliers for s and gtr
 #	getRateMultipliers(s,gtr)
 #
@@ -174,7 +174,7 @@
 #	# attach deletion process d to sequence s
 #	attachProcess(s,d)
 # 	# create a region rejecting all deletions
-#       setDeletionTolerance(s,d,0,11:20)
+#       setDeletionTolerance(s,d,0,11:12)
 #
 #	# construct an insertion process object
 #	# proposing lengths in the range 1:3
@@ -193,7 +193,7 @@
 #	# attach insertion process i to sequence s
 #	attachProcess(s,i)
 # 	# create a region rejecting all insertions
-#       setInsertionTolerance(s,i,0,11:20)
+#       setInsertionTolerance(s,i,0,11:12)
 #
 #	# plot total site rates
 #	plot(s)
@@ -215,13 +215,13 @@
 #	plot(sim)
 #	# save and display alingment
 #	file<-paste("PhyloSim_dummy_fasta_",Sys.getpid(),".fas",sep="");
-#	saveAlignment(sim,file=file,paranoid=TRUE);
+#	saveAlignment(sim,file=file);
 #	# print out the Fasta file
 #	cat(paste(scan(file=file,what=character(),sep="\n"),collapse="\n"));cat("\n");
 #	# delete Fasta file
 #	unlink(file);
 #
-#   # See \url{http://github.com/sbotond/phylosim/tree/master/examples/examples_class.R}
+#   # See \url{http://github.com/bsipos/phylosim/tree/master/examples/examples_class.R}
 #   # for the full list of PhyloSim constructor examples.
 #   
 #	## See the package vignette and 
@@ -4667,7 +4667,9 @@ setMethodS3(
 	){
 
 		if(details$type == "substitution"){
-			
+		
+            if(details$accepted) {
+	
 			if(is.null(this$.branch.stats[[as.character(branch.number)]]$substitution)){
 				this$.branch.stats[[as.character(branch.number)]]$substitution<-1;
 			} else {
@@ -4677,9 +4679,12 @@ setMethodS3(
 	
 			if(is.null(this$.branch.stats[[as.character(branch.number)]][[name]])){
 				this$.branch.stats[[as.character(branch.number)]][[name]]<-1;
-			}
+
+            }
 			else {
 				this$.branch.stats[[as.character(branch.number)]][[name]]<-(this$.branch.stats[[as.character(branch.number)]][[name]] + 1);
+			}
+
 			}
 		
 			# Special stuff for the GY94 codon model:	

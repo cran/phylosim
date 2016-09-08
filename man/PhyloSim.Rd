@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Do not modify this file since it was automatically generated from:
 % 
-%  ../PhyloSimSource.R
+%  PhyloSimSource.R
 % 
 % by the Rdoc compiler part of the R.oo package.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,7 +69,7 @@
 	The examples below demonstrate only some more common simulation settings,
 	the framework offers much more flexibility. See the package
 	vignette (\code{vignette("PhyloSim",package="phylosim")}) and the
-	examples directory (\url{http://github.com/sbotond/phylosim/tree/master/examples/})
+	examples directory (\url{http://github.com/bsipos/phylosim/tree/master/examples/})
 	for additional examples.
 
 	Package:   \cr
@@ -112,11 +112,14 @@ PhyloSim(phylo=NA, root.seq=NA, name=NA, log.file=NA, log.level=-1, ...)
  \section{Fields and Methods}{
  	\bold{Methods:}\cr
 \tabular{rll}{
+ \tab \code{Debug} \tab  -\cr
+ \tab \code{Log} \tab  -\cr
+ \tab \code{Simulate} \tab  -\cr
+ \tab \code{Undocumented} \tab  -\cr
  \tab \code{as.character} \tab  -\cr
  \tab \code{attachHookToNode} \tab  -\cr
  \tab \code{attachSeqToNode} \tab  -\cr
  \tab \code{checkConsistency} \tab  -\cr
- \tab \code{Debug} \tab  -\cr
  \tab \code{detachHookFromNode} \tab  -\cr
  \tab \code{detachSeqFromNode} \tab  -\cr
  \tab \code{exportStatTree} \tab  -\cr
@@ -141,7 +144,6 @@ PhyloSim(phylo=NA, root.seq=NA, name=NA, log.file=NA, log.level=-1, ...)
  \tab \code{getTips} \tab  -\cr
  \tab \code{getTreeLength} \tab  -\cr
  \tab \code{is.tip} \tab  -\cr
- \tab \code{Log} \tab  -\cr
  \tab \code{plot} \tab  -\cr
  \tab \code{readAlignment} \tab  -\cr
  \tab \code{readTree} \tab  -\cr
@@ -164,17 +166,16 @@ PhyloSim(phylo=NA, root.seq=NA, name=NA, log.file=NA, log.level=-1, ...)
  \tab \code{setTipLabels} \tab  -\cr
  \tab \code{setTips} \tab  -\cr
  \tab \code{setTreeLength} \tab  -\cr
- \tab \code{Simulate} \tab  -\cr
  \tab \code{summary} \tab  -\cr
- \tab \code{Undocumented} \tab  -\cr
 }
 
 
  \bold{Methods inherited from PSRoot}:\cr
-checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is.na, is, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
+checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyCheck, intersect.list, is, is.na, ll, my.all.equal, plot, setComments, setMethodsList, summary, virtualAssignmentForbidden
 
  \bold{Methods inherited from Object}:\cr
-[[, [[<-, $, $<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, gc, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, objectSize, print, registerFinalizer, save
+$, $<-, [[, [[<-, as.character, attach, attachLocally, clearCache, clearLookupCache, clone, detach, equals, extend, finalize, getEnvironment, getFieldModifier, getFieldModifiers, getFields, getInstantiationTime, getStaticInstance, hasField, hashCode, ll, load, names, objectSize, print, save
+
 
  }
 
@@ -183,7 +184,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	## The following examples demonstrate
 	## the typical use of the framework.
 	## See the package vignette and
-	## \url{http://github.com/sbotond/phylosim/tree/master/examples/}
+	## \url{http://github.com/bsipos/phylosim/tree/master/examples/}
 
 	## The ll() method gives information about the methods defined
 	## in the immediate class of an object.
@@ -231,7 +232,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	plot(gtr)
 
 	# construct root sequence object
-	s<-NucleotideSequence(length=40)
+	s<-NucleotideSequence(length=20)
 	# attach process via virtual field
 	s$processes<-list(list(gtr))
 	# sample states from the equilibrium
@@ -241,8 +242,8 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	# the "rate.multiplier" site-process-specific parameter
 	# from a discrete gamma distribution (GTR+G).
 	plusGamma(s,gtr,shape=0.1)
-	# make the range 11:20 invariable
-	setRateMultipliers(s,gtr,0,11:20)
+	# make the range 11:12 invariable
+	setRateMultipliers(s,gtr,0,11:12)
 	# get the rate multipliers for s and gtr
 	getRateMultipliers(s,gtr)
 
@@ -260,7 +261,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	# attach deletion process d to sequence s
 	attachProcess(s,d)
  	# create a region rejecting all deletions
-       setDeletionTolerance(s,d,0,11:20)
+       setDeletionTolerance(s,d,0,11:12)
 
 	# construct an insertion process object
 	# proposing lengths in the range 1:3
@@ -279,7 +280,7 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	# attach insertion process i to sequence s
 	attachProcess(s,i)
  	# create a region rejecting all insertions
-       setInsertionTolerance(s,i,0,11:20)
+       setInsertionTolerance(s,i,0,11:12)
 
 	# plot total site rates
 	plot(s)
@@ -301,13 +302,13 @@ checkConsistency, enableVirtual, getComments, getMethodsList, globalConsistencyC
 	plot(sim)
 	# save and display alingment
 	file<-paste("PhyloSim_dummy_fasta_",Sys.getpid(),".fas",sep="");
-	saveAlignment(sim,file=file,paranoid=TRUE);
+	saveAlignment(sim,file=file);
 	# print out the Fasta file
 	cat(paste(scan(file=file,what=character(),sep="\n"),collapse="\n"));cat("\n");
 	# delete Fasta file
 	unlink(file);
 
-   # See \url{http://github.com/sbotond/phylosim/tree/master/examples/examples_class.R}
+   # See \url{http://github.com/bsipos/phylosim/tree/master/examples/examples_class.R}
    # for the full list of PhyloSim constructor examples.
  
 	## See the package vignette and
